@@ -16,7 +16,7 @@ format:
   #todo: modify to Chicago color through scss
     theme:
       light: [journal,css/Chicago.scss]
-      dark: [journal,css/Chicago.scss,css/theme-dark.scss]
+      dark: [journal,css/theme-dark.scss,css/Chicago.scss]
     #css:
       #- styles.css
     toc: true
