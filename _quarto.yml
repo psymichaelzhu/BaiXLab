@@ -12,13 +12,10 @@ website:
 
 format:
   html:
-  #light & dark mode switch
-  #todo: modify to Chicago color through scss
+  #light & dark mode switch, with a Chicago-style navigation bar
     theme:
-      light: [journal,css/Chicago.scss]
+      light: darkly
       dark: [journal,css/theme-dark.scss,css/Chicago.scss]
-    #css:
-      #- styles.css
     toc: true
     page-layout: full
 editor: visual
