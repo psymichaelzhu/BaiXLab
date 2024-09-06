@@ -1,11 +1,9 @@
 ---
-title: "MichaelZ"
+title: "MichaelZ Space"
 ---
 
-This is a Quarto website.
+Hi, welcome to Michael Z (My Cozy) Space!
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I am Zhu Yuhao (Michael), intellectually curious about how humans individually and collectively solve the social complexity.
 
-```{r}
-1 + 1
-```
+Outside of academia, I am a photographer.
