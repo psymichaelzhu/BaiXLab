@@ -8,7 +8,10 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: people.qmd
+        text: People
+      - href: publications.qmd
+        text: Research
 
 format:
   html:
@@ -16,6 +19,6 @@ format:
     theme:
       light: [journal,css/Chicago.scss]
       dark: [journal,css/theme-dark.scss,css/Chicago.scss]
-    toc: true
+    #toc: true
     page-layout: full
 editor: visual

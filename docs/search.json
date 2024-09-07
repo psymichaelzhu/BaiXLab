@@ -1,16 +1,23 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "MichaelZ Space",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Hi, welcome to Michael Z (My Cozy) Space!\nI am Zhu Yuhao (Michael), intellectually curious about how humans individually and collectively solve the social complexity.\nOutside of academia, I am a photographer."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "MichaelZ Space",
+    "title": "Mike Zhu",
     "section": "",
-    "text": "Hi, welcome to Michael Z (My Cozy) Space!\nI am Zhu Yuhao (Michael), intellectually curious about how humans individually and collectively solve the social complexity.\nOutside of academia, I am a photographer."
+    "text": "I try to understand the ‘imperfection’ of humankind and how we play with uncertainty.\n\n\nOn my way to becoming a scientist.\n\n \n  \n   \n  \n    \n     \n  \n  \n    \n     \n  \n  \n    \n     \n  \n\n\n\n\nWelcome to my website!\nThis website will be completed in a few days, consisting of the following three parts:\n\nPsychology (Science, the left half brain above)\nPhotography (Art, the right half brain)\nMy life philosophy (Thoughts, the yellow question box in the center, a concept from Super Mario).\n\nCurrently almost all the links are replaced with a 404 page or my Twitter page. I’m not gonna call it ‘X’ as Elon Musk wishes.\nBy the way, this cover picture is made by myself :D I love it!! The story behind it will also be posted in a few days."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "This part is for publications\ntodo: citation"
   }
 ]
