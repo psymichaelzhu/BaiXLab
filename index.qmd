@@ -19,5 +19,9 @@ The FeldmanHall lab studies how we adaptively navigate our social worlds and the
 
 ```{=html}
 <style>
+img {
+    max-width: 100%; /* 确保图片不超过容器宽度 */
+    height: auto;    /* 保持图片的纵横比 */
+  }
 </style>
 ```
