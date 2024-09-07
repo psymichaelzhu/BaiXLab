@@ -10,8 +10,10 @@ website:
         text: Home
       - href: people.qmd
         text: People
-      - href: publications.qmd
-        text: Research
+      - href: research.qmd
+        text: Research 
+      - href: teaching.qmd
+        text: Teaching
 
 format:
   html:

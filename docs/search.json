@@ -2,22 +2,29 @@
   {
     "objectID": "people.html",
     "href": "people.html",
-    "title": "MichaelZ Space",
+    "title": "People",
     "section": "",
     "text": "Hi, welcome to Michael Z (My Cozy) Space!\nI am Zhu Yuhao (Michael), intellectually curious about how humans individually and collectively solve the social complexity.\nOutside of academia, I am a photographer."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Mike Zhu",
-    "section": "",
-    "text": "I try to understand the ‘imperfection’ of humankind and how we play with uncertainty.\n\n\nOn my way to becoming a scientist.\n\n \n  \n   \n  \n    \n     \n  \n  \n    \n     \n  \n  \n    \n     \n  \n\n\n\n\nWelcome to my website!\nThis website will be completed in a few days, consisting of the following three parts:\n\nPsychology (Science, the left half brain above)\nPhotography (Art, the right half brain)\nMy life philosophy (Thoughts, the yellow question box in the center, a concept from Super Mario).\n\nCurrently almost all the links are replaced with a 404 page or my Twitter page. I’m not gonna call it ‘X’ as Elon Musk wishes.\nBy the way, this cover picture is made by myself :D I love it!! The story behind it will also be posted in a few days."
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
     "section": "",
     "text": "This part is for publications\ntodo: citation"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "This part is for teaching\ntodo: code, shiny"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MichaelZ",
+    "section": "",
+    "text": "The FeldmanHall lab studies how we adaptively navigate our social worlds and the neurobiological systems that support such complex social cognition. The human social experience centers on learning about others and making decisions in a broad range of contexts, from one-on-one interactions (such as trusting or cooperating with the right people) to large and complex environments (such as knowing how gossip spreads through a social network). Social learning and decision-making pose unique cognitive hurdles. Other people’s goals, beliefs, intentions, and emotions are complex, constantly evolving, and often not observable—which makes behaving adaptively amidst so much uncertainty a constant challenge. Our interdisciplinary approach integrates theory and tools from cognitive neuroscience, behavioral economics, social psychology, and social network science, with techniques that include neuroimaging, EEG, psychophysiology, and computational modeling. We study social cognition across levels, from laboratory experiments that enable us to characterize the dynamics between two interacting individuals with precise and controlled measurements, to some of the most complex systems that we observe in the wild—our social networks—which are comprised of hundreds of people who shape and bias each other’s behavior."
   }
 ]
