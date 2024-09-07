@@ -19,8 +19,8 @@ format:
   html:
   #Light and dark mode switching, with a navigation bar in Chicago style.
     theme:
-      light: [litera,css/Chicago.scss]
-      dark: [litera,css/theme-dark.scss,css/Chicago.scss]
+      light: [journal,css/Chicago.scss]
+      dark: [journal,css/theme-dark.scss,css/Chicago.scss]
     #toc: true Skeleton
     page-layout: full
 editor: visual
