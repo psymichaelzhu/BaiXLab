@@ -1,0 +1,9 @@
+.sidebar {
+  width: 200px; /* 设置侧边栏宽度 */
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar {
+    width: 150px; /* 当屏幕大于 768px 时进一步调整 */
+  }
+}

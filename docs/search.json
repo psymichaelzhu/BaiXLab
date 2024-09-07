@@ -7,13 +7,6 @@
     "text": "Hi, welcome to Michael Z (My Cozy) Space!\nI am Zhu Yuhao (Michael), intellectually curious about how humans individually and collectively solve the social complexity.\nOutside of academia, I am a photographer."
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "This part is for publications\ntodo: citation"
-  },
-  {
     "objectID": "teaching.html",
     "href": "teaching.html",
     "title": "Teaching",
@@ -21,10 +14,45 @@
     "text": "This part is for teaching\ntodo: code, shiny"
   },
   {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Welcome to my blog! Below, you can find a list of our published studies"
+  },
+  {
+    "objectID": "research.html#research",
+    "href": "research.html#research",
+    "title": "Research",
+    "section": "",
+    "text": "Welcome to my blog! Below, you can find a list of our published studies"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "MichaelZ",
     "section": "",
     "text": "The FeldmanHall lab studies how we adaptively navigate our social worlds and the neurobiological systems that support such complex social cognition. The human social experience centers on learning about others and making decisions in a broad range of contexts, from one-on-one interactions (such as trusting or cooperating with the right people) to large and complex environments (such as knowing how gossip spreads through a social network). Social learning and decision-making pose unique cognitive hurdles. Other people’s goals, beliefs, intentions, and emotions are complex, constantly evolving, and often not observable—which makes behaving adaptively amidst so much uncertainty a constant challenge."
+  },
+  {
+    "objectID": "posts/publications/33.html",
+    "href": "posts/publications/33.html",
+    "title": "Globally Inaccurate Stereotypes Can Result From Locally Adaptive Exploration",
+    "section": "",
+    "text": "Abstract\nInaccurate stereotypes—perceived differences among groups that do not actually differ—are prevalent and consequential. Past research explains stereotypes as emerging from a range of factors, including motivational biases, cognitive limitations, and information deficits. Considering the minimal forces required to produce inaccurate assumptions about group differences, we found that locally adaptive exploration is sufficient: An initial arbitrary interaction, if rewarding enough, may discourage people from investigating alternatives that would be equal or better. Historical accidents can snowball into globally inaccurate generalizations, and inaccurate stereotypes can emerge in the absence of real group differences. Using multiarmed-bandit models, we found that the mere act of choosing among groups with the goal of maximizing the long-term benefit of interactions is enough to produce inaccurate assessments of different groups. This phenomenon was reproduced in two large online experiments with English-speaking adults (N = 2,404), which demonstrated a minimal process that suffices to produce biased impressions."
+  },
+  {
+    "objectID": "posts/publications/Global/33.html",
+    "href": "posts/publications/Global/33.html",
+    "title": "Globally Inaccurate Stereotypes Can Result From Locally Adaptive Exploration",
+    "section": "",
+    "text": "Abstract\nInaccurate stereotypes—perceived differences among groups that do not actually differ—are prevalent and consequential. Past research explains stereotypes as emerging from a range of factors, including motivational biases, cognitive limitations, and information deficits. Considering the minimal forces required to produce inaccurate assumptions about group differences, we found that locally adaptive exploration is sufficient: An initial arbitrary interaction, if rewarding enough, may discourage people from investigating alternatives that would be equal or better. Historical accidents can snowball into globally inaccurate generalizations, and inaccurate stereotypes can emerge in the absence of real group differences. Using multiarmed-bandit models, we found that the mere act of choosing among groups with the goal of maximizing the long-term benefit of interactions is enough to produce inaccurate assessments of different groups. This phenomenon was reproduced in two large online experiments with English-speaking adults (N = 2,404), which demonstrated a minimal process that suffices to produce biased impressions."
+  },
+  {
+    "objectID": "posts/publications/Global/Global.html",
+    "href": "posts/publications/Global/Global.html",
+    "title": "Globally Inaccurate Stereotypes Can Result From Locally Adaptive Exploration",
+    "section": "",
+    "text": "Abstract\nInaccurate stereotypes—perceived differences among groups that do not actually differ—are prevalent and consequential. Past research explains stereotypes as emerging from a range of factors, including motivational biases, cognitive limitations, and information deficits. Considering the minimal forces required to produce inaccurate assumptions about group differences, we found that locally adaptive exploration is sufficient: An initial arbitrary interaction, if rewarding enough, may discourage people from investigating alternatives that would be equal or better. Historical accidents can snowball into globally inaccurate generalizations, and inaccurate stereotypes can emerge in the absence of real group differences. Using multiarmed-bandit models, we found that the mere act of choosing among groups with the goal of maximizing the long-term benefit of interactions is enough to produce inaccurate assessments of different groups. This phenomenon was reproduced in two large online experiments with English-speaking adults (N = 2,404), which demonstrated a minimal process that suffices to produce biased impressions."
   }
 ]

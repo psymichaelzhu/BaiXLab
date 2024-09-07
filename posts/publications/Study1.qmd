@@ -1,0 +1,9 @@
+---
+  title: "Study 1"
+  author: ["John Doe", "Jane Smith"]
+  date: 2023-05-10
+  categories: ["AI", "Reinforcement Learning"]
+  description: "This study explores new methods in reinforcement learning."
+  image: "/path/to/study1-thumbnail.jpg"
+  pdf: "/path/to/study1.pdf"
+---
