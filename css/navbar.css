@@ -1,14 +1,4 @@
 /* 修改 title 的字体和字号 */
 .navbar-title {
   font-family: 'Trebuchet MS' !important;  /* 使用你喜欢的字体替换 'Roboto' */
-  font-size: 140%;  /* 根据需要调整字号 */
-  font-weight: bold;  /* 保持加粗 */
-}
-.menu-text {
-  font-size: 120%;  /* 根据需要调整字号 */
-  font-weight: bold;  /* 保持加粗 */
-}
-.navbar-logo {
-    max-height: 50px;
-    width: auto;
 }
