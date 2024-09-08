@@ -20,6 +20,5 @@ format:
     theme:
       light: journal
       dark: darkly
-    page-layout: full
     css: css/navbar.css  # 引入自定义 CSS
 editor: visual
