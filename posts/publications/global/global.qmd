@@ -5,11 +5,12 @@
   date: 2022-05-10
   categories: ["social stereotypes", "rational analysis","exploration","reinforcement learning"]
   image: "_.jpg"
-  title-block-banner: true  # 启用title block banner
+  title-block-banner: true
   format:
     html:
-      page-layout: article  # 页面全宽布局
+      page-layout: article
 ---
 Inaccurate stereotypes—perceived differences among groups that do not actually differ—are prevalent and consequential. Past research explains stereotypes as emerging from a range of factors, including motivational biases, cognitive limitations, and information deficits. Considering the minimal forces required to produce inaccurate assumptions about group differences, we found that locally adaptive exploration is sufficient: An initial arbitrary interaction, if rewarding enough, may discourage people from investigating alternatives that would be equal or better. Historical accidents can snowball into globally inaccurate generalizations, and inaccurate stereotypes can emerge in the absence of real group differences. Using multiarmed-bandit models, we found that the mere act of choosing among groups with the goal of maximizing the long-term benefit of interactions is enough to produce inaccurate assessments of different groups. This phenomenon was reproduced in two large online experiments with English-speaking adults (N = 2,404), which demonstrated a minimal process that suffices to produce biased impressions.
+
 
 ![](_.pdf){width="80%" height="700" fig-align="center"}
