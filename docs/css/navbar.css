@@ -1,4 +1,9 @@
 /* 修改 title 的字体和字号 */
 .navbar-title {
   font-family: 'Trebuchet MS' !important;  /* 使用你喜欢的字体替换 'Roboto' */
+  font-size: 120% !important;  /* 使用你喜欢的字号替换 20px */
+}
+.menu-text {
+  font-family: 'Trebuchet MS' !important;  /* 使用你喜欢的字体替换 'Roboto' */
+  font-size: 120% !important;  /* 使用你喜欢的字号替换 20px */
 }

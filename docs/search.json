@@ -4,7 +4,21 @@
     "href": "people.html",
     "title": "People",
     "section": "",
-    "text": "Hi, welcome to Michael Z (My Cozy) Space!\nI am Zhu Yuhao (Michael), intellectually curious about how humans individually and collectively solve the social complexity.\nOutside of academia, I am a photographer."
+    "text": "Xuechunzi Bai\nBai is a Neubauer Family Assistant Professor at the Department of Psychology, the University of Chicago. She studies dynamic social minds: the interplay between (micro) individual decision processes and (macro) social structures in the field of social cognition. Her Ph.D. work, advised by Drs. Susan Fiske and Tom Griffiths, explores psychological origins of social stereotypes; how individual-level exploratory behaviors lead to societal-level stratification. [CV]"
+  },
+  {
+    "objectID": "people.html#principal-investigator",
+    "href": "people.html#principal-investigator",
+    "title": "People",
+    "section": "",
+    "text": "Xuechunzi Bai\nBai is a Neubauer Family Assistant Professor at the Department of Psychology, the University of Chicago. She studies dynamic social minds: the interplay between (micro) individual decision processes and (macro) social structures in the field of social cognition. Her Ph.D. work, advised by Drs. Susan Fiske and Tom Griffiths, explores psychological origins of social stereotypes; how individual-level exploratory behaviors lead to societal-level stratification. [CV]"
+  },
+  {
+    "objectID": "people.html#graduate-students",
+    "href": "people.html#graduate-students",
+    "title": "People",
+    "section": "Graduate Students",
+    "text": "Graduate Students\n\n\n\n\n\n\n\n\n\nYuhao Zhu (Michael)\nYuhao is a MACSS student. He previously studied psychology at Beijing Normal University and conducted research in cognitive science and neuroscience. He is interested in using computational methods to study how humans individually and collectively solve social complexity. Currently, he is collaborating with Dr. Bai on a mindset project. Outside of academia, he is a photographer."
   },
   {
     "objectID": "posts/publications/Multidimensional/Multidimensional.html",
@@ -21,13 +35,6 @@
     "text": "Inaccurate stereotypes—perceived differences among groups that do not actually differ—are prevalent and consequential. Past research explains stereotypes as emerging from a range of factors, including motivational biases, cognitive limitations, and information deficits. Considering the minimal forces required to produce inaccurate assumptions about group differences, we found that locally adaptive exploration is sufficient: An initial arbitrary interaction, if rewarding enough, may discourage people from investigating alternatives that would be equal or better. Historical accidents can snowball into globally inaccurate generalizations, and inaccurate stereotypes can emerge in the absence of real group differences. Using multiarmed-bandit models, we found that the mere act of choosing among groups with the goal of maximizing the long-term benefit of interactions is enough to produce inaccurate assessments of different groups. This phenomenon was reproduced in two large online experiments with English-speaking adults (N = 2,404), which demonstrated a minimal process that suffices to produce biased impressions."
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nGlobally Inaccurate Stereotypes Can Result From Locally Adaptive Exploration\n\n\n\n\n\n\n\nsocial stereotypes\n\n\nrational analysis\n\n\nexploration\n\n\nreinforcement learning\n\n\n\n\nPsychological Science\n\n\n\n\n\n\nXuechunzi Bai, Susan T. Fiske, Thomas L. Griffiths\n\n\n\n\n\n\n  \n\n\n\n\nMeasuring Implicit Bias in Explicitly Unbiased Large Language Models\n\n\n\n\n\n\n\nsocial stereotypes\n\n\nLarge language model\n\n\nImplicit bias\n\n\n\n\nPreprint\n\n\n\n\n\n\nXuechunzi Bai, Angelina Wang, Ilia Sucholutsky, Thomas L. Griffiths\n\n\n\n\n\n\n  \n\n\n\n\nMultidimensional Stereotypes Emerge Spontaneously When Exploration\n\n\n\n\n\n\n\nsocial stereotypes\n\n\nrational analysis\n\n\nexploration\n\n\ncontextual bandit\n\n\n\n\nPreprint\n\n\n\n\n\n\nXuechunzi Bai, Thomas L. Griffiths, Susan T. Fiske\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "teaching.html",
     "href": "teaching.html",
     "title": "Teaching",
@@ -35,11 +42,11 @@
     "text": "This part is for teaching\ntodo: code, shiny"
   },
   {
-    "objectID": "posts/publications/tmp.html",
-    "href": "posts/publications/tmp.html",
-    "title": "Curriculum vitae",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
     "section": "",
-    "text": "Download current CV"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nGlobally Inaccurate Stereotypes Can Result From Locally Adaptive Exploration\n\n\n\n\n\n\n\nsocial stereotypes\n\n\nrational analysis\n\n\nexploration\n\n\nreinforcement learning\n\n\n\n\nPsychological Science\n\n\n\n\n\n\nXuechunzi Bai, Susan T. Fiske, Thomas L. Griffiths\n\n\n\n\n\n\n  \n\n\n\n\nMeasuring Implicit Bias in Explicitly Unbiased Large Language Models\n\n\n\n\n\n\n\nsocial stereotypes\n\n\nLarge language model\n\n\nImplicit bias\n\n\n\n\nPreprint\n\n\n\n\n\n\nXuechunzi Bai, Angelina Wang, Ilia Sucholutsky, Thomas L. Griffiths\n\n\n\n\n\n\n  \n\n\n\n\nMultidimensional Stereotypes Emerge Spontaneously When Exploration\n\n\n\n\n\n\n\nsocial stereotypes\n\n\nrational analysis\n\n\nexploration\n\n\ncontextual bandit\n\n\n\n\nPreprint\n\n\n\n\n\n\nXuechunzi Bai, Thomas L. Griffiths, Susan T. Fiske\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/publications/ImplicitLLM/LLM.html",
