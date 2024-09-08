@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A collection of blog posts about various topics.">
 
-<title>MichaelZ - Research</title>
+<title>Dynamic Social Mind Lab - Research</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -74,9 +73,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-description','listing-image','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-author","listing-date","listing-categories","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -97,6 +96,7 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<link rel="stylesheet" href="css/navbar.css">
 </head>
 
 <body class="nav-fixed">
@@ -106,8 +106,11 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./img/socialmind.png" alt="" class="navbar-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">MichaelZ</span>
+    <span class="navbar-title">Dynamic Social Mind Lab</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -115,11 +118,7 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
-  </li>  
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="./people.html" rel="" target="">
  <span class="menu-text">People</span></a>
@@ -133,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Teaching</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
+            <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
           </div> <!-- /navcollapse -->
@@ -145,12 +144,7 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page-left">
       <h1 class="title">Research</h1>
-                  <div>
-        <div class="description">
-          A collection of blog posts about various topics.
-        </div>
-      </div>
-                </div>
+                      </div>
   </div>
     
   
@@ -167,23 +161,19 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="exploration">exploration <span class="quarto-category-count">(1)</span></div><div class="category" data-category="rational analysis">rational analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="reinforcement learning">reinforcement learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="social stereotypes">social stereotypes <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Implicit bias">Implicit bias <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Large language model">Large language model <span class="quarto-category-count">(1)</span></div><div class="category" data-category="contextual bandit">contextual bandit <span class="quarto-category-count">(1)</span></div><div class="category" data-category="exploration">exploration <span class="quarto-category-count">(2)</span></div><div class="category" data-category="rational analysis">rational analysis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="reinforcement learning">reinforcement learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="social stereotypes">social stereotypes <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
 
-<section id="research" class="level2">
-<h2 class="anchored" data-anchor-id="research">Research</h2>
-<p>Welcome to my blog! Below, you can find a list of our published studies</p>
 <div id="posts-listing">
 
 </div>
 
 
 
-</section>
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="listing-actions-group">
@@ -212,9 +202,88 @@ ul.task-list li input[type="checkbox"] {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="social stereotypes,rational analysis,exploration,reinforcement learning" data-listing-date-sort="1652158800000" data-listing-file-modified-sort="1725736140563" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="0" data-categories="social stereotypes,Large language model,Implicit bias" data-listing-file-modified-sort="1725757628833" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="./posts/publications/global/Global.html"> <img src="./posts/publications/global/global.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/publications/ImplicitLLM/LLM.html"> <img src="./posts/publications/ImplicitLLM/_.jpg" class="thumbnail-image" style="height: 130px;"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/publications/ImplicitLLM/LLM.html">
+<h3 class="no-anchor listing-title">
+Measuring Implicit Bias in Explicitly Unbiased Large Language Models
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('social stereotypes'); return false;">
+social stereotypes
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Large language model'); return false;">
+Large language model
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Implicit bias'); return false;">
+Implicit bias
+</div>
+</div>
+<a href="./posts/publications/ImplicitLLM/LLM.html">
+</a><div class="listing-description"><a href="./posts/publications/ImplicitLLM/LLM.html">
+</a><p><a href="./posts/publications/ImplicitLLM/LLM.html"></a><a href="https://doi.org/10.48550/arXiv.2402.04105" style="color:#be7874;">Preprint</a></p>
+</div>
+
+</div>
+<div class="metadata">
+<a href="./posts/publications/ImplicitLLM/LLM.html">
+<div class="listing-author">
+<strong>Xuechunzi Bai</strong>, Angelina Wang, Ilia Sucholutsky, Thomas L. Griffiths
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="social stereotypes,rational analysis,exploration,contextual bandit" data-listing-file-modified-sort="1725757624678" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/publications/Multidimensional/Multidimensional.html"> <img src="./posts/publications/Multidimensional/_.jpg" class="thumbnail-image" style="height: 130px;"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/publications/Multidimensional/Multidimensional.html">
+<h3 class="no-anchor listing-title">
+Multidimensional Stereotypes Emerge Spontaneously When Exploration
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('social stereotypes'); return false;">
+social stereotypes
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('rational analysis'); return false;">
+rational analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('exploration'); return false;">
+exploration
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('contextual bandit'); return false;">
+contextual bandit
+</div>
+</div>
+<a href="./posts/publications/Multidimensional/Multidimensional.html">
+</a><div class="listing-description"><a href="./posts/publications/Multidimensional/Multidimensional.html">
+</a><p><a href="./posts/publications/Multidimensional/Multidimensional.html"></a><a href="https://doi.org/10.31234/osf.io/mbuhv" style="color:#be7874;">Preprint</a></p>
+</div>
+
+</div>
+<div class="metadata">
+<a href="./posts/publications/Multidimensional/Multidimensional.html">
+<div class="listing-author">
+<strong>Xuechunzi Bai</strong>, Thomas L. Griffiths, Susan T. Fiske
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="social stereotypes,rational analysis,exploration,reinforcement learning" data-listing-date-sort="1652158800000" data-listing-file-modified-sort="1725756936554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/publications/global/Global.html"> <img src="./posts/publications/global/_.jpg" class="thumbnail-image" style="height: 130px;"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/publications/global/Global.html">
@@ -240,10 +309,10 @@ reinforcement learning
 </div>
 </div>
 <a href="./posts/publications/global/Global.html">
-<div class="listing-description">
-Inaccurate stereotypes—perceived differences among groups that do not actually differ—are prevalent and consequential. Past research explains stereotypes as emerging from a…
+</a><div class="listing-description"><a href="./posts/publications/global/Global.html">
+</a><p><a href="./posts/publications/global/Global.html"></a><a href="https://doi.org/10.1177/09567976211045929" style="color:#be7874;">Psychological Science</a></p>
 </div>
-</a>
+
 </div>
 <div class="metadata">
 <a href="./posts/publications/global/Global.html">

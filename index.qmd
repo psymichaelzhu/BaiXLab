@@ -1,7 +1,7 @@
 ---
 about: 
   template: jolla
-  image: img/cover.jpg
+  image: files/img/cover.jpg
   image-shape: rectangle
   image-width: 50em
   id: about-block

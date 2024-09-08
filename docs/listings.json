@@ -2,6 +2,8 @@
   {
     "listing": "/research.html",
     "items": [
+      "/posts/publications/ImplicitLLM/LLM.html",
+      "/posts/publications/Multidimensional/Multidimensional.html",
       "/posts/publications/global/Global.html"
     ]
   }
