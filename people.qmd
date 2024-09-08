@@ -19,7 +19,7 @@ Bai is a [Neubauer Family Assistant Professor](https://neubauerassistantprofesso
 
 ::: grid
 ::: g-col-6
-[![](img/people/Yuhao%20Zhu.jpg){fig-alt="Yuhao Zhu (Michael Z)" width="70%"}](psymichaelzhu.com)
+[![](img/people/Yuhao%20Zhu.jpg){fig-alt="Yuhao Zhu (Michael Z)" width="70%"}](https://www.psymichaelzhu.com/)
 :::
 
 ::: g-col-6
