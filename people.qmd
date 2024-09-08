@@ -6,7 +6,7 @@ title: "People"
 
 ::: grid
 ::: g-col-6
-[![](img/people/Xuechunzi Bai.jpg){fig-alt="Xuechunzi Bai" width="70%"}](https://www.xuechunzibai.com/)
+[![](img/people/Xuechunzi%20Bai.jpg){fig-alt="Xuechunzi Bai" width="70%"}](https://www.xuechunzibai.com/)
 :::
 
 ::: g-col-6
@@ -19,7 +19,7 @@ Bai is a [Neubauer Family Assistant Professor](https://neubauerassistantprofesso
 
 ::: grid
 ::: g-col-6
-[![](img/people/Yuhao Zhu.jpg){fig-alt="Yuhao Zhu (Michael Z)" width="70%"}](psymichaelzhu.com)
+[![](img/people/Yuhao%20Zhu.jpg){fig-alt="Yuhao Zhu (Michael Z)" width="70%"}](psymichaelzhu.com)
 :::
 
 ::: g-col-6
