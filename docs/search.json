@@ -35,6 +35,55 @@
     "text": "Our research studies the origin and evolution of mental representations of human groups. In particular, We take a dynamic perspective by asking two essentially interlinked questions: First, how do individual minds adaptively but selectively construct the social world? Second, how does the constructed social world mold individual minds?\nOur research combines insights from social and cognitive psychology, computer science and machine learning, and public policy. We use multiple methodologies to pursue these questions, including cross-national surveys, large-scale online behavioral experiments, naturalistic text analyses, and computational cognitive models. Taking advantage of each discipline and method, our future research will study other aspects of dynamic social minds in both human and artificial social worlds."
   },
   {
+    "objectID": "posts/teaching/QuartoWebsite/QuartoWebsite.html",
+    "href": "posts/teaching/QuartoWebsite/QuartoWebsite.html",
+    "title": "Create a lab website in Quarto: Quickstart",
+    "section": "",
+    "text": "Create a lab website in Quarto\n\nStory behind this website\n\n\n\nBasic knowledge about website\n\nContent(html): Quarto\n\nYAML (yml): configuration and metadata of a document or whole website.\nQuarto Markdown (.qmd) formatted contents\nCSS: appearance\n\nHost: Github\nDomain: Github is enough, you can get a “.com” domain from website like Namecheap\n\n\nAn intuitive understanding - Domain: store address - Host: store - Content: products - yml: instruction and label - qmd: product - css: Product packaging\n\n\n\nA basic introduction to Quarto website\nFollow this step-by-step tutorial blog: Creating your personal website using Quarto (ucsb-meds.github.io) you’ll know 1. What is Quarto, and why do we use it? 2. Initiate, modify, publish your website in RStudio\nAlso, here is an straightforward illustration for the logistics of your Quarto folder. You can use it as a reference [[Quarto folder logistics.png]]\n\nComplements\nQ: Failed to configure GitHub using usethis::use_github().\nA: Your RStudio is not well-configured Solution:\n1. Get token - New Personal Access Token (Classic) (github.com) - name: “Quarto token” - access: repo - expiration:“no expiration” save\n2. Configure token in R usethis::gh_token_help() GITHUB_PAT=your_personal_access_token_here\n3. re-run command usethis::use_github()\nQ: “Failed” to create .nojekyll file\nA: .nojekyll is a hidden file, relax\nQ: Failed to push my files to Github repo\ngit push\n&gt;&gt;&gt; error: RPC failed; HTTP 400 curl 22 The requested URL returned error: 400 Bad Request\nA: Due to the large size of the uploaded file, it failed. Try increasing your buffer capacity by using git config http.postBuffer 524288000\nQ: I don’t want to preview web pages multiple times through build-render, which fills my browser with tons of tabs.\nA: Two ways of continuous preview: 1. Recommended: Run the terminal, then switch to the root directory of your website folder, and type Quarto preview. You only need to save the file changes in RStudio to proceed with the update. （Sometimes this won’t work, so try another one) 2. build-render to start a preview, And press the refresh (or F5) on the browser to update\nQ: I can’t see the changes I expected on the Github website.\nA: Remember to render before publishing. Especially when you directly add files from outside RStudio Operation logic: First, render locally to obtain the HTML file. Then push it to the repository and publish it.\nNote: A pitfall of file organization:\nDo not name files/folders as “Global” or something similar This name may conflict with Github, causing loading failure: - Unable to load images - Unable to navigate to pages (404)\nTips: An incredible trick to simplify your CSS tuning:\nUse inspection on the webpage to view the category of the target element, so that you know where to modify in CSS. It also supports direct modification of parameters to preview the effect (so that you know how much to change).\n\n\nFurther reading\n\nAfter getting started, quickly browse through the official Quarto documentation to get an impression of its potential features.\nIf you want more customized appearance, please refer to the CSS tutorial to get started, and the CSS cookbook for reference.\nIt is always good to gain inspiration from others’ excellent works, because there are some outstanding designs that we couldn’t even imagine before seeing them. Actually, the inspiration for website design comes from two aspects:\n\nWebsites similar to your goal: which features to include on your own website.\n\nSaxelab\nFeldmanHallLab\ncodec lab\n\nWebsites unrelated to your goal, but fancy: design techniques, may be useful in future requirements\n\nQuarto\nGallery – Quarto\nQuarto tips"
+  },
+  {
+    "objectID": "posts/publications/Multidimensional/Multidimensional.html",
+    "href": "posts/publications/Multidimensional/Multidimensional.html",
+    "title": "Multidimensional Stereotypes Emerge Spontaneously When Exploration",
+    "section": "",
+    "text": "Stereotypes of social groups have a canonical multidimensional structure, reflecting the extent to which groups are considered competent and trustworthy. Traditional explanations for stereotypes – group motives, cognitive biases, minority/majority environments, or real-group differences – do not specify a broadly applicable mechanism that explains why stereotypes vary along multiple dimensions. We show that multidimensional stratification and the associated stereotypes can result from a simple mechanism: When individuals make self-interested decisions based on past experiences in an environment where exploring new options carries an implicit cost, they are more likely to separate groups. We formalize this theory with the contextual multi-armed bandit problem, use the model to generate testable predictions, and evaluate those predictions against human behavior. Our results show that even well-intentioned and attentive individuals living in diverse environments can inadvertently impede diversity and form incorrect beliefs. A further theoretically motivated experiment shows intervening on the cost of exploration can mitigate stereotypes."
+  },
+  {
+    "objectID": "posts/publications/ImplicitLLM/LLM.html",
+    "href": "posts/publications/ImplicitLLM/LLM.html",
+    "title": "Measuring Implicit Bias in Explicitly Unbiased Large Language Models",
+    "section": "",
+    "text": "Large language models (LLMs) can pass explicit social bias tests but still harbor implicit biases, similar to humans who endorse egalitarian beliefs yet exhibit subtle biases. Measuring such implicit biases can be a challenge: as LLMs become increasingly proprietary, it may not be possible to access their embeddings and apply existing bias measures; furthermore, implicit biases are primarily a concern if they affect the actual decisions that these systems make. We address both challenges by introducing two new measures of bias: LLM Implicit Bias, a prompt-based method for revealing implicit bias; and LLM Decision Bias, a strategy to detect subtle discrimination in decision-making tasks. Both measures are based on psychological research: LLM Implicit Bias adapts the Implicit Association Test, widely used to study the automatic associations between concepts held in human minds; and LLM Decision Bias operationalizes psychological results indicating that relative evaluations between two candidates, not absolute evaluations assessing each independently, are more diagnostic of implicit biases. Using these measures, we found pervasive stereotype biases mirroring those in society in 8 value-aligned models across 4 social categories (race, gender, religion, health) in 21 stereotypes (such as race and criminality, race and weapons, gender and science, age and negativity). Our prompt-based LLM Implicit Bias measure correlates with existing language model embedding-based bias methods, but better predicts downstream behaviors measured by LLM Decision Bias. These new prompt-based measures draw from psychology’s long history of research into measuring stereotype biases based on purely observable behavior; they expose nuanced biases in proprietary value-aligned LLMs that appear unbiased according to standard benchmarks."
+  },
+  {
+    "objectID": "posts/test/try.html",
+    "href": "posts/test/try.html",
+    "title": "Min 2 Rien (French)",
+    "section": "",
+    "text": "Blog post: https://www.min2rien.fr/le-reseau-metier-min2rien-organise-sa-semaine-retours-dexperience-2021/.\nSlides: https://m.canouil.fr/slides/20210414-journey-reproducibility/.\nCode: https://github.com/mcanouil/journey-reproducibility."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nCreate a lab website in Quarto: Quickstart\n\n\n\nworkshop\n\n\n\nSummer 2024\n\n\n\nYuhao Zhu\n\n\nSep 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMindset simulation\n\n\n\ntool\n\n\n\nSummer 2024\n\n\n\nYuhao Zhu\n\n\nSep 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTopics in Social Psychology\n\n\n\nCOURSE\n\n\n\nSpring 2024\n\n\n\nXuechunzi Bai\n\n\nSep 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "tmp.html",
+    "href": "tmp.html",
+    "title": "Research",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nGlobally Inaccurate Stereotypes Can Result From Locally Adaptive Exploration\n\n\n\n\n\n\n\nsocial stereotypes\n\n\nrational analysis\n\n\nexploration\n\n\nreinforcement learning\n\n\n\n\nPsychological Science\n\n\n\n\n\n\nXuechunzi Bai, Susan T. Fiske, Thomas L. Griffiths\n\n\n\n\n\n\n  \n\n\n\n\nMeasuring Implicit Bias in Explicitly Unbiased Large Language Models\n\n\n\n\n\n\n\nsocial stereotypes\n\n\nLarge language model\n\n\nImplicit bias\n\n\n\n\nPreprint\n\n\n\n\n\n\nXuechunzi Bai, Angelina Wang, Ilia Sucholutsky, Thomas L. Griffiths\n\n\n\n\n\n\n  \n\n\n\n\nMultidimensional Stereotypes Emerge Spontaneously When Exploration\n\n\n\n\n\n\n\nsocial stereotypes\n\n\nrational analysis\n\n\nexploration\n\n\ncontextual bandit\n\n\n\n\nPreprint\n\n\n\n\n\n\nXuechunzi Bai, Thomas L. Griffiths, Susan T. Fiske\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/publications/Globally/Globally.html",
+    "href": "posts/publications/Globally/Globally.html",
+    "title": "Globally Inaccurate Stereotypes Can Result From Locally Adaptive Exploration",
+    "section": "",
+    "text": "Inaccurate stereotypes—perceived differences among groups that do not actually differ—are prevalent and consequential. Past research explains stereotypes as emerging from a range of factors, including motivational biases, cognitive limitations, and information deficits. Considering the minimal forces required to produce inaccurate assumptions about group differences, we found that locally adaptive exploration is sufficient: An initial arbitrary interaction, if rewarding enough, may discourage people from investigating alternatives that would be equal or better. Historical accidents can snowball into globally inaccurate generalizations, and inaccurate stereotypes can emerge in the absence of real group differences. Using multiarmed-bandit models, we found that the mere act of choosing among groups with the goal of maximizing the long-term benefit of interactions is enough to produce inaccurate assessments of different groups. This phenomenon was reproduced in two large online experiments with English-speaking adults (N = 2,404), which demonstrated a minimal process that suffices to produce biased impressions."
+  },
+  {
     "objectID": "posts/teaching/TiSP/TiSP.html",
     "href": "posts/teaching/TiSP/TiSP.html",
     "title": "Topics in Social Psychology",
@@ -112,53 +161,11 @@
     "text": "Library Resources: Access to digital libraries and databases for supplementary research.\nWriting Center: Assistance with writing assignments and projects.\nDisability Services: Students with disabilities should contact the instructor and the university’s disability services office for accommodations.\n\nFor additional information and course updates, please check the course website regularly."
   },
   {
-    "objectID": "posts/publications/Globally/Globally.html",
-    "href": "posts/publications/Globally/Globally.html",
-    "title": "Globally Inaccurate Stereotypes Can Result From Locally Adaptive Exploration",
+    "objectID": "posts/teaching/Simulation/simulation.html",
+    "href": "posts/teaching/Simulation/simulation.html",
+    "title": "Mindset simulation",
     "section": "",
-    "text": "Inaccurate stereotypes—perceived differences among groups that do not actually differ—are prevalent and consequential. Past research explains stereotypes as emerging from a range of factors, including motivational biases, cognitive limitations, and information deficits. Considering the minimal forces required to produce inaccurate assumptions about group differences, we found that locally adaptive exploration is sufficient: An initial arbitrary interaction, if rewarding enough, may discourage people from investigating alternatives that would be equal or better. Historical accidents can snowball into globally inaccurate generalizations, and inaccurate stereotypes can emerge in the absence of real group differences. Using multiarmed-bandit models, we found that the mere act of choosing among groups with the goal of maximizing the long-term benefit of interactions is enough to produce inaccurate assessments of different groups. This phenomenon was reproduced in two large online experiments with English-speaking adults (N = 2,404), which demonstrated a minimal process that suffices to produce biased impressions."
-  },
-  {
-    "objectID": "tmp.html",
-    "href": "tmp.html",
-    "title": "Research",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nGlobally Inaccurate Stereotypes Can Result From Locally Adaptive Exploration\n\n\n\n\n\n\n\nsocial stereotypes\n\n\nrational analysis\n\n\nexploration\n\n\nreinforcement learning\n\n\n\n\nPsychological Science\n\n\n\n\n\n\nXuechunzi Bai, Susan T. Fiske, Thomas L. Griffiths\n\n\n\n\n\n\n  \n\n\n\n\nMeasuring Implicit Bias in Explicitly Unbiased Large Language Models\n\n\n\n\n\n\n\nsocial stereotypes\n\n\nLarge language model\n\n\nImplicit bias\n\n\n\n\nPreprint\n\n\n\n\n\n\nXuechunzi Bai, Angelina Wang, Ilia Sucholutsky, Thomas L. Griffiths\n\n\n\n\n\n\n  \n\n\n\n\nMultidimensional Stereotypes Emerge Spontaneously When Exploration\n\n\n\n\n\n\n\nsocial stereotypes\n\n\nrational analysis\n\n\nexploration\n\n\ncontextual bandit\n\n\n\n\nPreprint\n\n\n\n\n\n\nXuechunzi Bai, Thomas L. Griffiths, Susan T. Fiske\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nCreate a lab website in Quarto: Quickstart\n\n\n\nworkshop\n\n\n\nSummer 2024\n\n\n\nYuhao Zhu\n\n\nSep 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTopics in Social Psychology\n\n\n\nCOURSE\n\n\n\nSpring 2024\n\n\n\nXuechunzi Bai\n\n\nSep 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/test/try.html",
-    "href": "posts/test/try.html",
-    "title": "Min 2 Rien (French)",
-    "section": "",
-    "text": "Blog post: https://www.min2rien.fr/le-reseau-metier-min2rien-organise-sa-semaine-retours-dexperience-2021/.\nSlides: https://m.canouil.fr/slides/20210414-journey-reproducibility/.\nCode: https://github.com/mcanouil/journey-reproducibility."
-  },
-  {
-    "objectID": "posts/publications/ImplicitLLM/LLM.html",
-    "href": "posts/publications/ImplicitLLM/LLM.html",
-    "title": "Measuring Implicit Bias in Explicitly Unbiased Large Language Models",
-    "section": "",
-    "text": "Large language models (LLMs) can pass explicit social bias tests but still harbor implicit biases, similar to humans who endorse egalitarian beliefs yet exhibit subtle biases. Measuring such implicit biases can be a challenge: as LLMs become increasingly proprietary, it may not be possible to access their embeddings and apply existing bias measures; furthermore, implicit biases are primarily a concern if they affect the actual decisions that these systems make. We address both challenges by introducing two new measures of bias: LLM Implicit Bias, a prompt-based method for revealing implicit bias; and LLM Decision Bias, a strategy to detect subtle discrimination in decision-making tasks. Both measures are based on psychological research: LLM Implicit Bias adapts the Implicit Association Test, widely used to study the automatic associations between concepts held in human minds; and LLM Decision Bias operationalizes psychological results indicating that relative evaluations between two candidates, not absolute evaluations assessing each independently, are more diagnostic of implicit biases. Using these measures, we found pervasive stereotype biases mirroring those in society in 8 value-aligned models across 4 social categories (race, gender, religion, health) in 21 stereotypes (such as race and criminality, race and weapons, gender and science, age and negativity). Our prompt-based LLM Implicit Bias measure correlates with existing language model embedding-based bias methods, but better predicts downstream behaviors measured by LLM Decision Bias. These new prompt-based measures draw from psychology’s long history of research into measuring stereotype biases based on purely observable behavior; they expose nuanced biases in proprietary value-aligned LLMs that appear unbiased according to standard benchmarks."
-  },
-  {
-    "objectID": "posts/publications/Multidimensional/Multidimensional.html",
-    "href": "posts/publications/Multidimensional/Multidimensional.html",
-    "title": "Multidimensional Stereotypes Emerge Spontaneously When Exploration",
-    "section": "",
-    "text": "Stereotypes of social groups have a canonical multidimensional structure, reflecting the extent to which groups are considered competent and trustworthy. Traditional explanations for stereotypes – group motives, cognitive biases, minority/majority environments, or real-group differences – do not specify a broadly applicable mechanism that explains why stereotypes vary along multiple dimensions. We show that multidimensional stratification and the associated stereotypes can result from a simple mechanism: When individuals make self-interested decisions based on past experiences in an environment where exploring new options carries an implicit cost, they are more likely to separate groups. We formalize this theory with the contextual multi-armed bandit problem, use the model to generate testable predictions, and evaluate those predictions against human behavior. Our results show that even well-intentioned and attentive individuals living in diverse environments can inadvertently impede diversity and form incorrect beliefs. A further theoretically motivated experiment shows intervening on the cost of exploration can mitigate stereotypes."
-  },
-  {
-    "objectID": "posts/teaching/QuartoWebsite/QuartoWebsite.html",
-    "href": "posts/teaching/QuartoWebsite/QuartoWebsite.html",
-    "title": "Create a lab website in Quarto: Quickstart",
-    "section": "",
-    "text": "Create a lab website in Quarto\n\nStory behind this website\n\n\n\nBasic knowledge about website\n\nContent(html): Quarto\n\nYAML (yml): configuration and metadata of a document or whole website.\nQuarto Markdown (.qmd) formatted contents\nCSS: appearance\n\nHost: Github\nDomain: Github is enough, you can get a “.com” domain from website like Namecheap\n\n\nAn intuitive understanding - Domain: store address - Host: store - Content: products - yml: instruction and label - qmd: product - css: Product packaging\n\n\n\nA basic introduction to Quarto website\nFollow this step-by-step tutorial blog: Creating your personal website using Quarto (ucsb-meds.github.io) you’ll know 1. What is Quarto, and why do we use it? 2. Initiate, modify, publish your website in RStudio\nAlso, here is an straightforward illustration for the logistics of your Quarto folder. You can use it as a reference [[Quarto folder logistics.png]]\n\nComplements\nQ: Failed to configure GitHub using usethis::use_github().\nA: Your RStudio is not well-configured Solution:\n1. Get token - New Personal Access Token (Classic) (github.com) - name: “Quarto token” - access: repo - expiration:“no expiration” save\n2. Configure token in R usethis::gh_token_help() GITHUB_PAT=your_personal_access_token_here\n3. re-run command usethis::use_github()\nQ: “Failed” to create .nojekyll file\nA: .nojekyll is a hidden file, relax\nQ: Failed to push my files to Github repo\ngit push\n&gt;&gt;&gt; error: RPC failed; HTTP 400 curl 22 The requested URL returned error: 400 Bad Request\nA: Due to the large size of the uploaded file, it failed. Try increasing your buffer capacity by using git config http.postBuffer 524288000\nQ: I don’t want to preview web pages multiple times through build-render, which fills my browser with tons of tabs.\nA: Two ways of continuous preview: 1. Recommended: Run the terminal, then switch to the root directory of your website folder, and type Quarto preview. You only need to save the file changes in RStudio to proceed with the update. （Sometimes this won’t work, so try another one) 2. build-render to start a preview, And press the refresh (or F5) on the browser to update\nQ: I can’t see the changes I expected on the Github website.\nA: Remember to render before publishing. Especially when you directly add files from outside RStudio Operation logic: First, render locally to obtain the HTML file. Then push it to the repository and publish it.\nNote: A pitfall of file organization:\nDo not name files/folders as “Global” or something similar This name may conflict with Github, causing loading failure: - Unable to load images - Unable to navigate to pages (404)\nTips: An incredible trick to simplify your CSS tuning:\nUse inspection on the webpage to view the category of the target element, so that you know where to modify in CSS. It also supports direct modification of parameters to preview the effect (so that you know how much to change).\n\n\nFurther reading\n\nAfter getting started, quickly browse through the official Quarto documentation to get an impression of its potential features.\nIf you want more customized appearance, please refer to the CSS tutorial to get started, and the CSS cookbook for reference.\nIt is always good to gain inspiration from others’ excellent works, because there are some outstanding designs that we couldn’t even imagine before seeing them. Actually, the inspiration for website design comes from two aspects:\n\nWebsites similar to your goal: which features to include on your own website.\n\nSaxelab\nFeldmanHallLab\ncodec lab\n\nWebsites unrelated to your goal, but fancy: design techniques, may be useful in future requirements\n\nQuarto\nGallery – Quarto\nQuarto tips"
+    "text": "You can try this simulation to compare the parallel and serial mindset."
   },
   {
     "objectID": "publications.html",
@@ -166,5 +173,19 @@
     "title": "Research",
     "section": "",
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nGlobally Inaccurate Stereotypes Can Result From Locally Adaptive Exploration\n\n\n\n\n\n\n\nsocial stereotypes\n\n\nrational analysis\n\n\nexploration\n\n\nreinforcement learning\n\n\n\n\nPsychological Science\n\n\n\n\n\n\nXuechunzi Bai, Susan T. Fiske, Thomas L. Griffiths\n\n\n\n\n\n\n  \n\n\n\n\nMeasuring Implicit Bias in Explicitly Unbiased Large Language Models\n\n\n\n\n\n\n\nsocial stereotypes\n\n\nLarge language model\n\n\nImplicit bias\n\n\n\n\nPreprint\n\n\n\n\n\n\nXuechunzi Bai, Angelina Wang, Ilia Sucholutsky, Thomas L. Griffiths\n\n\n\n\n\n\n  \n\n\n\n\nMultidimensional Stereotypes Emerge Spontaneously When Exploration\n\n\n\n\n\n\n\nsocial stereotypes\n\n\nrational analysis\n\n\nexploration\n\n\ncontextual bandit\n\n\n\n\nPreprint\n\n\n\n\n\n\nXuechunzi Bai, Thomas L. Griffiths, Susan T. Fiske\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/teaching/Simulation/simulation.html#shiny",
+    "href": "posts/teaching/Simulation/simulation.html#shiny",
+    "title": "Dynamic Social Mind Lab",
+    "section": "",
+    "text": "The Shiny package provides a flexible, easy to use framework for creating interactive web applications with R. Quarto in turn includes support for embedding Shiny components and applets into documents created with the Knitr engine.\nHere’s a live example of Shiny interactive components along with a brief explanation of the code required to create them:"
+  },
+  {
+    "objectID": "posts/teaching/Simulation/simulation.html#mindset-simulation",
+    "href": "posts/teaching/Simulation/simulation.html#mindset-simulation",
+    "title": "Mindset simulation",
+    "section": "",
+    "text": "You can try this simulation to compare the parallel and serial mindset."
   }
 ]

@@ -1,17 +1,18 @@
 [
   {
+    "listing": "/teaching.html",
+    "items": [
+      "/posts/teaching/QuartoWebsite/QuartoWebsite.html",
+      "/posts/teaching/Simulation/simulation.html",
+      "/posts/teaching/TiSP/TiSP.html"
+    ]
+  },
+  {
     "listing": "/tmp.html",
     "items": [
       "/posts/publications/Globally/Globally.html",
       "/posts/publications/ImplicitLLM/LLM.html",
       "/posts/publications/Multidimensional/Multidimensional.html"
-    ]
-  },
-  {
-    "listing": "/teaching.html",
-    "items": [
-      "/posts/teaching/QuartoWebsite/QuartoWebsite.html",
-      "/posts/teaching/TiSP/TiSP.html"
     ]
   },
   {
