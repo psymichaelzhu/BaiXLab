@@ -1,6 +1,21 @@
 [
   {
-    "listing": "/research.html",
+    "listing": "/tmp.html",
+    "items": [
+      "/posts/publications/Globally/Globally.html",
+      "/posts/publications/ImplicitLLM/LLM.html",
+      "/posts/publications/Multidimensional/Multidimensional.html"
+    ]
+  },
+  {
+    "listing": "/teaching.html",
+    "items": [
+      "/posts/teaching/QuartoWebsite/QuartoWebsite.html",
+      "/posts/teaching/TiSP/TiSP.html"
+    ]
+  },
+  {
+    "listing": "/publications.html",
     "items": [
       "/posts/publications/Globally/Globally.html",
       "/posts/publications/ImplicitLLM/LLM.html",

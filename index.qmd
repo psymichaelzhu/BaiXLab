@@ -1,9 +1,9 @@
 ---
 about: 
-  template: jolla
-  image: files/img/cover.jpg
-  image-shape: rectangle
+  template: marquee
+  image: img/crowd.jpg
   image-width: 100%
+  id: about-block
   links:
     - icon: envelope
       aria-label: email
@@ -12,6 +12,22 @@ about:
       href: https://twitter.com/yuhao_rezek
     - icon: instagram
       href: https://www.instagram.com/rezek_zhu
+format:
+  html:
+    page-layout: full
+    sidebar: false
+    anchor-sections: false
+    css: cover.css
 ---
 
-I study dynamic social minds: the interplay between individual decision processes and societal phenomena in the field of social cognition. My current work explores the psychological origins of social stereotypes. You can learn more about my work by reading [Research] and [Teaching] Statements, or [this] paper. 
+## Welcome to the Dynamic Social Mind Lab
+
+Our research studies the origin and evolution of mental representations of human groups. In particular, We take a dynamic perspective by asking two essentially interlinked questions: First, how do individual minds adaptively but selectively construct the social world? Second, how does the constructed social world mold individual minds?
+
+Our research combines insights from social and cognitive psychology, computer science and machine learning, and public policy. We use multiple methodologies to pursue these questions, including cross-national surveys, large-scale online behavioral experiments, naturalistic text analyses, and computational cognitive models. Taking advantage of each discipline and method, our future research will study other aspects of dynamic social minds in both human and artificial social worlds.
+
+# Direction1
+
+::: hero-banner
+<img src="img/cover.jpg" alt="Hero Banner" class="hero-image"/>
+:::

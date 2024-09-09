@@ -1,0 +1,51 @@
+#quarto-content>* {
+    padding-top: 0px;
+}
+
+@media(min-width: 992px) {
+    body .page-columns {
+        display:grid;
+        gap: 0;
+        grid-template-columns: [screen-start] 0em [screen-start-inset page-start page-start-inset body-start-outset] 5fr [body-start] 1.5em [body-content-start] minmax(500px, calc( 800px - 3em )) [body-content-end] 1.5em [body-end] 35px [body-end-outset page-end-inset page-end screen-end-inset] 0em [screen-end];
+    }
+}
+
+@media(max-width: 991.98px) {
+    body .page-columns {
+        display:grid;
+        gap: 0;
+        grid-template-columns: [screen-start] 0em [screen-start-inset page-start page-start-inset body-start-outset] 5fr [body-start] 1.5em [body-content-start] minmax(500px, calc( 800px - 3em )) [body-content-end] 1.5em [body-end] 35px [body-end-outset page-end-inset page-end screen-end-inset] 0em [screen-end];
+    }
+}
+
+@media(max-width: 767.98px) {
+    body .page-columns {
+        display:grid;
+        gap: 0;
+        grid-template-columns: [screen-start] 0em [screen-start-inset page-start page-start-inset body-start-outset] 5fr [body-start] 1.5em [body-content-start] minmax(500px, calc( 800px - 3em )) [body-content-end] 1.5em [body-end] 35px [body-end-outset page-end-inset page-end screen-end-inset] 0em [screen-end];
+    }
+}
+
+
+
+.about-contents {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+div.quarto-about-marquee .about-image {
+    max-height: 32em;
+    margin-bottom: 1em;
+    object-fit: cover
+}
+
+h3,.h3,h4,.h4 {
+    opacity: .9;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+h2,.h2,h1,.h1 {
+    opacity: .9;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
