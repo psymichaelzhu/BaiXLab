@@ -4,18 +4,18 @@
   author: "Yuhao Zhu"
   #subtitle: "<a href='https://psychology.uchicago.edu/directory/Xuechunzi-Bai' style='color:#be7874;'> Course link </a>"
   date: "2024-09"
-  categories: ["tool"]
+  categories: ["TOOL"]
   image: "_.jpg"
   title-block-banner: true  
   format:
     html:
       toc: true
       toc-location: left
-      page-layout: article
+      page-layout: full
       sidebar: false
 ---
 ## Mindset simulation
-You can try this simulation to compare the parallel and serial mindset.
+try it!
 
 ```{=html}
  <iframe id="example1" src="https://psymichaelzhu.shinyapps.io/ParallelComparison/" style="border: none; width: 100%; height: 720px" frameborder="0"></iframe>

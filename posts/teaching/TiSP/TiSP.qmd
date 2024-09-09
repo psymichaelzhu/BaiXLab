@@ -29,10 +29,10 @@
 
 -   **Instructor**: Dr. Xuechunzi Bai
     -   **Email**: baix\@uchicago.edu
-    -   **Office Hours**: Tuesdays, 2:00 - 4:00 PM, Room 301, Psychology Building
+    -   **Office Hours**: Tuesdays, 2:00 - 4:00 PM, Kelly Hall 409
 -   **Teaching Assistant (TA)**: Yuhao Zhu
     -   **Email**: mikezhu\@uchicago.edu
-    -   **Office Hours**: Thursdays, 11:00 AM - 1:00 PM, Room 203, Psychology Building
+    -   **Office Hours**: Thursdays, 11:00 AM - 1:00 PM, Kelly Hall 405
 
 ## Course Description
 
@@ -47,7 +47,11 @@ By the end of this course, students will be able to: 1. Analyze and interpret ke
 ## Required Texts and Materials
 
 -   **Textbook**: *Social Psychology* (10th Edition) by Elliot Aronson, Timothy D. Wilson, and Robin M. Akert.
--   **Supplementary Readings**: Additional readings will be posted on the course website.
+-   **Supplementary Readings**: 
+    -   *Social Psychology and Human Nature* by Roy F. Baumeister and Brad J. Bushman.
+    -   *The Social Animal* by Elliot Aronson.
+    -   Bai, X., Wang, A., Sucholutsky, I., & Griffiths, T. L. (under review). ​Measuring implicit bias in explicitly unbiased large language models. [preprint](https://arxiv.org/pdf/2402.04105)
+    -   Bai, X., Griffiths, T. L., & Fiske, S. T. (under review). ​Multidimensional stereotypes emerge spontaneously when exploration is costly. [preprint](https://osf.io/preprints/psyarxiv/mbuhv)
 
 ## Course Schedule
 

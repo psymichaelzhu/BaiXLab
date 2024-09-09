@@ -3,6 +3,8 @@ title: "People"
 format:
   html:
     page-layout: full
+    
+title-block-banner: true  # 关闭标题块横幅
 ---
 
 ## Principal Investigator
@@ -14,7 +16,7 @@ format:
 
 ::: g-col-9
 **Xuechunzi Bai**\
-Bai is a [Neubauer Family Assistant Professor](https://neubauerassistantprofessors.uchicago.edu/){style="color: #be7874;"} at the [Department of Psychology,](https://psychology.uchicago.edu/){style="color: #be7874;"} [the University of Chicago](https://www.uchicago.edu/en){style="color: #be7874;"}. She studies dynamic social minds: the interplay between (micro) individual decision processes and (macro) social structures in the field of social cognition. Her Ph.D. work, advised by Drs. [Susan Fiske](https://www.fiskelab.org/){style="color: #be7874;"} and [Tom Griffiths](https://cocosci.princeton.edu/index.php){style="color: #be7874;"}, explores psychological origins of social stereotypes; how individual-level exploratory behaviors lead to societal-level stratification. \[[CV](https://www.xuechunzibai.com/_files/ugd/508ff5_59d9cf9470884211821842a0675001ee.pdf){style="color: #be7874;"}\]
+Bai is a [Neubauer Family Assistant Professor](https://neubauerassistantprofessors.uchicago.edu/){style="color: #be7874;"} at the [Department of Psychology,](https://psychology.uchicago.edu/){style="color: #be7874;"} [the University of Chicago](https://www.uchicago.edu/en){style="color: #be7874;"}. She studies dynamic social minds: the interplay between (micro) individual decision processes and (macro) social structures in the field of social cognition. Her Ph.D. work, advised by Drs. [Susan Fiske](https://www.fiskelab.org/){style="color: #be7874;"} and [Tom Griffiths](https://cocosci.princeton.edu/index.php){style="color: #be7874;"}, explores psychological origins of social stereotypes; how individual-level exploratory behaviors lead to societal-level stratification. \[[CV](https://www.xuechunzibai.com/_files/ugd/508ff5_59d9cf9470884211821842a0675001ee.pdf){style="color: #be7874;"}\] \[\[[website](https://www.xuechunzibai.com/){style="color: #be7874;"}\]
 :::
 :::
 
@@ -27,6 +29,6 @@ Bai is a [Neubauer Family Assistant Professor](https://neubauerassistantprofesso
 
 ::: g-col-9
 **Yuhao Zhu (Michael)**\
-Yuhao is a MACSS student. He previously studied psychology at Beijing Normal University and conducted research in cognitive science and neuroscience. He is interested in using computational methods to study how humans individually and collectively solve social complexity. Currently, he is collaborating with Dr. Bai on a mindset project. Outside of academia, he is a photographer.
+Yuhao is a MACSS student. He previously studied psychology at Beijing Normal University and conducted research in cognitive science and neuroscience. He is interested in using computational methods to study how humans individually and collectively solve social complexity. Currently, he is collaborating with Dr. Bai on a mindset project. Outside of academia, he is a photographer.\[[CV](https://www.psymichaelzhu.com/CV/){style="color: #be7874;"}\] \[\[[website](https://www.psymichaelzhu.com/){style="color: #be7874;"}\]
 :::
 :::

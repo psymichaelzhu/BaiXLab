@@ -2,7 +2,7 @@
   title: "Globally Inaccurate Stereotypes Can Result From Locally Adaptive Exploration"
   author: ["**Xuechunzi Bai**", "Susan T. Fiske","Thomas L. Griffiths"]
   description: "<a href='https://doi.org/10.1177/09567976211045929' style='color:#be7874;'>Psychological Science</a>"
-  #date: 2022-05-10
+  date: 2022-04-01
   categories: ["social stereotypes", "rational analysis","exploration","reinforcement learning"]
   image: "_.jpg"
   title-block-banner: true

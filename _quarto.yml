@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Dynamic Social Mind Lab"
+  favicon: img/socialmind.png
   navbar:
     logo: img/socialmind.png
     background: "#8a3028"
@@ -14,6 +15,9 @@ website:
         text: Publications 
       - href: teaching.qmd
         text: Teaching
+      - icon: github
+        href: https://github.com/psymichaelzhu/MichaelZ
+        aria-label: GitHub
 
 format:
   html:
