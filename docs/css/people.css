@@ -1,0 +1,14 @@
+* {
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+
+.research_interest  {
+  display: inline-block;
+  background-color: #e0e0e0;
+  border-radius: 2em;     
+  font-size: 0.6em;   
+  font-weight: bold;
+  padding: 5px 10px;
+  text-decoration: none;
+}

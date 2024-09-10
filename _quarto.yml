@@ -7,12 +7,13 @@ website:
   favicon: img/socialmind.png
   navbar:
     logo: img/socialmind.png
-    background: "#8a3028"
     right:
+      - href: index.qmd
+        text: Home
       - href: people.qmd
         text: People
-      - href: publications.qmd
-        text: Publications 
+      - href: research.qmd
+        text: Research 
       - href: teaching.qmd
         text: Teaching
       - icon: github
@@ -21,8 +22,7 @@ website:
 
 format:
   html:
-    theme:
-      light: flatly
-      dark: darkly
-    css: css/navbar.css  # 引入自定义 CSS
+    theme: simplex
+    css: 
+      - css/custom.css
 editor: visual

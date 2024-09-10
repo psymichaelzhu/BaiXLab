@@ -1,26 +1,26 @@
 [
   {
-    "listing": "/teaching.html",
-    "items": [
-      "/posts/teaching/QuartoWebsite/QuartoWebsite.html",
-      "/posts/teaching/Simulation/simulation.html",
-      "/posts/teaching/TiSP/TiSP.html"
-    ]
-  },
-  {
     "listing": "/tmp.html",
     "items": [
+      "/posts/publications/Globally/Globally.html",
       "/posts/publications/ImplicitLLM/LLM.html",
-      "/posts/publications/Multidimensional/Multidimensional.html",
-      "/posts/publications/Globally/Globally.html"
+      "/posts/publications/Multidimensional/Multidimensional.html"
     ]
   },
   {
-    "listing": "/publications.html",
+    "listing": "/teaching.html",
     "items": [
+      "/posts/teaching/Alpha/Alpha.html",
+      "/posts/teaching/TiSP/Yuhao Zhu.html",
+      "/posts/teaching/Yuhao2/TiSP.html"
+    ]
+  },
+  {
+    "listing": "/research.html",
+    "items": [
+      "/posts/publications/Globally/Globally.html",
       "/posts/publications/ImplicitLLM/LLM.html",
-      "/posts/publications/Multidimensional/Multidimensional.html",
-      "/posts/publications/Globally/Globally.html"
+      "/posts/publications/Multidimensional/Multidimensional.html"
     ]
   }
 ]

@@ -1,6 +1,6 @@
 ---
   title: "Multidimensional Stereotypes Emerge Spontaneously When Exploration"
-  author: ["**Xuechunzi Bai**", "Thomas L. Griffiths", "Susan T. Fiske"]
+  author: ["Xuechunzi Bai", "Thomas L. Griffiths", "Susan T. Fiske"]
   description: "<a href='https://doi.org/10.31234/osf.io/mbuhv' style='color:#be7874;'>Preprint</a>"
   #date: 
   categories: ["social stereotypes", "rational analysis","exploration","contextual bandit"]
@@ -10,8 +10,15 @@
     html:
       page-layout: article 
 ---
+
+
+::: grid
+::: g-col-3
 Stereotypes of social groups have a canonical multidimensional structure, reflecting the extent to which groups are considered competent and trustworthy. Traditional explanations for stereotypes – group motives, cognitive biases, minority/majority environments, or real-group differences – do not specify a broadly applicable mechanism that explains why stereotypes vary along multiple dimensions. We show that multidimensional stratification and the associated stereotypes can result from a simple mechanism: When individuals make self-interested decisions based on past experiences in an environment where exploring new options carries an implicit cost, they are more likely to separate groups. We formalize this theory with the contextual multi-armed bandit problem, use the model to generate testable predictions, and evaluate those predictions against human behavior. Our results show that even well-intentioned and attentive individuals living in diverse environments can inadvertently impede diversity and form incorrect beliefs. A further theoretically motivated experiment shows intervening on the cost of exploration can mitigate stereotypes.
+:::
 
-
-
-![](_.pdf){width="80%" height="700" fig-align="center"}
+::: g-col-9
+**Xuechunzi Bai**\
+Bai is a [Neubauer Family Assistant Professor](https://neubauerassistantprofessors.uchicago.edu/){style="color: #be7874;"} at the [Department of Psychology,](https://psychology.uchicago.edu/){style="color: #be7874;"} [the University of Chicago](https://www.uchicago.edu/en){style="color: #be7874;"}. She studies dynamic social minds: the interplay between (micro) individual decision processes and (macro) social structures in the field of social cognition. Her Ph.D. work, advised by Drs. [Susan Fiske](https://www.fiskelab.org/){style="color: #be7874;"} and [Tom Griffiths](https://cocosci.princeton.edu/index.php){style="color: #be7874;"}, explores psychological origins of social stereotypes; how individual-level exploratory behaviors lead to societal-level stratification. \[[CV](https://www.xuechunzibai.com/_files/ugd/508ff5_59d9cf9470884211821842a0675001ee.pdf){style="color: #be7874;"}\] \[\[[website](https://www.xuechunzibai.com/){style="color: #be7874;"}\]
+:::
+:::

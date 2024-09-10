@@ -1,23 +1,11 @@
 ---
 about: 
   template: marquee
-  image: img/crowd.jpg
-  image-width: 100%
-  id: about-block
-  links:
-    - icon: envelope
-      aria-label: email
-      href: "mailto:rezek_zhu@outlook.com"  
-    - icon: twitter
-      href: https://twitter.com/yuhao_rezek
-    - icon: instagram
-      href: https://www.instagram.com/rezek_zhu
 format:
   html:
     page-layout: full
     sidebar: false
     anchor-sections: false
-    css: cover.css
 ---
 
 ## Welcome to the Dynamic Social Mind Lab
@@ -26,47 +14,4 @@ Our research studies the origin and evolution of mental representations of human
 
 Our research combines insights from social and cognitive psychology, computer science and machine learning, and public policy. We use multiple methodologies to pursue these questions, including cross-national surveys, large-scale online behavioral experiments, naturalistic text analyses, and computational cognitive models. Taking advantage of each discipline and method, our future research will study other aspects of dynamic social minds in both human and artificial social worlds.
 
-### Origins of Mental Maps of Human Groups: An Adaptive but Selective Construction
-
-::: grid
-::: g-col-5
-![](img/elephant.jpg){fig-alt="Blind and Elephant" width="80%"}
-:::
-
-::: g-col-7
-People represent social groups in different locations in their mental maps. So, where do the intergroup distances on mental maps come from in the first place? A primary focus of my current research is examining the origin of people’s often-inaccurate mental maps. Prior work in social psychology identifies several possible sources for inaccurate impressions: prejudiced personality, group-serving motivations, limited cognitive capacities, and deficient information. My ongoing work provides a new explanation: adaptive exploration. Briefly, people form [inaccurate assessments of groups](./people.qmd) (Bai, Fiske, & Griffiths, 2022, PsychSci), construct biased societal representations of immigrants (Bai, Griffiths, & Fiske, under review), and learn spurious associations between facial features and social traits (Bai, Uddenberg, Labbree, & Todorov, under revision), all from a simple cause: making new decisions based on past experiences to maximize self-interest.
-:::
-:::
-
-### Diversity of Mental Maps of Human Groups: An Adaptive and Flexible Recording
-
-::: grid
-::: g-col-6
-If mental maps reflect societal-level segregated representations, interventions that change the societal context could reduce bias. In global collaborations across 50 world regions, I found that mental maps flexibly reflect various contexts. The diversity of the local environment is one such context. In people’s mental maps, distances between immigrant groups adapt to local diversity (Bai, Ramos, & Fiske, 2020, PNAS). Specifically, more immigrant diversity correlates with smaller intergroup distances on mental maps. People who live in diversity (e.g., South Africa, Hawaii, diverse campuses) perceive people from different immigrant groups as more similar to each other on the warmth and competence stereotype dimensions. In comparison, people who live in homogeneity perceive immigrants as different (e.g., Denmark, Vermont, less diverse campuses). In addition to social diversity, I found mental maps adapt to ideological legacy (Grigoryan, Bai, Durante, & Fiske, et al., 2020, PSPB). People who live in post-communist societies perceive the working class positively as warm and competent whereas people who live in capitalist societies perceive the working class negatively as colder and less competent. In another study, I found divergent societal narratives about being rich in China and in the US shape how people mentally represent their upper class (Wu, Bai, & Fiske, 2018, JCCP).
-:::
-::: g-col-6
-![](img/map.jpg){fig-alt="Blind and Elephant" width="80%"}
-:::
-:::
-
-
-
-### A Future Framework for Dynamic Social Minds: Outstanding Questions
-
-::: grid
-::: g-col-5
-![](img/llm.jpg){fig-alt="Blind and Elephant" width="80%"}
-:::
-::: g-col-6
-On the one hand, the social mind is intelligent. Its flexibility can be powerful. On the other hand, the workings of the 
-social mind could be problematic. Its ability to adaptively explore creates societal-level injustice. Focusing on social 
-stereotypes, my work starts to connect individual-level intelligent behaviors with societal-level detrimental outcomes.
-My work has implications for diversity science in organizational behavior, such as hiring decisions. In particular, if the
-only goal of hiring is to increase corporate profits in the short-term, my work suggests that hiring decisions will be biased,
-and organizations will not achieve their diversity goal regardless of other efforts. Instead, one goal of hiring should be to 
-intentionally increase diversity, for example, by adding an exploration bonus. Yet, the key challenge is to make people 
-intrinsically motivated to explore. Identifying principles of intrinsic exploration is critical for interventions that are 
-longer-lasting and could be broad-scaled. I will collaborate with intervention researchers to test this hypothesis.
-:::
-
-:::
+*Dr.Bai will be reviewing materials for postdoc researcher, graduate student, and research assistant positions for the 2024-25 cycle, see details in this [doc](https://docs.google.com/document/d/1JW5j8dAAIbFh9dqOvugFkJ2GBon9CYhEoASSvwzZndk/edit?usp=sharing)*

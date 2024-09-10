@@ -1,18 +1,21 @@
 ---
 listing:
+  id: people-listings
+  field-display-names:
+    categories: "Research Interest"
   contents: posts/teaching/*/*.qmd  # 子目录储存 子目录文件
   sort: "date desc"  # 按日期降序排序
   type: grid  # 默认的博客样式列表
-  categories: true  # #cloud启用分类过滤 展示为词云
-  sort-ui: true  # 启用排序功能
-  filter-ui: [author,date, categories,description]  # 启用筛选功能
-  fields: [date,author, title, image, categories,subtitle,description]  # 显示日期、标题、阅读时间、描述和分类
-  image-align: right  # 图片放置在内容的左侧
-  image-height: 130px  # 设置图片高度为150px
+  categories: unnumbered  # #cloud启用分类过滤 展示为词云
+  sort-ui: false  # 启用排序功能
+  grid-columns: 6
+  grid-item-border: false
+  filter-ui: false  # 启用筛选功能
+  fields: [title, image, categories]  # 显示日期、标题、阅读时间、描述和分类
   image-placeholder: "/path/to/default-image.jpg"  # 如果没有图片则显示默认图片
+  
 #feed: true  # 启用 RSS 源生成
-title-block-banner: true  # 关闭标题块横幅
-title: "Teaching"  # 页面标题
+title-block-banner: false  # 关闭标题块横幅
 #description: "A collection of blog posts about various topics."
 format:
   html:
@@ -20,6 +23,51 @@ format:
     grid:
       body-width: 1000px  # 正文宽度
       margin-width: 200px  # 页边距
+    css: 
+      - css/teaching.css
+      - css/people.css
 ---
-:::{#posts-listing}
+
+::: grid
+::: g-col-4
+:::
+
+::: g-col-4
+::: {style="text-align: center;"}
+**Principal Investigator**
+
+------------------------------------------------------------------------
+<br>
+[![](img/people/Xuechunzi%20Bai.jpg){fig-alt="Xuechunzi Bai" width="50%" style="border-radius: 50%;"}](https://www.xuechunzibai.com/)
+
+Xuechunzi Bai
+<br>
+<br>
+:::
+:::
+
+::: g-col-4
+:::
+:::
+
+
+
+
+
+::: grid
+::: g-col-1
+:::
+::: g-col-10
+::: {style="text-align: center;"}
+**Graduate Students**
+
+------------------------------------------------------------------------
+:::
+:::
+::: g-col-1
+:::
+:::
+
+
+::: {#sample-listings}
 :::

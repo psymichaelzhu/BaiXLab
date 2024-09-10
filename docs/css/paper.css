@@ -1,0 +1,38 @@
+.summary-card {
+    background-color: #f2f2f2; /* Light gray background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 0px;
+    margin: 0px 0;
+}
+
+.reference-line {
+    display: flex;
+    justify-content: space-between; /* Aligns left and right elements */
+    align-items: center;
+    margin: 10px 0;
+    position: relative;
+}
+
+.reference-text {
+    font-size: 16px;
+    color: #333;
+}
+
+.links {
+    position: absolute; /* Make it position independently */
+    right: 0; /* Stick to the right edge */
+}
+
+.links a {
+    color: #d9534f; /* Optional: Red color for the links */
+    text-decoration: none;
+    margin-left: 10px; /* Adds space between each link */
+}
+
+.links a:hover {
+    text-decoration: underline; /* Optional: Underline on hover */
+}
+
+h1.title, .title.h1 {
+    font-size: 1.5em;
+}
