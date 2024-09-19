@@ -65,7 +65,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-people-listings .list');
+    const listingTargetEl = window.document.querySelector('#listing-sample-listings .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-people-listings'] = new List('listing-people-listings', options);
+    window['quarto-listings']['listing-sample-listings'] = new List('listing-sample-listings', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -190,16 +190,9 @@ ul.task-list li input[type="checkbox"] {
 
 </div>
 </div>
-<div id="sample-listings">
-
-</div>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-people-listings">
+<div id="listing-sample-listings" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-6">
-<div class="g-col-1" data-index="0" data-categories="Reinforcement learning" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1725947304702" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="g-col-1" data-index="0" data-categories="Reinforcement learning" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1726521511320" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
 <a href="./posts/teaching/Alpha/Alpha.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -218,7 +211,7 @@ Reinforcement learning
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Growth Mindset,Stereotype,Reinforcement learning" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1725947338312" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="g-col-1" data-index="1" data-categories="Growth Mindset,Stereotype,Reinforcement learning" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1726521511282" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
 <a href="./posts/teaching/TiSP/Yuhao Zhu.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -243,7 +236,7 @@ Reinforcement learning
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Stereotype,Attitude" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1725946972337" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="g-col-1" data-index="2" data-categories="Stereotype,Attitude" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1726521511351" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
 <a href="./posts/teaching/Yuhao2/TiSP.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -269,7 +262,12 @@ Attitude
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div>
+
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

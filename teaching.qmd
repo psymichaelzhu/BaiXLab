@@ -1,6 +1,6 @@
 ---
 listing:
-  id: people-listings
+  id: sample-listings
   field-display-names:
     categories: "Research Interest"
   contents: posts/teaching/*/*.qmd  # 子目录储存 子目录文件
