@@ -1,14 +1,6 @@
 [
   {
-    "listing": "/tmp.html",
-    "items": [
-      "/posts/publications/Globally/Globally.html",
-      "/posts/publications/ImplicitLLM/LLM.html",
-      "/posts/publications/Multidimensional/Multidimensional.html"
-    ]
-  },
-  {
-    "listing": "/teaching.html",
+    "listing": "/people.html",
     "items": [
       "/posts/teaching/Alpha/Alpha.html",
       "/posts/teaching/TiSP/Yuhao Zhu.html",

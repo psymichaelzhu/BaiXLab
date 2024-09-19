@@ -1,0 +1,16 @@
+.quarto-listing-category,
+.quarto-grid-item {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.listing-category {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.quarto-listing {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+

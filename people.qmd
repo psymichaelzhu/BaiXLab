@@ -1,69 +1,31 @@
 ---
+listing:
+  - id: members
+    contents: posts/teaching/*/*.qmd
+    type: grid
+    grid-columns: 6
+    grid-item-border: false
+    fields: [image, title, categories]
+    categories: true
+  - id: pi
+    contents: posts/teaching/Yuhao2/*.qmd
+    type: grid
+    grid-columns: 6
+    grid-item-border: false
+    fields: [image, title]
+
+title-block-banner: false
 format:
   html:
     page-layout: full
     css: css/people.css
-title-block-banner: false  # 关闭标题块横幅
-header-links: false
 ---
 
-::: grid
-::: g-col-4
+## Principal Investigator
+::: {#pi}
 :::
 
-::: g-col-4
-::: {style="text-align: center;"}
-**Principal Investigator**
+## Members
 
-------------------------------------------------------------------------
-<br>
-[![](img/people/Xuechunzi%20Bai.jpg){fig-alt="Xuechunzi Bai" width="50%" style="border-radius: 50%;"}](https://www.xuechunzibai.com/)
-
-Xuechunzi Bai
-<br>
-<br>
-:::
-:::
-
-::: g-col-4
-:::
-:::
-
-
-
-
-
-::: grid
-::: g-col-1
-:::
-::: g-col-10
-::: {style="text-align: center;"}
-**Graduate Students**
-
-------------------------------------------------------------------------
-:::
-:::
-::: g-col-1
-:::
-:::
-
-
-
-::: grid
-::: g-col-4
-::: {style="text-align: center;"}
-<br>
-[![](img/people/Yuhao%20Zhu.jpg){fig-alt="Yuhao Zhu (Michael Z)" width="50%" style="border-radius: 50%;"}](https://www.psymichaelzhu.com/)
-
-Yuhao Zhu<br>
-<a href='https://psymichaelzhu.shinyapps.io/SingleArmTrend/' class="research_interest">Growth Mindset</a>
-
-:::
-:::
-
-::: g-col-4
-:::
-
-::: g-col-4
-:::
+::: {#members}
 :::

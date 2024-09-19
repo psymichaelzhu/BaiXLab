@@ -4,9 +4,7 @@ project:
 
 website:
   title: "Dynamic Social Mind Lab"
-  favicon: img/socialmind.png
   navbar:
-    logo: img/socialmind.png
     right:
       - href: index.qmd
         text: Home
@@ -23,6 +21,4 @@ website:
 format:
   html:
     theme: simplex
-    css: 
-      - css/custom.css
 editor: visual

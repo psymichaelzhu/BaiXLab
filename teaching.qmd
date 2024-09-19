@@ -1,31 +1,10 @@
 ---
-listing:
-  id: sample-listings
-  field-display-names:
-    categories: "Research Interest"
-  contents: posts/teaching/*/*.qmd  # 子目录储存 子目录文件
-  sort: "date desc"  # 按日期降序排序
-  type: grid  # 默认的博客样式列表
-  categories: unnumbered  # #cloud启用分类过滤 展示为词云
-  sort-ui: false  # 启用排序功能
-  grid-columns: 6
-  grid-item-border: false
-  filter-ui: false  # 启用筛选功能
-  fields: [title, image, categories]  # 显示日期、标题、阅读时间、描述和分类
-  image-placeholder: "/path/to/default-image.jpg"  # 如果没有图片则显示默认图片
-  
-#feed: true  # 启用 RSS 源生成
-title-block-banner: false  # 关闭标题块横幅
-#description: "A collection of blog posts about various topics."
 format:
   html:
-    page-layout: full  # 页面全宽布局
-    grid:
-      body-width: 1000px  # 正文宽度
-      margin-width: 200px  # 页边距
-    css: 
-      - css/teaching.css
-      - css/people.css
+    page-layout: full
+    css: css/people.css
+title-block-banner: false  # 关闭标题块横幅
+header-links: false
 ---
 
 ::: grid
@@ -37,13 +16,43 @@ format:
 **Principal Investigator**
 
 ------------------------------------------------------------------------
-<br>
-[![](img/people/Xuechunzi%20Bai.jpg){fig-alt="Xuechunzi Bai" width="50%" style="border-radius: 50%;"}](https://www.xuechunzibai.com/)
 
-Xuechunzi Bai
-<br>
-<br>
+<br> [![](img/people/Xuechunzi%20Bai.jpg){fig-alt="Xuechunzi Bai" width="50%" style="border-radius: 50%;"}](https://www.xuechunzibai.com/)
+
+Xuechunzi Bai <br> <br>
 :::
+:::
+
+::: g-col-4
+:::
+:::
+
+::: grid
+::: g-col-1
+:::
+
+::: g-col-10
+::: {style="text-align: center;"}
+**Graduate Students**
+
+------------------------------------------------------------------------
+:::
+:::
+
+::: g-col-1
+:::
+:::
+
+::: grid
+::: g-col-4
+::: {style="text-align: center;"}
+<br> [![](img/people/Yuhao%20Zhu.jpg){fig-alt="Yuhao Zhu (Michael Z)" width="50%" style="border-radius: 50%;"}](https://www.psymichaelzhu.com/)
+
+Yuhao Zhu<br> <a href='https://psymichaelzhu.shinyapps.io/SingleArmTrend/' class="research_interest">Growth Mindset</a>
+:::
+:::
+
+::: g-col-4
 :::
 
 ::: g-col-4
@@ -53,21 +62,3 @@ Xuechunzi Bai
 
 
 
-
-::: grid
-::: g-col-1
-:::
-::: g-col-10
-::: {style="text-align: center;"}
-**Graduate Students**
-
-------------------------------------------------------------------------
-:::
-:::
-::: g-col-1
-:::
-:::
-
-
-::: {#sample-listings}
-:::

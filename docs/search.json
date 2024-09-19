@@ -4,7 +4,21 @@
     "href": "people.html",
     "title": "Dynamic Social Mind Lab",
     "section": "",
-    "text": "Principal Investigator\n\n \nXuechunzi Bai  \n\n\n\n\n\n\n\n\n\n\n\n\nGraduate Students\n\n\n\n\n\n\n\n\n\n\n \nYuhao Zhu Growth Mindset"
+    "text": "No matching items"
+  },
+  {
+    "objectID": "people.html#principal-investigator",
+    "href": "people.html#principal-investigator",
+    "title": "Dynamic Social Mind Lab",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "people.html#members",
+    "href": "people.html#members",
+    "title": "Dynamic Social Mind Lab",
+    "section": "Members",
+    "text": "Members\n\n\n\n\n\n\n\n\n\n\nAlpha\n\n\n\nReinforcement learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYuhao Zhu\n\n\n\nGrowth Mindset\n\n\nStereotype\n\n\nReinforcement learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYuhao2\n\n\n\nMachine Learning\n\n\nData Science\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/teaching/Alpha/Alpha.html",
@@ -168,25 +182,18 @@
     "text": "Stereotypes of social groups have a canonical multidimensional structure, reflecting the extent to which groups are considered competent and trustworthy. Traditional explanations for stereotypes – group motives, cognitive biases, minority/majority environments, or real-group differences – do not specify a broadly applicable mechanism that explains why stereotypes vary along multiple dimensions. We show that multidimensional stratification and the associated stereotypes can result from a simple mechanism: When individuals make self-interested decisions based on past experiences in an environment where exploring new options carries an implicit cost, they are more likely to separate groups. We formalize this theory with the contextual multi-armed bandit problem, use the model to generate testable predictions, and evaluate those predictions against human behavior. Our results show that even well-intentioned and attentive individuals living in diverse environments can inadvertently impede diversity and form incorrect beliefs. A further theoretically motivated experiment shows intervening on the cost of exploration can mitigate stereotypes."
   },
   {
-    "objectID": "tmp.html",
-    "href": "tmp.html",
-    "title": "Research",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Dynamic Social Mind Lab",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nGlobally Inaccurate Stereotypes Can Result From Locally Adaptive Exploration\n\n\n\n\n\n\n\nsocial stereotypes\n\n\nrational analysis\n\n\nexploration\n\n\nreinforcement learning\n\n\n\n\n\nBai, X., Fiske, S. T., & Griffiths, T. L. (2022). Psychological Science  [slides] [code] [talk] \n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nGlobally Inaccurate Stereotypes Can Result From Locally Adaptive Exploration\n\n\n\n\n\n\n\nsocial stereotypes\n\n\nrational analysis\n\n\nexploration\n\n\nreinforcement learning\n\n\n\n\n\nBai, X., Fiske, S. T., & Griffiths, T. L. (2022). Psychological Science.  [slides] [code] [talk] \n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nMultidimensional Stereotypes Emerge Spontaneously When Exploration\n\n\n\n\n\n\n\nsocial stereotypes\n\n\nrational analysis\n\n\nexploration\n\n\ncontextual bandit\n\n\n\n\nPreprint\n\n\n\n\n\n\nXuechunzi Bai, Thomas L. Griffiths, Susan T. Fiske\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nGlobally Inaccurate Stereotypes Can Result From Locally Adaptive Exploration\n\n\n\n\n\n\n\nsocial stereotypes\n\n\nrational analysis\n\n\nexploration\n\n\nreinforcement learning\n\n\n \n\n\n \n\n\n\n\n  \n\n\n\n\nGlobally Inaccurate Stereotypes Can Result From Locally Adaptive Exploration\n\n\n\n\n\n\n\nsocial stereotypes\n\n\nrational analysis\n\n\nexploration\n\n\nreinforcement learning\n\n\n \n\n\n \n\n\n\n\n  \n\n\n\n\nMultidimensional Stereotypes Emerge Spontaneously When Exploration\n\n\n\n\n\n\n\nsocial stereotypes\n\n\nrational analysis\n\n\nexploration\n\n\ncontextual bandit\n\n\n \n\n\n\n\nXuechunzi Bai, Thomas L. Griffiths, Susan T. Fiske\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "teaching.html",
     "href": "teaching.html",
     "title": "Dynamic Social Mind Lab",
     "section": "",
-    "text": "Principal Investigator\n\n \nXuechunzi Bai  \n\n\n\n\n\n\n\n\n\n\n\n\nGraduate Students\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlpha\n\n\n\nReinforcement learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYuhao Zhu\n\n\n\nGrowth Mindset\n\n\nStereotype\n\n\nReinforcement learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYuhao Zhu\n\n\n\nStereotype\n\n\nAttitude\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Dynamic Social Mind Lab",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nGlobally Inaccurate Stereotypes Can Result From Locally Adaptive Exploration\n\n\n\n\n\n\n\nsocial stereotypes\n\n\nrational analysis\n\n\nexploration\n\n\nreinforcement learning\n\n\n \n\n\n \n\n\n\n\n  \n\n\n\n\nGlobally Inaccurate Stereotypes Can Result From Locally Adaptive Exploration\n\n\n\n\n\n\n\nsocial stereotypes\n\n\nrational analysis\n\n\nexploration\n\n\nreinforcement learning\n\n\n \n\n\n \n\n\n\n\n  \n\n\n\n\nMultidimensional Stereotypes Emerge Spontaneously When Exploration\n\n\n\n\n\n\n\nsocial stereotypes\n\n\nrational analysis\n\n\nexploration\n\n\ncontextual bandit\n\n\n \n\n\n\n\nXuechunzi Bai, Thomas L. Griffiths, Susan T. Fiske\n\n\n\n\n\n\nNo matching items"
+    "text": "Principal Investigator\n\n \nXuechunzi Bai  \n\n\n\n\n\n\n\n\n\n\n\n\nGraduate Students\n\n\n\n\n\n\n\n\n\n\n \nYuhao Zhu Growth Mindset"
   },
   {
     "objectID": "posts/test/try.html",
@@ -208,83 +215,6 @@
     "title": "Multidimensional Stereotypes Emerge Spontaneously When Exploration",
     "section": "",
     "text": "Stereotypes of social groups have a canonical multidimensional structure, reflecting the extent to which groups are considered competent and trustworthy. Traditional explanations for stereotypes – group motives, cognitive biases, minority/majority environments, or real-group differences – do not specify a broadly applicable mechanism that explains why stereotypes vary along multiple dimensions. We show that multidimensional stratification and the associated stereotypes can result from a simple mechanism: When individuals make self-interested decisions based on past experiences in an environment where exploring new options carries an implicit cost, they are more likely to separate groups. We formalize this theory with the contextual multi-armed bandit problem, use the model to generate testable predictions, and evaluate those predictions against human behavior. Our results show that even well-intentioned and attentive individuals living in diverse environments can inadvertently impede diversity and form incorrect beliefs. A further theoretically motivated experiment shows intervening on the cost of exploration can mitigate stereotypes.\n\n\nXuechunzi Bai\nBai is a Neubauer Family Assistant Professor at the Department of Psychology, the University of Chicago. She studies dynamic social minds: the interplay between (micro) individual decision processes and (macro) social structures in the field of social cognition. Her Ph.D. work, advised by Drs. Susan Fiske and Tom Griffiths, explores psychological origins of social stereotypes; how individual-level exploratory behaviors lead to societal-level stratification. [CV] [[website]"
-  },
-  {
-    "objectID": "posts/teaching/Yuhao2/TiSP.html",
-    "href": "posts/teaching/Yuhao2/TiSP.html",
-    "title": "Yuhao Zhu",
-    "section": "",
-    "text": "Course Title: Topics in Social Psychology\nCourse Code: PSY 302\nCredits: 3\nTerm: Spring 2024\nPrerequisites: Introduction to Psychology (PSY 101) or equivalent\n\n\n\n\n\nInstructor: Dr. Xuechunzi Bai\n\nEmail: baix@uchicago.edu\nOffice Hours: Tuesdays, 2:00 - 4:00 PM, Kelly Hall 409\n\nTeaching Assistant (TA): Yuhao Zhu\n\nEmail: mikezhu@uchicago.edu\nOffice Hours: Thursdays, 11:00 AM - 1:00 PM, Kelly Hall 405\n\n\n\n\n\nThis course explores advanced topics in social psychology, focusing on how individuals think, influence, and relate to one another. Topics include group dynamics, persuasion, social cognition, attitude change, and the psychological foundations of social interaction.\nStudents will critically examine contemporary research and apply theories to real-world scenarios, exploring the intersections of psychology and social behavior. By the end of the course, students will develop a deeper understanding of human social behavior and the ways in which psychological principles manifest in everyday life.\n\n\n\nBy the end of this course, students will be able to: 1. Analyze and interpret key theories of social psychology. 2. Evaluate research findings in the context of social behavior. 3. Apply social psychological concepts to real-world situations and case studies. 4. Understand the influence of group dynamics, social cognition, and cultural factors on behavior.\n\n\n\n\nTextbook: Social Psychology (10th Edition) by Elliot Aronson, Timothy D. Wilson, and Robin M. Akert.\nSupplementary Readings:\n\nSocial Psychology and Human Nature by Roy F. Baumeister and Brad J. Bushman.\nThe Social Animal by Elliot Aronson.\nBai, X., Wang, A., Sucholutsky, I., & Griffiths, T. L. (under review). ​Measuring implicit bias in explicitly unbiased large language models. preprint\nBai, X., Griffiths, T. L., & Fiske, S. T. (under review). ​Multidimensional stereotypes emerge spontaneously when exploration is costly. preprint\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nReadings/Materials\n\n\n\n\n1\nJan 10\nIntroduction to Social Psychology\nChapter 1\n\n\n2\nJan 17\nSocial Perception and Cognition\nChapter 2\n\n\n3\nJan 24\nAttitudes and Persuasion\nChapter 3\n\n\n4\nJan 31\nGroup Dynamics\nChapter 4\n\n\n5\nFeb 7\nSocial Influence and Conformity\nChapter 5\n\n\n6\nFeb 14\nMidterm Review and Case Studies\nReview Articles\n\n\n7\nFeb 21\nMidterm Exam\n\n\n\n8\nFeb 28\nAggression and Prosocial Behavior\nChapter 6\n\n\n9\nMar 7\nPrejudice and Discrimination\nChapter 7\n\n\n10\nMar 14\nInterpersonal Attraction and Relationships\nChapter 8\n\n\n11\nMar 21\nSocial Psychology in the Digital Age\nResearch Paper\n\n\n12\nMar 28\nCultural and Cross-Cultural Perspectives\nChapter 9\n\n\n13\nApr 4\nFinal Project Presentations\n\n\n\n14\nApr 11\nReview and Course Conclusion\n\n\n\n15\nApr 18\nFinal Exam\n\n\n\n\n\n\n\n\nAssignments: 30% (Weekly reflection papers and case study analyses)\nMidterm Exam: 25% (Week 7)\nFinal Project: 25% (Presentation and Paper)\nFinal Exam: 20% (Week 15)\n\nGrading Scale: - A: 90-100% - B: 80-89% - C: 70-79% - D: 60-69% - F: &lt;60%\n\n\n\n\nWeekly Reflections: Students will write short reflection papers (500-700 words) based on the weekly readings, due every Friday.\nCase Study Analysis: Every other week, students will analyze real-world case studies through the lens of social psychology concepts.\nFinal Project: A research-based project where students present a contemporary social issue through the lens of social psychology, culminating in a presentation and a final paper (2,000-2,500 words).\n\n\n\n\n\nAttendance: Regular attendance is expected. More than 3 unexcused absences will result in a 10% deduction from the final grade.\nLate Work: Late assignments will incur a penalty of 10% per day, up to a maximum of 3 days. After 3 days, late work will not be accepted unless previously arranged with the instructor.\nAcademic Integrity: Plagiarism and cheating are strictly prohibited and will result in disciplinary action in accordance with university policies.\n\n\n\n\n\nLibrary Resources: Access to digital libraries and databases for supplementary research.\nWriting Center: Assistance with writing assignments and projects.\nDisability Services: Students with disabilities should contact the instructor and the university’s disability services office for accommodations.\n\nFor additional information and course updates, please check the course website regularly."
-  },
-  {
-    "objectID": "posts/teaching/Yuhao2/TiSP.html#course-information",
-    "href": "posts/teaching/Yuhao2/TiSP.html#course-information",
-    "title": "Yuhao Zhu",
-    "section": "",
-    "text": "Course Title: Topics in Social Psychology\nCourse Code: PSY 302\nCredits: 3\nTerm: Spring 2024\nPrerequisites: Introduction to Psychology (PSY 101) or equivalent"
-  },
-  {
-    "objectID": "posts/teaching/Yuhao2/TiSP.html#instructor-information",
-    "href": "posts/teaching/Yuhao2/TiSP.html#instructor-information",
-    "title": "Yuhao Zhu",
-    "section": "",
-    "text": "Instructor: Dr. Xuechunzi Bai\n\nEmail: baix@uchicago.edu\nOffice Hours: Tuesdays, 2:00 - 4:00 PM, Kelly Hall 409\n\nTeaching Assistant (TA): Yuhao Zhu\n\nEmail: mikezhu@uchicago.edu\nOffice Hours: Thursdays, 11:00 AM - 1:00 PM, Kelly Hall 405"
-  },
-  {
-    "objectID": "posts/teaching/Yuhao2/TiSP.html#course-description",
-    "href": "posts/teaching/Yuhao2/TiSP.html#course-description",
-    "title": "Yuhao Zhu",
-    "section": "",
-    "text": "This course explores advanced topics in social psychology, focusing on how individuals think, influence, and relate to one another. Topics include group dynamics, persuasion, social cognition, attitude change, and the psychological foundations of social interaction.\nStudents will critically examine contemporary research and apply theories to real-world scenarios, exploring the intersections of psychology and social behavior. By the end of the course, students will develop a deeper understanding of human social behavior and the ways in which psychological principles manifest in everyday life."
-  },
-  {
-    "objectID": "posts/teaching/Yuhao2/TiSP.html#course-objectives",
-    "href": "posts/teaching/Yuhao2/TiSP.html#course-objectives",
-    "title": "Yuhao Zhu",
-    "section": "",
-    "text": "By the end of this course, students will be able to: 1. Analyze and interpret key theories of social psychology. 2. Evaluate research findings in the context of social behavior. 3. Apply social psychological concepts to real-world situations and case studies. 4. Understand the influence of group dynamics, social cognition, and cultural factors on behavior."
-  },
-  {
-    "objectID": "posts/teaching/Yuhao2/TiSP.html#required-texts-and-materials",
-    "href": "posts/teaching/Yuhao2/TiSP.html#required-texts-and-materials",
-    "title": "Yuhao Zhu",
-    "section": "",
-    "text": "Textbook: Social Psychology (10th Edition) by Elliot Aronson, Timothy D. Wilson, and Robin M. Akert.\nSupplementary Readings:\n\nSocial Psychology and Human Nature by Roy F. Baumeister and Brad J. Bushman.\nThe Social Animal by Elliot Aronson.\nBai, X., Wang, A., Sucholutsky, I., & Griffiths, T. L. (under review). ​Measuring implicit bias in explicitly unbiased large language models. preprint\nBai, X., Griffiths, T. L., & Fiske, S. T. (under review). ​Multidimensional stereotypes emerge spontaneously when exploration is costly. preprint"
-  },
-  {
-    "objectID": "posts/teaching/Yuhao2/TiSP.html#course-schedule",
-    "href": "posts/teaching/Yuhao2/TiSP.html#course-schedule",
-    "title": "Yuhao Zhu",
-    "section": "",
-    "text": "Week\nDate\nTopic\nReadings/Materials\n\n\n\n\n1\nJan 10\nIntroduction to Social Psychology\nChapter 1\n\n\n2\nJan 17\nSocial Perception and Cognition\nChapter 2\n\n\n3\nJan 24\nAttitudes and Persuasion\nChapter 3\n\n\n4\nJan 31\nGroup Dynamics\nChapter 4\n\n\n5\nFeb 7\nSocial Influence and Conformity\nChapter 5\n\n\n6\nFeb 14\nMidterm Review and Case Studies\nReview Articles\n\n\n7\nFeb 21\nMidterm Exam\n\n\n\n8\nFeb 28\nAggression and Prosocial Behavior\nChapter 6\n\n\n9\nMar 7\nPrejudice and Discrimination\nChapter 7\n\n\n10\nMar 14\nInterpersonal Attraction and Relationships\nChapter 8\n\n\n11\nMar 21\nSocial Psychology in the Digital Age\nResearch Paper\n\n\n12\nMar 28\nCultural and Cross-Cultural Perspectives\nChapter 9\n\n\n13\nApr 4\nFinal Project Presentations\n\n\n\n14\nApr 11\nReview and Course Conclusion\n\n\n\n15\nApr 18\nFinal Exam"
-  },
-  {
-    "objectID": "posts/teaching/Yuhao2/TiSP.html#grading-and-evaluation",
-    "href": "posts/teaching/Yuhao2/TiSP.html#grading-and-evaluation",
-    "title": "Yuhao Zhu",
-    "section": "",
-    "text": "Assignments: 30% (Weekly reflection papers and case study analyses)\nMidterm Exam: 25% (Week 7)\nFinal Project: 25% (Presentation and Paper)\nFinal Exam: 20% (Week 15)\n\nGrading Scale: - A: 90-100% - B: 80-89% - C: 70-79% - D: 60-69% - F: &lt;60%"
-  },
-  {
-    "objectID": "posts/teaching/Yuhao2/TiSP.html#assignments-and-projects",
-    "href": "posts/teaching/Yuhao2/TiSP.html#assignments-and-projects",
-    "title": "Yuhao Zhu",
-    "section": "",
-    "text": "Weekly Reflections: Students will write short reflection papers (500-700 words) based on the weekly readings, due every Friday.\nCase Study Analysis: Every other week, students will analyze real-world case studies through the lens of social psychology concepts.\nFinal Project: A research-based project where students present a contemporary social issue through the lens of social psychology, culminating in a presentation and a final paper (2,000-2,500 words)."
-  },
-  {
-    "objectID": "posts/teaching/Yuhao2/TiSP.html#course-policies",
-    "href": "posts/teaching/Yuhao2/TiSP.html#course-policies",
-    "title": "Yuhao Zhu",
-    "section": "",
-    "text": "Attendance: Regular attendance is expected. More than 3 unexcused absences will result in a 10% deduction from the final grade.\nLate Work: Late assignments will incur a penalty of 10% per day, up to a maximum of 3 days. After 3 days, late work will not be accepted unless previously arranged with the instructor.\nAcademic Integrity: Plagiarism and cheating are strictly prohibited and will result in disciplinary action in accordance with university policies."
-  },
-  {
-    "objectID": "posts/teaching/Yuhao2/TiSP.html#additional-resources",
-    "href": "posts/teaching/Yuhao2/TiSP.html#additional-resources",
-    "title": "Yuhao Zhu",
-    "section": "",
-    "text": "Library Resources: Access to digital libraries and databases for supplementary research.\nWriting Center: Assistance with writing assignments and projects.\nDisability Services: Students with disabilities should contact the instructor and the university’s disability services office for accommodations.\n\nFor additional information and course updates, please check the course website regularly."
   },
   {
     "objectID": "index.html",
