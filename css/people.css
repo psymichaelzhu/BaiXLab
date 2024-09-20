@@ -1,8 +1,15 @@
 
 
 
+h1{
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+  font-weight: 1000;
+  line-height: 1;
+}
 
-h2,.h2{
+h2{
   margin-top: 0;
   margin-bottom: 0.4rem;
   font-weight: 500;
@@ -56,4 +63,27 @@ border-radius: 50% !important;
 
 .quarto-listing-container-grid{
   padding-bottom: 0.2rem !important;
+}
+
+.category{
+  font-size: 0.7rem !important;
+}
+
+.quarto-listing-category-title{
+  font-size: 0.8rem !important;
+}
+
+.margin-sidebar{
+  width: 10rem !important;
+}
+
+
+
+
+
+
+.custom-details summary {
+  cursor: pointer;            /* 鼠标样式 */
+  font-weight: bold;          /* 加粗文字 */
+  color: #333;                /* 文字颜色 */
 }

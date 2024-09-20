@@ -1,22 +1,26 @@
 ---
 listing:
-  contents: posts/publications/*/*.qmd  # 子目录储存 子目录文件
-  sort: "date desc"  # 按日期降序排序
-  type: default  # 默认的博客样式列表
-  categories: unnumbered  # #cloud启用分类过滤 展示为词云
-  sort-ui: true  # 启用排序功能
-  filter-ui: [author, date, categories,description]  # 启用筛选功能
-  fields: [date, title, author, image, categories]  # 显示日期、标题、阅读时间、描述和分类
-  image-align: right  # 图片放置在内容的左侧
-  image-height: 130px  # 设置图片高度为150px
-  image-placeholder: "/path/to/default-image.jpg"  # 如果没有图片则显示默认图片
-title-block-banner: false  # 关闭标题块横幅
+  id: research
+  contents: posts/publications/*/*.qmd  
+  sort: "date desc"  
+  categories: unnumbered 
+  sort-ui: true 
+  filter-ui: [author, date, categories,description]  
+  fields: [date, title, author, image, categories]  
+  image-align: right 
+  image-height: 130px  
+  image-placeholder: "/path/to/default-image.jpg" 
 format:
   html:
-    page-layout: full  # 页面全宽布局
+    page-layout: full 
     grid:
-      body-width: 1000px  # 正文宽度
-      margin-width: 200px  # 页边距
+      sidebar-width: 0px
+      body-width: 1200px
+      margin-width: 170px
+      gutter-width: 1rem 
+    css: 
+    - css/research.css
 ---
-:::{#posts-listing}
+
+::: {#research}
 :::

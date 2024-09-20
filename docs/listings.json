@@ -4,12 +4,34 @@
     "items": [
       "/posts/teaching/Alpha/Alpha.html",
       "/posts/teaching/TiSP/Yuhao Zhu.html",
-      "/posts/teaching/Yuhao2/TiSP.html"
+      "/posts/teaching/Yuhao2/TiSP.html",
+      "/posts/publications/Globally/Globally.html",
+      "/posts/publications/ImplicitLLM/LLM.html",
+      "/posts/publications/Multidimensional/Multidimensional.html"
     ]
   },
   {
     "listing": "/research.html",
     "items": [
+      "/posts/publications/Globally/Globally.html",
+      "/posts/publications/ImplicitLLM/LLM.html",
+      "/posts/publications/Multidimensional/Multidimensional.html"
+    ]
+  },
+  {
+    "listing": "/teaching.html",
+    "items": [
+      "/posts/teaching/Alpha/Alpha.html",
+      "/posts/teaching/TiSP/Yuhao Zhu.html",
+      "/posts/teaching/Yuhao2/TiSP.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/teaching/Alpha/Alpha.html",
+      "/posts/teaching/TiSP/Yuhao Zhu.html",
+      "/posts/teaching/Yuhao2/TiSP.html",
       "/posts/publications/Globally/Globally.html",
       "/posts/publications/ImplicitLLM/LLM.html",
       "/posts/publications/Multidimensional/Multidimensional.html"

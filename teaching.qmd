@@ -1,63 +1,70 @@
 ---
+listing:
+  - id: members
+    contents: posts/teaching/*/*.qmd
+    type: grid
+    grid-columns: 8
+    grid-item-border: false
+    fields: [image, title, categories]
+    categories: true
+  - id: pi
+    contents: posts/teaching/Yuhao2/*.qmd
+    type: grid
+    grid-columns: 6
+    grid-item-border: false
+    fields: [image, title]
+    categories: unnumbered
+
+title-block-banner: false
 format:
   html:
     page-layout: full
-    css: css/people.css
-title-block-banner: false  # 关闭标题块横幅
-header-links: false
+    grid:
+      sidebar-width: 0px
+      body-width: 1200px
+      margin-width: 170px
+      gutter-width: 1rem
+    css: 
+    - css/people.css
+    - css/people.scss
 ---
+# People
+## Principal Investigator
 
-::: grid
-::: g-col-4
-:::
-
-::: g-col-4
-::: {style="text-align: center;"}
-**Principal Investigator**
-
-------------------------------------------------------------------------
-
-<br> [![](img/people/Xuechunzi%20Bai.jpg){fig-alt="Xuechunzi Bai" width="50%" style="border-radius: 50%;"}](https://www.xuechunzibai.com/)
-
-Xuechunzi Bai <br> <br>
-:::
+::: {#pi}
 :::
 
-::: g-col-4
-:::
+## Members
+
+::: {#members}
 :::
 
-::: grid
-::: g-col-1
+
+::: {.grid}
+
+
+
+::: {.g-col-4}
+<details class="custom-details">
+<summary>Collaborators</summary>
+- [Alexander Todorov](https://tlab.uchicago.edu/)
+- [Susan Fiske](https://www.fiskelab.org/)
+- [Tom Griffiths](https://cocosci.princeton.edu/tom/tom.php)
+</details>
 :::
 
-::: g-col-10
-::: {style="text-align: center;"}
-**Graduate Students**
-
-------------------------------------------------------------------------
-:::
-:::
-
-::: g-col-1
-:::
+::: {.g-col-6}
+<details class="custom-details">
+<summary>Alumni</summary>
+- [Alumni1 (Currently at Yale)](posts/teaching/Yuhao1/Yuhao1.qmd)
+- [Alumni2 (Currently at MIT)](posts/teaching/Yuhao2/Yuhao2.qmd)
+- [Alumni3 (Currently at MIT)](posts/teaching/Yuhao3/Yuhao3.qmd)
+</details>
 :::
 
-::: grid
-::: g-col-4
-::: {style="text-align: center;"}
-<br> [![](img/people/Yuhao%20Zhu.jpg){fig-alt="Yuhao Zhu (Michael Z)" width="50%" style="border-radius: 50%;"}](https://www.psymichaelzhu.com/)
-
-Yuhao Zhu<br> <a href='https://psymichaelzhu.shinyapps.io/SingleArmTrend/' class="research_interest">Growth Mindset</a>
-:::
 :::
 
-::: g-col-4
-:::
 
-::: g-col-4
-:::
-:::
 
 
 

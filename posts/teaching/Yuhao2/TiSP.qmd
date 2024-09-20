@@ -1,5 +1,5 @@
 ---
 title: "Yuhao2"
-categories: [Machine Learning, Data Science]
+categories: [Reinforcement Learning, Data Science]
 image: _.jpg
 ---

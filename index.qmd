@@ -1,17 +1,103 @@
 ---
 about: 
   template: marquee
+listing:
+  - id: members
+    contents: posts/teaching/*/*.qmd
+    type: grid
+    grid-columns: 8
+    grid-item-border: false
+    fields: [image, title, categories]
+    categories: unnumbered
+  - id: pi
+    contents: posts/teaching/Yuhao2/*.qmd
+    type: grid
+    grid-columns: 6
+    grid-item-border: false
+    fields: [image, title]
+    categories: unnumbered
+  - id: research
+    contents: posts/publications/*/*.qmd  
+    sort: "date desc"  
+    categories: unnumbered 
+    sort-ui: true 
+    filter-ui: [author, date, categories,description]  
+    fields: [date, title, author, image, categories]  
+    image-align: right 
+    image-height: 130px  
+    image-placeholder: "/path/to/default-image.jpg" 
+
+title-block-banner: false
 format:
   html:
     page-layout: full
     sidebar: false
-    anchor-sections: false
+    grid:
+      body-width: 1200px
+      margin-width: 170px
+      gutter-width: 1rem
+    css: 
+    - css/people.css
+    - css/people.scss
 ---
 
-## Welcome to the Dynamic Social Mind Lab
+
+# Welcome to the Dynamic Social Mind Lab
 
 Our research studies the origin and evolution of mental representations of human groups. In particular, we take a dynamic perspective by asking two essentially interlinked questions: First, how do individual minds adaptively but selectively construct the social world? Second, how does the constructed social world mold individual minds?
 
-Our research combines insights from social and cognitive psychology, computer science and machine learning, and public policy. We use multiple methodologies to pursue these questions, including cross-national surveys, large-scale online behavioral experiments, naturalistic text analyses, and computational cognitive models. Taking advantage of each discipline and method, our future research will study other aspects of dynamic social minds in both human and artificial social worlds.
 
 *Dr.Bai will be reviewing materials for postdoc researcher, graduate student, and research assistant positions for the 2024-25 cycle, see details in this [doc](https://docs.google.com/document/d/1JW5j8dAAIbFh9dqOvugFkJ2GBon9CYhEoASSvwzZndk/edit?usp=sharing)*
+
+------------------------------------------------------------------------
+
+
+<h1 id="People">People</h1>
+
+## Principal Investigator
+
+::: {#pi}
+:::
+
+## Members
+
+::: {#members}
+:::
+
+::: grid
+::: g-col-4
+<details class="custom-details">
+
+<summary>Collaborators</summary>
+
+-   [Alexander Todorov](https://tlab.uchicago.edu/)
+-   [Susan Fiske](https://www.fiskelab.org/)
+-   [Tom Griffiths](https://cocosci.princeton.edu/tom/tom.php)
+
+</details>
+:::
+
+::: g-col-6
+<details class="custom-details">
+
+<summary>Alumni</summary>
+
+-   [Alumni1 (Currently at Yale)](posts/teaching/Yuhao1/Yuhao1.qmd)
+-   [Alumni2 (Currently at MIT)](posts/teaching/Yuhao2/Yuhao2.qmd)
+-   [Alumni3 (Currently at MIT)](posts/teaching/Yuhao3/Yuhao3.qmd)
+
+</details>
+:::
+:::
+
+<br>
+
+------------------------------------------------------------------------
+
+# Research
+<p><a href="#People">Jump to the People</a></p>
+
+
+::: {#research}
+:::
+

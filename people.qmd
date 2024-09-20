@@ -3,29 +3,88 @@ listing:
   - id: members
     contents: posts/teaching/*/*.qmd
     type: grid
-    grid-columns: 6
+    grid-columns: 8
     grid-item-border: false
     fields: [image, title, categories]
-    categories: true
+    categories: unnumbered
   - id: pi
     contents: posts/teaching/Yuhao2/*.qmd
     type: grid
     grid-columns: 6
     grid-item-border: false
     fields: [image, title]
+    categories: unnumbered
+  - id: research
+    contents: posts/publications/*/*.qmd  
+    sort: "date desc"  
+    categories: unnumbered 
+    sort-ui: true 
+    filter-ui: [author, date, categories,description]  
+    fields: [date, title, author, image, categories]  
+    image-align: right 
+    image-height: 130px  
+    image-placeholder: "/path/to/default-image.jpg" 
 
 title-block-banner: false
 format:
   html:
     page-layout: full
-    css: css/people.css
+    grid:
+      sidebar-width: 0px
+      body-width: 1200px
+      margin-width: 170px
+      gutter-width: 1rem
+    css: 
+    - css/people.css
+    - css/people.scss
 ---
 
+
+<h1 id="People">People</h1>
+
 ## Principal Investigator
+
 ::: {#pi}
 :::
 
 ## Members
 
 ::: {#members}
+:::
+
+::: grid
+::: g-col-4
+<details class="custom-details">
+
+<summary>Collaborators</summary>
+
+-   [Alexander Todorov](https://tlab.uchicago.edu/)
+-   [Susan Fiske](https://www.fiskelab.org/)
+-   [Tom Griffiths](https://cocosci.princeton.edu/tom/tom.php)
+
+</details>
+:::
+
+::: g-col-6
+<details class="custom-details">
+
+<summary>Alumni</summary>
+
+-   [Alumni1 (Currently at Yale)](posts/teaching/Yuhao1/Yuhao1.qmd)
+-   [Alumni2 (Currently at MIT)](posts/teaching/Yuhao2/Yuhao2.qmd)
+-   [Alumni3 (Currently at MIT)](posts/teaching/Yuhao3/Yuhao3.qmd)
+
+</details>
+:::
+:::
+
+<br>
+
+# Research
+<p><a href="#People">Jump to the People</a></p>
+
+
+------------------------------------------------------------------------
+
+::: {#research}
 :::

@@ -5,12 +5,13 @@ project:
 website:
   title: "Dynamic Social Mind Lab"
   navbar:
+    pinned: true
     right:
       - href: index.qmd
         text: Home
       - href: people.qmd
         text: People
-      - href: research.qmd
+      - href: "#People"
         text: Research 
       - href: teaching.qmd
         text: Teaching
