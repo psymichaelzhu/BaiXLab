@@ -2,17 +2,31 @@
 about: 
   template: marquee
 listing:
-  - id: members
+  - id: phd
     contents: posts/teaching/*/*.qmd
     type: grid
-    grid-columns: 8
+    grid-columns: 4
+    grid-item-border: false
+    fields: [image, title]
+    categories: unnumbered
+  - id: master
+    contents: posts/teaching/*/*.qmd
+    type: grid
+    grid-columns: 4
+    grid-item-border: false
+    fields: [image, title]
+    categories: unnumbered
+  - id: undergrad
+    contents: posts/teaching/*/*.qmd
+    type: grid
+    grid-columns: 4
     grid-item-border: false
     fields: [image, title]
     categories: unnumbered
   - id: pi
     contents: posts/teaching/Yuhao2/*.qmd
     type: grid
-    grid-columns: 6
+    grid-columns: 1
     grid-item-border: false
     fields: [image, title]
     categories: unnumbered
@@ -51,19 +65,40 @@ Our research studies the origin and evolution of mental representations of human
 
 
 <h1 id="People">People</h1>
+::: {.grid style="display: flex"}
 
-## Principal Investigator
-
+::: {.g-col-3 style="margin-right: 2rem;"}
+## Director
 ::: {#pi}
 :::
-
-## Members
-
-::: {#members}
 :::
 
+::: {.g-col-3 style="margin-right: 2rem;"}
+## Ph.D. Students
+::: {#phd}
+:::
+:::
+
+::: {.g-col-3 style="margin-right: 2rem;"}
+## Master Students
+::: {#master}
+:::
+:::
+
+::: {.g-col-3 style="margin-right: 2rem;"}
+## Undergraduate Students
+::: {#undergrad}
+:::
+:::
+
+:::
+
+
+
+
+
 ::: grid
-::: g-col-4
+::: g-col-6
 <details class="custom-details">
 
 <summary>Collaborators</summary>
@@ -76,19 +111,20 @@ Our research studies the origin and evolution of mental representations of human
 :::
 
 ::: g-col-6
-<details class="custom-details">
+<details class="custom-details" style="position: relative; text-align: right;">
 
 <summary>Alumni</summary>
 
+<div style="position: absolute; right: 0; top: 100%; text-align: left; background-color: white; padding: 10px; border: 1px solid #ddd; z-index: 1000;">
 -   [Alumni1 (Currently at Yale)](posts/teaching/Yuhao1/Yuhao1.qmd)
 -   [Alumni2 (Currently at MIT)](posts/teaching/Yuhao2/Yuhao2.qmd)
 -   [Alumni3 (Currently at MIT)](posts/teaching/Yuhao3/Yuhao3.qmd)
+</div>
 
 </details>
 :::
 :::
 
-<br>
 
 ------------------------------------------------------------------------
 
