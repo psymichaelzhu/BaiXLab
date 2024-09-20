@@ -1,25 +1,21 @@
 ---
-  title: "Globally Inaccurate Stereotypes Can Result From Locally Adaptive Exploration"
-  #author: ["Xuechunzi Bai", "Susan T. Fiske","Thomas L. Griffiths"]
-  description: "
-  <div class='reference-container'>
-    <div class='info'>
-      <a>Bai, X., Fiske, S. T., & Griffiths, T. L. (2022).</a> <a href='https://doi.org/10.1177/09567976211045929' class='link'><em>Psychological Science</em></a>.
-    </div>
-    <div class='materials'>
-      <a href='https://github.com/baixuechunzi/StereotypeBandit/blob/master/presentation/BaiFiskeGriffiths2021(July%204).pdf' class='link'>[slides]</a>
-      <a href='https://github.com/baixuechunzi/StereotypeBandit' class='link'>[code]</a>
-      <a href='https://osf.io/preprints/psyarxiv/mbuhv' class='link'>[talk]</a>
-    </div>
-  </div>"
-  categories: ["social stereotypes", "rational analysis","exploration","Reinforcement learning"]
-  image: "_.jpg"
-  title-block-banner: false
-  format:
-    html:
-      page-layout: full
-      css: 
-      - ../../../css/paper.css
+title: "Globally Inaccurate Stereotypes Can Result From Locally Adaptive Exploration"
+description: "<div class='reference-container'>
+  <div class='info'>
+    <a>Bai, X., Fiske, S. T., & Griffiths, T. L. (2022)</a> <a href='https://doi.org/10.1177/09567976211045929' class='link'><em>Psychological Science</em></a>
+  </div>
+  <div class='materials'>
+    <a href='https://github.com/baixuechunzi/StereotypeBandit/blob/master/presentation/BaiFiskeGriffiths2021(July%204).pdf' class='link' >[slides]</a>
+    <a href='https://github.com/baixuechunzi/StereotypeBandit' class='link'>[data & code]</a>
+    <a href='https://osf.io/preprints/psyarxiv/mbuhv' class='link'>[talk]</a>
+  </div>
+</div>"
+categories: ["social stereotypes", "rational analysis","exploration","Reinforcement learning"] 
+image: "_.jpg" 
+title-block-banner: false 
+format: 
+  html: 
+    page-layout: full 
 ---
 
 ------------------------------------------------------------------------

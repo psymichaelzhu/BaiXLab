@@ -7,7 +7,7 @@ listing:
     type: grid
     grid-columns: 8
     grid-item-border: false
-    fields: [image, title, categories]
+    fields: [image, title]
     categories: unnumbered
   - id: pi
     contents: posts/teaching/Yuhao2/*.qmd
@@ -23,22 +23,20 @@ listing:
     sort-ui: true 
     filter-ui: [author, date, categories,description]  
     fields: [date, author,title,image, categories,description]  
-    image-align: right 
-    image-height: 130px  
+    image-align: right  
     image-placeholder: "/path/to/default-image.jpg" 
 
 title-block-banner: false
 format:
   html:
-    page-layout: full
-    sidebar: false
     grid:
-      body-width: 1200px
-      margin-width: 170px
+      sidebar-width: 0px
+      body-width: 1100px
+      margin-width: 150px
       gutter-width: 1rem
+    page-layout: full
     css: 
-    - css/people.css
-    - css/people.scss
+    - css/index.css
 ---
 
 
@@ -95,7 +93,6 @@ Our research studies the origin and evolution of mental representations of human
 ------------------------------------------------------------------------
 
 # Research
-<p><a href="#People">Jump to the People</a></p>
 
 
 ::: {#research}

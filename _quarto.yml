@@ -18,6 +18,7 @@ website:
       - icon: github
         href: https://github.com/psymichaelzhu/MichaelZ
         aria-label: GitHub
+  sidebar: false
 
 format:
   html:
