@@ -3,35 +3,33 @@ about:
   template: marquee
 listing:
   - id: phd
-    contents: posts/teaching/*/*.qmd
+    contents: posts/people/phd/*/profile_page.qmd
     type: grid
-    grid-columns: 4
     grid-item-border: false
+    grid-columns: 2
     fields: [image, title]
     categories: unnumbered
   - id: master
-    contents: posts/teaching/*/*.qmd
+    contents: posts/people/master/*/profile_page.qmd
     type: grid
-    grid-columns: 4
     grid-item-border: false
     fields: [image, title]
     categories: unnumbered
   - id: undergrad
-    contents: posts/teaching/*/*.qmd
+    contents: posts/people/undergrad/*/profile_page.qmd
     type: grid
-    grid-columns: 4
     grid-item-border: false
     fields: [image, title]
     categories: unnumbered
   - id: pi
-    contents: posts/teaching/Yuhao2/*.qmd
+    contents: posts/people/pi/*/profile_page.qmd
     type: grid
     grid-columns: 1
     grid-item-border: false
     fields: [image, title]
     categories: unnumbered
   - id: research
-    contents: posts/publications/*/*.qmd  
+    contents: posts/research/*/*.qmd  
     sort: "date desc"  
     categories: unnumbered 
     sort-ui: true 
@@ -39,6 +37,18 @@ listing:
     fields: [date, author,title,image, categories,description]  
     image-align: right  
     image-placeholder: "/path/to/default-image.jpg" 
+  - id: teaching
+    date-format: "YYYY"
+    field-display-names:
+      subtitle: "Date"
+      author: "Course Code"
+    max-description-length: 175
+    contents: posts/teaching/*/*.qmd  
+    sort: "date desc"  
+    type: table
+    sort-ui: true 
+    filter-ui: [date, author, description]  
+    fields: [date, title,author, description]  
 
 title-block-banner: false
 format:
@@ -67,25 +77,25 @@ Our research studies the origin and evolution of mental representations of human
 <h1 id="People">People</h1>
 ::: {.grid style="display: flex"}
 
-::: {.g-col-3 style="margin-right: 2rem;"}
+::: {.g-col1 style="margin-right: 2%; margin-left: 2%" class="pi"}
 ## Director
 ::: {#pi}
 :::
 :::
 
-::: {.g-col-3 style="margin-right: 2rem;"}
+::: {.g-col-2 style="margin-right: 2%; margin-left: 1%;" class="phd"}
 ## Ph.D. Students
 ::: {#phd}
 :::
 :::
 
-::: {.g-col-3 style="margin-right: 2rem;"}
+::: {.g-col-3 style="margin-right: 2%; margin-left: 1%;" class="master"}
 ## Master Students
 ::: {#master}
 :::
 :::
 
-::: {.g-col-3 style="margin-right: 2rem;"}
+::: {.g-col-3 style="margin-right: 2%; margin-left: 1%;" class="undergrad"}
 ## Undergraduate Students
 ::: {#undergrad}
 :::
@@ -97,33 +107,21 @@ Our research studies the origin and evolution of mental representations of human
 
 
 
-::: grid
-::: g-col-6
-<details class="custom-details">
-
+<details class="custom-details" style="margin-bottom: 0px">
 <summary>Collaborators</summary>
-
 -   [Alexander Todorov](https://tlab.uchicago.edu/)
 -   [Susan Fiske](https://www.fiskelab.org/)
 -   [Tom Griffiths](https://cocosci.princeton.edu/tom/tom.php)
-
 </details>
-:::
 
-::: g-col-6
-<details class="custom-details" style="position: relative; text-align: right;">
 
+<details class="custom-details">
 <summary>Alumni</summary>
-
-<div style="position: absolute; right: 0; top: 100%; text-align: left; background-color: white; padding: 10px; border: 1px solid #ddd; z-index: 1000;">
 -   [Alumni1 (Currently at Yale)](posts/teaching/Yuhao1/Yuhao1.qmd)
 -   [Alumni2 (Currently at MIT)](posts/teaching/Yuhao2/Yuhao2.qmd)
 -   [Alumni3 (Currently at MIT)](posts/teaching/Yuhao3/Yuhao3.qmd)
-</div>
-
 </details>
-:::
-:::
+
 
 
 ------------------------------------------------------------------------
@@ -134,3 +132,11 @@ Our research studies the origin and evolution of mental representations of human
 ::: {#research}
 :::
 
+
+------------------------------------------------------------------------
+
+# Teaching
+
+
+::: {#teaching}
+:::
