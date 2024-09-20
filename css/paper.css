@@ -18,21 +18,17 @@
     color: #333;
 }
 
-.links {
+.reference-links {
     position: absolute; /* Make it position independently */
     right: 0; /* Stick to the right edge */
 }
 
-.links a {
+.reference-links a {
     color: #d9534f; /* Optional: Red color for the links */
     text-decoration: none;
     margin-left: 10px; /* Adds space between each link */
 }
 
-.links a:hover {
+.reference-links a:hover {
     text-decoration: underline; /* Optional: Underline on hover */
-}
-
-h1.title, .title.h1 {
-    font-size: 1.5em;
 }

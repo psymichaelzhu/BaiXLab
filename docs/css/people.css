@@ -87,3 +87,76 @@ border-radius: 50% !important;
   font-weight: bold;          /* 加粗文字 */
   color: #333;                /* 文字颜色 */
 }
+
+
+
+/*research*/
+
+.listing-title{
+  font-size: 0.7rem !important;
+  font-weight: 800 !important;
+}
+
+
+.quarto-post{
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/*hide metadata*/
+.metadata{
+  display: none !important;
+}
+
+/*description(reference)*/
+/*general reference style: font size 0.6rem, display flex*/
+.reference-container {
+  font-size: 0.6rem !important;
+  display: flex;
+}
+
+/*info style: left aligned, display inline*/
+.info {
+  flex: 1;
+  margin-right: 10px;
+}
+.info a {
+  display: inline-block !important;
+}
+
+/*link style: red color and underline on hover*/
+.reference-container a.link {
+  color: red;
+}
+.reference-container a.link:hover {
+  text-decoration: underline;
+}
+
+/*materials style: right aligned, display inline*/
+.materials {
+  display: flex;
+  gap: 10px;
+}
+
+
+/*label for reserach*/
+.quarto-listing-default .listing-categories{
+  /*left aligned*/
+  justify-content: left !important;
+}
+
+/*image for research*/
+.thumbnail{
+  margin-left: auto !important;
+  width: 0rem !important;
+}
+
+.thumbnail-image{
+  height: 4.5rem !important;
+  width: 10rem !important;
+  margin-left: auto !important;
+}
+
+.quarto-listing-default {
+  font-size: 0.6rem !important;
+}

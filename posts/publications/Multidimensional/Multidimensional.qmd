@@ -1,7 +1,9 @@
 ---
   title: "Multidimensional Stereotypes Emerge Spontaneously When Exploration"
   author: ["Xuechunzi Bai", "Thomas L. Griffiths", "Susan T. Fiske"]
-  description: "<a href='https://doi.org/10.31234/osf.io/mbuhv' style='color:#be7874;'>Preprint</a>"
+  description: "<div class='reference-line'>
+    <span class='reference-text'>  <a href='https://github.com/baixuechunzi/StereotypeBandit/blob/master/presentation/BaiFiskeGriffiths2021(July%204).pdf' class='reference-text'>[slides]</a>
+    </sapn></div>"
   #date: 
   categories: ["social stereotypes", "rational analysis","exploration","contextual bandit"]
   image: "_.jpg"

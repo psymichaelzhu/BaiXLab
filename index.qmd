@@ -22,7 +22,7 @@ listing:
     categories: unnumbered 
     sort-ui: true 
     filter-ui: [author, date, categories,description]  
-    fields: [date, title, author, image, categories]  
+    fields: [date, author,title,image, categories,description]  
     image-align: right 
     image-height: 130px  
     image-placeholder: "/path/to/default-image.jpg" 
