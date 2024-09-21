@@ -63,15 +63,35 @@ h5,.h5{
   padding-left: 0rem;
 }
 
+
+
+@media (max-width: 767.98px) {
+    .people-container{
+      display: block !important;
+    }
+    .quarto-listing-cols-1{
+      display: flex;
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+    .quarto-listing-cols-2{
+      display: flex;
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+    .quarto-listing-cols-3{
+      display: flex;
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+}
+
+
 .thumbnail-image.card-img {
   height: 5em !important;
   width: 5em !important;
   padding: 0.2rem !important;
 }
-}
-
-
-
 
 /*alumni and collaborators*/
 .custom-details, .custom-details a {
@@ -82,6 +102,12 @@ h5,.h5{
 
 
 
+/* 覆盖所有可能的媒体查询 */
+@media (max-width: 767.98px) {
+    #quarto-margin-sidebar {
+        display: block !important; /* 强制显示 */
+    }
+}
 
 
 
@@ -128,12 +154,6 @@ h5,.h5{
 .form-control:not(:placeholder-shown) + .input-group::after {
     display: none; /* 隐藏伪占位符 */
 }
-
-
-
-
-
-
 
 
 .quarto-listing-default {
@@ -205,12 +225,35 @@ h5,.h5{
 /*tag or title, no wrap */
 .quarto-listing-table a{
    white-space: nowrap; 
+   max-width: 10px !important;
+}
+.course-info {
+  display: block;
 }
 /*title, font size 1.1em*/
-.quarto-listing-table .listing-title{
-  font-size: 1.1em !important;
+.quarto-listing-table a{
+  word-break: keep-all;
 }
 
+
+@media (max-width: 767.98px) {
+    /*overall table font size 0.8rem*/
+    .quarto-listing-table{
+      table-layout: auto;
+      font-size: 0.8rem !important;
+    }
+    /*tag or title, no wrap */
+    .quarto-listing-table a{
+       white-space: normal;
+    }
+    .listing-description{
+        display: -webkit-box; /* 盒子模型 */
+        -webkit-line-clamp: 3; /* 显示3行，超出部分截断 */
+        -webkit-box-orient: vertical; /* 垂直方向布局 */
+        overflow: hidden; /* 隐藏超出部分 */
+        text-overflow: ellipsis; /* 显示省略号 */
+    }
+}
 
 
 

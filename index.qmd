@@ -68,31 +68,31 @@ Our research studies the origin and evolution of mental representations of human
 
 
 <h1 id="People">People</h1>
-::: {.grid style="display: flex"}
+::: {.grid style="display: flex" class="people-container"}
 
-::: {.g-col1 style="margin-right: 2%;" class="pi"}
+<div>
 <h2 class="people_title">Director</h2>
 ::: {#pi}
 :::
-:::
+</div>
 
-::: {.g-col-2 style="margin-right: 2%; margin-left: 1%;" class="phd"}
+<div>
 <h2 class="people_title">PhD Students</h2>
 ::: {#phd}
 :::
-:::
+</div>
 
-::: {.g-col-3 style="margin-right: 2%; margin-left: 1%;" class="master"}
+<div>
 <h2 class="people_title">Master Students</h2>
 ::: {#master}
 :::
-:::
+</div>
 
-::: {.g-col-3 style="margin-right: 2%; margin-left: 1%;" class="undergrad"}
+<div>
 <h2 class="people_title">Undergraduate Students</h2>
 ::: {#undergrad}
 :::
-:::
+</div>
 
 :::
 
