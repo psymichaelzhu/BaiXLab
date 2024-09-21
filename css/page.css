@@ -1,0 +1,49 @@
+h1{
+  font-size: 1.2em !important;
+}
+
+
+.description{
+  font-size: 0.8em !important;
+}
+
+/*same line*/
+.material {
+  float: right; /* 保持右浮动 */
+  position: relative; /* 相对定位 */
+  top: -1.25rem; /* 向上移动 20 像素，具体值可根据需求调整 */
+  margin-right: 0.5rem; /* 调整与右侧的间距 */
+}
+hr{
+  width: 100%;
+}
+
+/*tag*/
+.quarto-category {
+  font-size: 0.6em !important; /* 调整字体大小 */
+  padding: 0.25rem 0.5rem;
+}
+
+p{
+  font-size: 0.8em !important;
+}
+
+
+
+.summary-card {
+  position: fixed; /* 固定定位 */
+  background-color: #f8f8f8; /* 背景颜色 */
+  padding: 10px; /* 内边距 */
+  width: 23%;
+  height: 100%;
+  padding: 1rem;
+}
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}

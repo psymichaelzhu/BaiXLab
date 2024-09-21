@@ -11,6 +11,8 @@ title-block-banner: false
 format: 
   html: 
     page-layout: full 
+    css:
+        page.css
 ---
 
 ------------------------------------------------------------------------

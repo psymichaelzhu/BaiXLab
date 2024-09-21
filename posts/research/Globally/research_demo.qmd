@@ -1,0 +1,48 @@
+---
+title: "Globally Inaccurate Stereotypes Can Result From Locally Adaptive Exploration"
+description: "<div class='reference-container'>
+                <div class='info'>
+                  <a>Bai, X., Fiske, S. T., & Griffiths, T. L. (2022)</a> 
+                  <a href='https://doi.org/10.1177/09567976211045929' class='link'><em>Psychological Science</em></a>
+                </div>
+                <div class='materials'>
+                  <a href='https://github.com/baixuechunzi/StereotypeBandit/blob/master/presentation/BaiFiskeGriffiths2021(July%204).pdf' class='link material'>[slides]</a>
+                  <a href='https://github.com/baixuechunzi/StereotypeBandit' class='link material'>[data & code]</a>
+                  <a href='https://osf.io/preprints/psyarxiv/mbuhv' class='link material'>[talk]</a>
+                </div>
+              </div>"
+categories: ["social stereotypes", "rational analysis","exploration","Reinforcement learning"] 
+image: "_.jpg" 
+title-block-banner: false 
+format: 
+  html: 
+    sidebar: true
+    page-layout: full 
+    css:
+        ../../../css/page.css
+---
+
+------------------------------------------------------------------------
+
+::: grid
+::: g-col-3
+```{=html}
+<div class="summary-card">
+    <p>
+    &nbsp &nbsp Stereotypes of social groups have a canonical multidimensional structure, reflecting the extent to which groups are considered competent and trustworthy. Traditional explanations for stereotypes – group motives, cognitive biases, minority/majority environments, or real-group differences – do not specify a broadly applicable mechanism that explains why stereotypes vary along multiple dimensions. We show that multidimensional stratification and the associated stereotypes can result from a simple mechanism: When individuals make self-interested decisions based on past experiences in an environment where exploring new options carries an implicit cost, they are more likely to separate groups. We formalize this theory with the contextual multi-armed bandit problem, use the model to generate testable predictions, and evaluate those predictions against human behavior. Our results show that even well-intentioned and attentive individuals living in diverse environments can inadvertently impede diversity and form incorrect beliefs. A further theoretically motivated experiment shows intervening on the cost of exploration can mitigate stereotypes.</p>
+</div>
+```
+:::
+
+::: g-col-9
+```{=html}
+ <iframe id="example1" src="https://psymichaelzhu.shinyapps.io/ParallelComparison/" style="border: none; width: 60rem; height: 40rem" frameborder="0"></iframe>
+```
+Stereotypes of social groups have a canonical multidimensional structure, reflecting the extent to which groups are considered competent and trustworthy. Traditional explanations for stereotypes – group motives, cognitive biases, minority/majority environments, or real-group differences – do not specify a broadly applicable mechanism that explains why stereotypes vary along multiple dimensions. We show that multidimensional stratification and the associated stereotypes can result from a simple mechanism: When individuals make self-interested decisions based on past experiences in an environment where exploring new options carries an implicit cost, they are more likely to separate groups. We formalize this theory with the contextual multi-armed bandit problem, use the model to generate testable predictions, and evaluate those predictions against human behavior. Our results show that even well-intentioned and attentive individuals living in diverse environments can inadvertently impede diversity and form incorrect beliefs. A further theoretically motivated experiment shows intervening on the cost of exploration can mitigate stereotypes.
+
+\
+![Probability distribution of different groups](_.jpg "Probability distribution of different groups"){width="384"}
+
+In sum, confirming the predictions of the theoretical model, results showed that human participants exploring Toma City with no prior stereotypes perceived significant differences between Tufas, Aimas, Rekus, and Wekis when in reality there were no group-level differences. Their behaviors are consistent with the pattern of exploration produced by the Thompson-sampling model. Although unintended, inaccurate impressions resulted from locally adaptive exploration.
+:::
+:::

@@ -224,16 +224,16 @@ h5,.h5{
 }
 /*tag or title, no wrap */
 .quarto-listing-table a{
-   white-space: nowrap; 
-   max-width: 10px !important;
+   white-space: nowrap !important; 
+   word-break: keep-all;
 }
 .course-info {
   display: block;
 }
-/*title, font size 1.1em*/
-.quarto-listing-table a{
-  word-break: keep-all;
-}
+
+
+
+
 
 
 @media (max-width: 767.98px) {

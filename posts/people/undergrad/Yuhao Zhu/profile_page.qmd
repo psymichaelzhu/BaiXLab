@@ -12,6 +12,8 @@
       toc-location: left
       page-layout: article
       sidebar: false
+      css:
+        css/page.css
 ---
 
 # Topics in Social Psychology - Syllabus
