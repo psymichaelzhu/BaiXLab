@@ -57,7 +57,7 @@ format:
 ---
 
 
-# Welcome to the Dynamic Social Mind Lab
+<h1 id="Welcome">Welcome to the BaiX Lab</h1>
 
 Our research studies the origin and evolution of mental representations of human groups. In particular, we take a dynamic perspective by asking two essentially interlinked questions: First, how do individual minds adaptively but selectively construct the social world? Second, how does the constructed social world mold individual minds?
 

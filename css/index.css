@@ -9,12 +9,6 @@
 }
 
 
-/* 覆盖所有可能的媒体查询 */
-@media (max-width: 767.98px) {
-    #quarto-margin-sidebar {
-        display: block !important; /* 强制显示 */
-    }
-}
 
 
 
@@ -78,10 +72,6 @@ h5,.h5{
 
 
 
-/* When there is no match, do not display any content, instead of displaying "no match" (since people are not items) */
-.listing-no-matching{
-  display: none !important;
-}
 
 /*alumni and collaborators*/
 .custom-details, .custom-details a {
@@ -220,6 +210,18 @@ h5,.h5{
 .quarto-listing-table .listing-title{
   font-size: 1.1em !important;
 }
+
+
+
+
+
+
+/* When there is no match, do not display any content, instead of displaying "no match" (since people are not items) */
+.listing-no-matching{
+  display: none !important;
+}
+
+
 
 
 
