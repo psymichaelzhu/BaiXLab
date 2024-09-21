@@ -8,6 +8,7 @@
   margin-right: 0.5rem; /* 调整与右侧的间距 */
 }
 
+
 hr{
   width: 100%;
 }
@@ -66,7 +67,7 @@ img {
   padding: 1rem; /* 内边距 */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
   position: sticky; /* 使用 sticky 定位 */
-  top: 2rem; /* 距离顶部的距离 */
+  top: 6rem; /* 距离顶部的距离 */
   margin-right: 1rem; /* 与主内容区域的间距 */
 }
 
@@ -77,8 +78,18 @@ img {
   max-width: calc(100% - 22rem); /* 减去 summary-card 的宽度，防止溢出 */
 }
 
+
+
 /* 响应式布局 */
 @media (max-width: 767.98px) {
+  
+  .material {
+    float: none; /* 恢复原始位置 */
+    position: static; /* 恢复默认流布局 */
+    margin-right: 0; /* 移除右侧间距 */
+    top: 0; /* 移除顶部偏移 */
+  }
+
   .page-container {
     display: block; /* 小屏幕时使用块布局 */
     padding: 0; /* 去掉内边距 */
@@ -96,4 +107,6 @@ img {
     position: relative; /* 小屏幕不使用 sticky */
     top: 0; /* 恢复顶部间距 */
   }
+  
+  
 }
