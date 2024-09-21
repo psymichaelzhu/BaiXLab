@@ -1,3 +1,20 @@
+.quarto-listing-category-title {
+    visibility: hidden;  /*delete previous text*/
+}
+.quarto-listing-category-title::after {
+    content: "Research Topics"; /* new text */
+    visibility: visible; 
+    position: absolute; /* Absolute positioning to overlay the original text */
+    left: 0;
+}
+
+
+/* 覆盖所有可能的媒体查询 */
+@media (max-width: 767.98px) {
+    #quarto-margin-sidebar {
+        display: block !important; /* 强制显示 */
+    }
+}
 
 
 
@@ -28,16 +45,16 @@ h5,.h5{
 
 
 .category{
-  font-size: 0.7rem !important;
+  font-size: 0.8rem !important;
 }
 .margin-sidebar{
-  width: 10rem !important;
+  width: 13rem !important;
 }
 
 
 
 .quarto-listing-category-title{
-  font-size: 0.8rem !important;
+  font-size: 1rem !important;
 }
 
 .quarto-listing-container-grid{
@@ -53,28 +70,24 @@ h5,.h5{
 }
 
 .thumbnail-image.card-img {
-  height: 4em !important;
-  width: 4em !important;
-  margin-right: 2rem !important;
-  margin-bottom: 0.5rem !important;
-  
+  height: 5em !important;
+  width: 5em !important;
+  padding: 0.2rem !important;
+}
 }
 
-/* 当窗口变窄时，确保图片不会重叠 */
-@media (max-width: 600px) {
-  .thumbnail-image.card-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
+
+
 /* When there is no match, do not display any content, instead of displaying "no match" (since people are not items) */
 .listing-no-matching{
   display: none !important;
 }
 
-
-
+/*alumni and collaborators*/
+.custom-details, .custom-details a {
+  text-decoration: none;
+  font-size: 0.9em;
+}
 
 
 
@@ -90,6 +103,49 @@ h5,.h5{
 
 
 /*research*/
+
+.page-item{
+  font-size: 0.7rem;
+}
+
+/*replace placeholder of the search bar */
+/* 隐藏原始 placeholder 文本 */
+.form-control::placeholder {
+    color: transparent;
+}
+/* 设置父容器的样式 */
+.input-group {
+    position: relative; /* 确保伪元素相对于父容器定位 */
+}
+
+.input-group {
+    width: 400px; /* 根据需要设置宽度 */
+    max-width: 100%; /* 确保响应式布局 */
+}
+/* 自定义伪元素在父容器中添加新的占位符 */
+.input-group::after {
+    content: "Search by author, keywords, etc."; /* 自定义的 placeholder 文本 */
+    color: #aaa; /* 文本颜色 */
+    position: absolute;
+    top: 50%; /* 垂直居中 */
+    left: 50px; /* 根据需要调整水平位置 */
+    transform: translateY(-50%);
+    pointer-events: none; /* 禁止交互，防止影响输入 */
+    font-size: 14px; /* 自定义字体大小 */
+}
+
+/* 当 input 有输入内容时隐藏自定义占位符 */
+.form-control:not(:placeholder-shown) + .input-group::after {
+    display: none; /* 隐藏伪占位符 */
+}
+
+
+
+
+
+
+
+
 .quarto-listing-default {
   font-size: 0.8rem !important;
 }
@@ -147,5 +203,25 @@ h5,.h5{
   width: 20rem !important;
   margin-left: auto !important;
 }
+
+
+
+/*teaching*/
+/*overall table font size 0.8rem*/
+.quarto-listing-table{
+  table-layout: auto;
+  font-size: 0.8rem !important;
+}
+/*tag or title, no wrap */
+.quarto-listing-table a{
+   white-space: nowrap; 
+}
+/*title, font size 1.1em*/
+.quarto-listing-table .listing-title{
+  font-size: 1.1em !important;
+}
+
+
+
 
 

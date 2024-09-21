@@ -1,5 +1,5 @@
 ---
-title: "Yuhao2"
+title: "Xuechunzi Bai"
 categories: [Reinforcement Learning, Data Science]
 image: profile_picture.jpg
 ---

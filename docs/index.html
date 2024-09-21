@@ -182,12 +182,41 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-date','listing-author','listing-title','listing-image','listing-categories','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 4,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-author","listing-date","listing-categories","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-research'] = new List('listing-research', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-teaching .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-subtitle','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-teaching'] = new List('listing-teaching', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -274,11 +303,13 @@ ul.task-list li input[type="checkbox"] {
 People
 </h1>
 <div class="grid" style="display: flex">
-<section id="director" class="level2 g-col1 pi" style="margin-right: 2%; margin-left: 2%">
-<h2 data-anchor-id="director">Director</h2>
+<div class="g-col1 pi" style="margin-right: 2%;">
+<h2 class="people_title" data-anchor-id="welcome-to-the-dynamic-social-mind-lab">
+Director
+</h2>
 <div id="listing-pi" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="Reinforcement Learning,Data Science" data-listing-file-modified-sort="1726864218799" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="0" data-categories="Reinforcement Learning,Data Science" data-listing-file-modified-sort="1726887641256" data-listing-reading-time-sort="1">
 <a href="./posts/people/pi/XuechunziBai/profile_page.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -286,7 +317,7 @@ People
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Yuhao2
+Xuechunzi Bai
 </h5>
 </div>
 </div>
@@ -297,9 +328,11 @@ Yuhao2
 No matching items
 </div>
 </div>
-</section>
-<section id="ph.d.-students" class="level2 g-col-2 phd" style="margin-right: 2%; margin-left: 1%;">
-<h2 data-anchor-id="ph.d.-students">Ph.D.&nbsp;Students</h2>
+</div>
+<div class="g-col-2 phd" style="margin-right: 2%; margin-left: 1%;">
+<h2 class="people_title">
+PhD Students
+</h2>
 <div id="listing-phd" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
 <div class="g-col-1" data-index="0" data-categories="Reinforcement learning" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1726864190863" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
@@ -321,16 +354,18 @@ Alpha
 No matching items
 </div>
 </div>
-</section>
-<section id="master-students" class="level2 g-col-3 master" style="margin-right: 2%; margin-left: 1%;">
-<h2 data-anchor-id="master-students">Master Students</h2>
+</div>
+<div class="g-col-3 master" style="margin-right: 2%; margin-left: 1%;">
+<h2 class="people_title">
+Master Students
+</h2>
 <div id="listing-master" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Reinforcement learning" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1726864257748" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="g-col-1" data-index="0" data-categories="Reinforcement learning" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1726887827677" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
 <a href="./posts/people/master/Alpha/profile_page.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
-<img src="./posts/people/master/Alpha/profile_pic.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./posts/people/master/Alpha/profile_picture.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -340,7 +375,7 @@ Alpha
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Reinforcement learning" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1726864154332" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="g-col-1" data-index="1" data-categories="Reinforcement learning" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1726887785410" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
 <a href="./posts/people/master/BEta/profile_page.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -354,7 +389,7 @@ Alpha
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Reinforcement learning" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1726864204572" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="g-col-1" data-index="2" data-categories="Reinforcement learning" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1726887882435" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
 <a href="./posts/people/master/Mike Zhu/profile_page.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -368,7 +403,7 @@ Alpha
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Reinforcement learning" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1726864196909" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="g-col-1" data-index="3" data-categories="Reinforcement learning" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1726887879913" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
 <a href="./posts/people/master/Yuhao Zhu/profile_page.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -376,7 +411,7 @@ Alpha
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Alpha
+Mike
 </h5>
 </div>
 </div>
@@ -401,9 +436,11 @@ Yuhao Zhu
 No matching items
 </div>
 </div>
-</section>
-<section id="undergraduate-students" class="level2 g-col-3 undergrad" style="margin-right: 2%; margin-left: 1%;">
-<h2 data-anchor-id="undergraduate-students">Undergraduate Students</h2>
+</div>
+<div class="g-col-3 undergrad" style="margin-right: 2%; margin-left: 1%;">
+<h2 class="people_title">
+Undergraduate Students
+</h2>
 <div id="listing-undergrad" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-categories="Reinforcement learning" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1726864232604" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
@@ -434,7 +471,7 @@ Alpha
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Reinforcement learning" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1726864256469" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="g-col-1" data-index="2" data-categories="Reinforcement learning" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1726887915010" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
 <a href="./posts/people/undergrad/Yuhao Zhu/profile_page.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -442,7 +479,7 @@ Alpha
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Alpha
+Mike
 </h5>
 </div>
 </div>
@@ -453,7 +490,7 @@ Alpha
 No matching items
 </div>
 </div>
-</section>
+</div>
 </div>
 <details class="custom-details" style="margin-bottom: 0px">
 <summary>
@@ -481,25 +518,6 @@ Research
 </h1>
 <div id="listing-research" class="quarto-listing quarto-listing-container-default">
 <div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-research-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-research'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
-  </div>
     <div class="input-group input-group-sm quarto-listing-filter">
       <span class="input-group-text"><i class="bi bi-search"></i></span>
       <input type="text" class="search form-control" placeholder="Filter">
@@ -626,12 +644,137 @@ Xuechunzi Bai, Thomas L. Griffiths, Susan T. Fiske
 </a>
 </div>
 </div>
+<div class="quarto-post image-right" data-index="3" data-categories="social stereotypes,rational analysis,exploration,contextual bandit" data-listing-file-modified-sort="1726840428667" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/research/Multidimensional_副本2/Multidimensional.html"> <img src="./posts/research/Multidimensional_副本2/_.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/research/Multidimensional_副本2/Multidimensional.html">
+<h3 class="no-anchor listing-title">
+Multidimensional Stereotypes Emerge Spontaneously When Exploration
+</h3>
+<div class="listing-subtitle">
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('social stereotypes'); return false;">
+social stereotypes
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('rational analysis'); return false;">
+rational analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('exploration'); return false;">
+exploration
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('contextual bandit'); return false;">
+contextual bandit
+</div>
+</div>
+<a href="./posts/research/Multidimensional_副本2/Multidimensional.html">
+</a><div class="listing-description"><a href="./posts/research/Multidimensional_副本2/Multidimensional.html">
+</a><div class="reference-line"><a href="./posts/research/Multidimensional_副本2/Multidimensional.html">
+<span class="reference-text"> </span></a><a href="https://github.com/baixuechunzi/StereotypeBandit/blob/master/presentation/BaiFiskeGriffiths2021(July%204).pdf" class="reference-text">[slides]</a> 
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/research/Multidimensional_副本2/Multidimensional.html">
+<div class="listing-author">
+Xuechunzi Bai, Thomas L. Griffiths, Susan T. Fiske
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="social stereotypes,rational analysis,exploration,contextual bandit" data-listing-file-modified-sort="1726840428667" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/research/Multidimensional_副本3/Multidimensional.html"> <img data-src="./posts/research/Multidimensional_副本3/_.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/research/Multidimensional_副本3/Multidimensional.html">
+<h3 class="no-anchor listing-title">
+Multidimensional Stereotypes Emerge Spontaneously When Exploration
+</h3>
+<div class="listing-subtitle">
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('social stereotypes'); return false;">
+social stereotypes
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('rational analysis'); return false;">
+rational analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('exploration'); return false;">
+exploration
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('contextual bandit'); return false;">
+contextual bandit
+</div>
+</div>
+<a href="./posts/research/Multidimensional_副本3/Multidimensional.html">
+</a><div class="listing-description"><a href="./posts/research/Multidimensional_副本3/Multidimensional.html">
+</a><div class="reference-line"><a href="./posts/research/Multidimensional_副本3/Multidimensional.html">
+<span class="reference-text"> </span></a><a href="https://github.com/baixuechunzi/StereotypeBandit/blob/master/presentation/BaiFiskeGriffiths2021(July%204).pdf" class="reference-text">[slides]</a> 
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/research/Multidimensional_副本3/Multidimensional.html">
+<div class="listing-author">
+Xuechunzi Bai, Thomas L. Griffiths, Susan T. Fiske
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="research-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 <hr>
+<h1 id="Teaching">
+Teaching
+</h1>
+<div id="listing-teaching" class="quarto-listing quarto-listing-container-table">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Course Info
+</th>
+<th>
+Title
+</th>
+<th>
+Description
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="social stereotypes,rational analysis,exploration,Reinforcement learning" data-listing-file-modified-sort="1726881500674" data-listing-reading-time-sort="1" data-listing-title-sort="Topics in Social Psychology" data-listing-filename-sort="Globally.qmd">
+<td>
+<span class="listing-subtitle">
+<div class="course-info">
+<a>PSYC 44600</a> <a>2025 fall</a>
+</div>
+</span>
+</td>
+<td>
+<a href="./posts/teaching/Globally/Globally.html" class="title listing-title">Topics in Social Psychology</a>
+</td>
+<td>
+<span class="listing-description">Social psychology is theoretically a central science. However, in practice, social psychology is isolated. I believe that consciously engaging in interdisciplinary teaching can help rebuild this bridge. In this course, students come from different disciplines and are encouraged to think across fields.</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 
 
 </section>

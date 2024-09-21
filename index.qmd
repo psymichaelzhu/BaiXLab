@@ -28,12 +28,21 @@ listing:
   - id: research
     contents: posts/research/*/*.qmd  
     sort: "date desc"  
-    categories: unnumbered 
-    sort-ui: true 
+    categories: unnumbered
     filter-ui: [author, date, categories,description]  
     fields: [date, author,title,image, categories,description]  
     image-align: right  
     image-placeholder: "/path/to/default-image.jpg" 
+    page-size: 4
+  - id: teaching
+    contents: posts/teaching/Globally/*.qmd  
+    type: table
+    sort: "date desc"  
+    sort-ui: false
+    filter-ui: false
+    fields: [subtitle,title,description]  
+    field-display-names:
+      subtitle: "Course Info"
 
 format:
   html:
@@ -61,26 +70,26 @@ Our research studies the origin and evolution of mental representations of human
 <h1 id="People">People</h1>
 ::: {.grid style="display: flex"}
 
-::: {.g-col1 style="margin-right: 2%; margin-left: 2%" class="pi"}
-## Director
+::: {.g-col1 style="margin-right: 2%;" class="pi"}
+<h2 class="people_title">Director</h2>
 ::: {#pi}
 :::
 :::
 
 ::: {.g-col-2 style="margin-right: 2%; margin-left: 1%;" class="phd"}
-## Ph.D. Students
+<h2 class="people_title">PhD Students</h2>
 ::: {#phd}
 :::
 :::
 
 ::: {.g-col-3 style="margin-right: 2%; margin-left: 1%;" class="master"}
-## Master Students
+<h2 class="people_title">Master Students</h2>
 ::: {#master}
 :::
 :::
 
 ::: {.g-col-3 style="margin-right: 2%; margin-left: 1%;" class="undergrad"}
-## Undergraduate Students
+<h2 class="people_title">Undergraduate Students</h2>
 ::: {#undergrad}
 :::
 :::
@@ -118,3 +127,7 @@ Our research studies the origin and evolution of mental representations of human
 
 
 ------------------------------------------------------------------------
+
+<h1 id="Teaching">Teaching</h1>
+::: {#teaching}
+:::

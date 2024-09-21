@@ -55,7 +55,7 @@ By the end of this course, students will be able to: 1. Analyze and interpret ke
 ## Course Schedule
 
 | **Week** | **Date** | **Topic**                                  | **Readings/Materials** |
-|--------------|--------------|------------------------------|---------------|
+|----------|----------|--------------------------------------------|------------------------|
 | 1        | Jan 10   | Introduction to Social Psychology          | Chapter 1              |
 | 2        | Jan 17   | Social Perception and Cognition            | Chapter 2              |
 | 3        | Jan 24   | Attitudes and Persuasion                   | Chapter 3              |

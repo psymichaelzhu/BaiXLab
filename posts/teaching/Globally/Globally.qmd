@@ -2,8 +2,11 @@
 title: "Topics in Social Psychology"
 description: "Social psychology is theoretically a central science. However, in practice, social psychology is isolated. I believe that consciously engaging in interdisciplinary teaching can help rebuild this bridge. In this course, students come from different disciplines and are encouraged to think across fields."
 categories: ["social stereotypes", "rational analysis","exploration","Reinforcement learning"] 
-author: "PSYC 44600"
-subtitle: "2025 fall"
+subtitle: "<div class='course-info'>
+            <a>PSYC 44600</a>
+            <a>2025 fall</a>
+          </div>"
+          #due to Quarto limitation, we need to store Course Info in 'author' field
 title-block-banner: false 
 format: 
   html: 
