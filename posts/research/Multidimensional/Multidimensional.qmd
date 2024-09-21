@@ -1,6 +1,6 @@
 ---
   title: "Multidimensional Stereotypes Emerge Spontaneously When Exploration"
-  author: ["Xuechunzi Bai", "Thomas L. Griffiths", "Susan T. Fiske"]
+  author: ["Yuhao Zhu", "Thomas L. Griffiths", "Susan T. Fiske"]
   description: "<div class='reference-line'>
     <span class='reference-text'>  <a href='https://github.com/baixuechunzi/StereotypeBandit/blob/master/presentation/BaiFiskeGriffiths2021(July%204).pdf' class='reference-text'>[slides]</a>
     </sapn></div>"
@@ -12,7 +12,6 @@
     html:
       page-layout: article 
 ---
-
 
 ::: grid
 ::: g-col-3

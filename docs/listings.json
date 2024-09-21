@@ -8,7 +8,7 @@
       "/posts/people/master/BEta/profile_page.html",
       "/posts/people/master/Mike Zhu/profile_page.html",
       "/posts/people/master/Yuhao Zhu/profile_page.html",
-      "/posts/people/master/Rezek Zhu/profile_page.html",
+      "/posts/people/master/demo-people/profile_page.html",
       "/posts/people/undergrad/Alpha/profile_page.html",
       "/posts/people/undergrad/Mike Zhu/profile_page.html",
       "/posts/people/undergrad/Yuhao Zhu/profile_page.html",
@@ -17,7 +17,14 @@
       "/posts/research/Multidimensional/Multidimensional.html",
       "/posts/research/Multidimensional_副本2/Multidimensional.html",
       "/posts/research/Multidimensional_副本3/Multidimensional.html",
-      "/posts/teaching/Globally/Globally.html"
+      "/posts/teaching/Globally/teaching-demo.html"
+    ]
+  },
+  {
+    "listing": "/posts/people/master/demo-people/profile_page.html",
+    "items": [
+      "/posts/research/Globally/research_demo.html",
+      "/posts/research/Multidimensional/Multidimensional.html"
     ]
   }
 ]

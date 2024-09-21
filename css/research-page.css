@@ -8,6 +8,9 @@
   margin-right: 0.5rem; /* 调整与右侧的间距 */
 }
 
+.quarto-title-meta{
+  display: none !important;
+}
 
 hr{
   width: 100%;
