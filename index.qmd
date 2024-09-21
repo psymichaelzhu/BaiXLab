@@ -1,33 +1,30 @@
 ---
 about: 
   template: marquee
+  
 listing:
-  - id: phd
-    contents: posts/people/phd/*/profile_page.qmd
-    type: grid
-    grid-item-border: false
-    grid-columns: 2
-    fields: [image, title]
-    categories: unnumbered
-  - id: master
-    contents: posts/people/master/*/profile_page.qmd
-    type: grid
-    grid-item-border: false
-    fields: [image, title]
-    categories: unnumbered
-  - id: undergrad
-    contents: posts/people/undergrad/*/profile_page.qmd
-    type: grid
-    grid-item-border: false
-    fields: [image, title]
-    categories: unnumbered
   - id: pi
     contents: posts/people/pi/*/profile_page.qmd
     type: grid
     grid-columns: 1
     grid-item-border: false
     fields: [image, title]
-    categories: unnumbered
+  - id: phd
+    contents: posts/people/phd/*/profile_page.qmd
+    type: grid
+    grid-item-border: false
+    grid-columns: 2
+    fields: [image, title]
+  - id: master
+    contents: posts/people/master/*/profile_page.qmd
+    type: grid
+    grid-item-border: false
+    fields: [image, title]
+  - id: undergrad
+    contents: posts/people/undergrad/*/profile_page.qmd
+    type: grid
+    grid-item-border: false
+    fields: [image, title]
   - id: research
     contents: posts/research/*/*.qmd  
     sort: "date desc"  
@@ -37,20 +34,7 @@ listing:
     fields: [date, author,title,image, categories,description]  
     image-align: right  
     image-placeholder: "/path/to/default-image.jpg" 
-  - id: teaching
-    date-format: "YYYY"
-    field-display-names:
-      subtitle: "Date"
-      author: "Course Code"
-    max-description-length: 175
-    contents: posts/teaching/*/*.qmd  
-    sort: "date desc"  
-    type: table
-    sort-ui: true 
-    filter-ui: [date, author, description]  
-    fields: [date, title,author, description]  
 
-title-block-banner: false
 format:
   html:
     grid:
@@ -126,7 +110,7 @@ Our research studies the origin and evolution of mental representations of human
 
 ------------------------------------------------------------------------
 
-# Research
+<h1 id="Research">Research</h1>
 
 
 ::: {#research}
@@ -134,9 +118,3 @@ Our research studies the origin and evolution of mental representations of human
 
 
 ------------------------------------------------------------------------
-
-# Teaching
-
-
-::: {#teaching}
-:::

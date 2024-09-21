@@ -3,17 +3,17 @@ project:
   output-dir: docs
 
 website:
-  title: "Dynamic Social Mind Lab"
+  title: "BaiX Lab"
   navbar:
     pinned: true
     right:
       - href: index.qmd
         text: Home
-      - href: people.qmd
-        text: People
       - href: "#People"
+        text: People
+      - href: "#Research"
         text: Research 
-      - href: teaching.qmd
+      - href: "#Teaching"
         text: Teaching
       - icon: github
         href: https://github.com/psymichaelzhu/MichaelZ

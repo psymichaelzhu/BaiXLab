@@ -1,40 +1,20 @@
 [
   {
-    "listing": "/people.html",
-    "items": [
-      "/posts/teaching/Alpha/Alpha.html",
-      "/posts/teaching/TiSP/Yuhao Zhu.html",
-      "/posts/teaching/Yuhao2/TiSP.html",
-      "/posts/publications/Globally/Globally.html",
-      "/posts/publications/ImplicitLLM/LLM.html",
-      "/posts/publications/Multidimensional/Multidimensional.html"
-    ]
-  },
-  {
-    "listing": "/research.html",
-    "items": [
-      "/posts/publications/Globally/Globally.html",
-      "/posts/publications/ImplicitLLM/LLM.html",
-      "/posts/publications/Multidimensional/Multidimensional.html"
-    ]
-  },
-  {
-    "listing": "/teaching.html",
-    "items": [
-      "/posts/teaching/Alpha/Alpha.html",
-      "/posts/teaching/TiSP/Yuhao Zhu.html",
-      "/posts/teaching/Yuhao2/TiSP.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
-      "/posts/teaching/Alpha/Alpha.html",
-      "/posts/teaching/TiSP/Yuhao Zhu.html",
-      "/posts/teaching/Yuhao2/TiSP.html",
-      "/posts/publications/Globally/Globally.html",
-      "/posts/publications/ImplicitLLM/LLM.html",
-      "/posts/publications/Multidimensional/Multidimensional.html"
+      "/posts/people/pi/XuechunziBai/profile_page.html",
+      "/posts/people/phd/Alpha/profile_page.html",
+      "/posts/people/master/Alpha/profile_page.html",
+      "/posts/people/master/BEta/profile_page.html",
+      "/posts/people/master/Mike Zhu/profile_page.html",
+      "/posts/people/master/Yuhao Zhu/profile_page.html",
+      "/posts/people/master/Rezek Zhu/profile_page.html",
+      "/posts/people/undergrad/Alpha/profile_page.html",
+      "/posts/people/undergrad/Mike Zhu/profile_page.html",
+      "/posts/people/undergrad/Yuhao Zhu/profile_page.html",
+      "/posts/research/Globally/Globally.html",
+      "/posts/research/ImplicitLLM/LLM.html",
+      "/posts/research/Multidimensional/Multidimensional.html"
     ]
   }
 ]

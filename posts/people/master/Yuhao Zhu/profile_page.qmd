@@ -1,0 +1,102 @@
+---
+  title: "Alpha"
+  #subtitle: "<a href='https://psychology.uchicago.edu/directory/Xuechunzi-Bai' style='color:#be7874;'> Course link </a>"
+  description: "Spring 2024"
+  date: "2024-09"
+  categories: ["Reinforcement learning"]
+  image: "profile_picture.jpg"
+  title-block-banner: true  
+  format:
+    html:
+      toc: true
+      toc-location: left
+      page-layout: article
+      sidebar: false
+---
+
+# Topics in Social Psychology - Syllabus
+
+## Course Information
+
+-   **Course Title**: Topics in Social Psychology
+-   **Course Code**: PSY 302
+-   **Credits**: 3
+-   **Term**: Spring 2024
+-   **Prerequisites**: Introduction to Psychology (PSY 101) or equivalent
+
+## Instructor Information
+
+-   **Instructor**: Dr. Xuechunzi Bai
+    -   **Email**: baix\@uchicago.edu
+    -   **Office Hours**: Tuesdays, 2:00 - 4:00 PM, Kelly Hall 409
+-   **Teaching Assistant (TA)**: Yuhao Zhu
+    -   **Email**: mikezhu\@uchicago.edu
+    -   **Office Hours**: Thursdays, 11:00 AM - 1:00 PM, Kelly Hall 405
+
+## Course Description
+
+This course explores advanced topics in social psychology, focusing on how individuals think, influence, and relate to one another. Topics include group dynamics, persuasion, social cognition, attitude change, and the psychological foundations of social interaction.
+
+Students will critically examine contemporary research and apply theories to real-world scenarios, exploring the intersections of psychology and social behavior. By the end of the course, students will develop a deeper understanding of human social behavior and the ways in which psychological principles manifest in everyday life.
+
+## Course Objectives
+
+By the end of this course, students will be able to: 1. Analyze and interpret key theories of social psychology. 2. Evaluate research findings in the context of social behavior. 3. Apply social psychological concepts to real-world situations and case studies. 4. Understand the influence of group dynamics, social cognition, and cultural factors on behavior.
+
+## Required Texts and Materials
+
+-   **Textbook**: *Social Psychology* (10th Edition) by Elliot Aronson, Timothy D. Wilson, and Robin M. Akert.
+-   **Supplementary Readings**:
+    -   *Social Psychology and Human Nature* by Roy F. Baumeister and Brad J. Bushman.
+    -   *The Social Animal* by Elliot Aronson.
+    -   Bai, X., Wang, A., Sucholutsky, I., & Griffiths, T. L. (under review). ​Measuring implicit bias in explicitly unbiased large language models. [preprint](https://arxiv.org/pdf/2402.04105)
+    -   Bai, X., Griffiths, T. L., & Fiske, S. T. (under review). ​Multidimensional stereotypes emerge spontaneously when exploration is costly. [preprint](https://osf.io/preprints/psyarxiv/mbuhv)
+
+## Course Schedule
+
+| **Week** | **Date** | **Topic**                                  | **Readings/Materials** |
+|--------------|--------------|------------------------------|---------------|
+| 1        | Jan 10   | Introduction to Social Psychology          | Chapter 1              |
+| 2        | Jan 17   | Social Perception and Cognition            | Chapter 2              |
+| 3        | Jan 24   | Attitudes and Persuasion                   | Chapter 3              |
+| 4        | Jan 31   | Group Dynamics                             | Chapter 4              |
+| 5        | Feb 7    | Social Influence and Conformity            | Chapter 5              |
+| 6        | Feb 14   | Midterm Review and Case Studies            | Review Articles        |
+| 7        | Feb 21   | Midterm Exam                               |                        |
+| 8        | Feb 28   | Aggression and Prosocial Behavior          | Chapter 6              |
+| 9        | Mar 7    | Prejudice and Discrimination               | Chapter 7              |
+| 10       | Mar 14   | Interpersonal Attraction and Relationships | Chapter 8              |
+| 11       | Mar 21   | Social Psychology in the Digital Age       | Research Paper         |
+| 12       | Mar 28   | Cultural and Cross-Cultural Perspectives   | Chapter 9              |
+| 13       | Apr 4    | Final Project Presentations                |                        |
+| 14       | Apr 11   | Review and Course Conclusion               |                        |
+| 15       | Apr 18   | Final Exam                                 |                        |
+
+## Grading and Evaluation
+
+-   **Assignments**: 30% (Weekly reflection papers and case study analyses)
+-   **Midterm Exam**: 25% (Week 7)
+-   **Final Project**: 25% (Presentation and Paper)
+-   **Final Exam**: 20% (Week 15)
+
+Grading Scale: - A: 90-100% - B: 80-89% - C: 70-79% - D: 60-69% - F: \<60%
+
+## Assignments and Projects
+
+-   **Weekly Reflections**: Students will write short reflection papers (500-700 words) based on the weekly readings, due every Friday.
+-   **Case Study Analysis**: Every other week, students will analyze real-world case studies through the lens of social psychology concepts.
+-   **Final Project**: A research-based project where students present a contemporary social issue through the lens of social psychology, culminating in a presentation and a final paper (2,000-2,500 words).
+
+## Course Policies
+
+-   **Attendance**: Regular attendance is expected. More than 3 unexcused absences will result in a 10% deduction from the final grade.
+-   **Late Work**: Late assignments will incur a penalty of 10% per day, up to a maximum of 3 days. After 3 days, late work will not be accepted unless previously arranged with the instructor.
+-   **Academic Integrity**: Plagiarism and cheating are strictly prohibited and will result in disciplinary action in accordance with university policies.
+
+## Additional Resources
+
+-   **Library Resources**: Access to digital libraries and databases for supplementary research.
+-   **Writing Center**: Assistance with writing assignments and projects.
+-   **Disability Services**: Students with disabilities should contact the instructor and the university’s disability services office for accommodations.
+
+For additional information and course updates, please check the course website regularly.

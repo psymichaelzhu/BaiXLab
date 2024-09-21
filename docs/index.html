@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Dynamic Social Mind Lab</title>
+<title>BaiX Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -62,34 +62,6 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-members .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-members'] = new List('listing-members', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-pi .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -104,6 +76,90 @@ ul.task-list li input[type="checkbox"] {
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-pi'] = new List('listing-pi', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-phd .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-phd'] = new List('listing-phd', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-master .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-master'] = new List('listing-master', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-undergrad .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-undergrad'] = new List('listing-undergrad', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -159,7 +215,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Dynamic Social Mind Lab</span>
+    <span class="navbar-title">BaiX Lab</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -173,15 +229,15 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./people.html" rel="" target="">
+    <a class="nav-link" href="./#People" rel="" target="">
  <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./#People" rel="" target="">
+    <a class="nav-link" href="./#Research" rel="" target="">
  <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html" rel="" target="">
+    <a class="nav-link" href="./#Teaching" rel="" target="">
  <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item compact">
@@ -217,15 +273,16 @@ ul.task-list li input[type="checkbox"] {
 <h1 id="People">
 People
 </h1>
-<section id="principal-investigator" class="level2">
-<h2 data-anchor-id="principal-investigator">Principal Investigator</h2>
+<div class="grid" style="display: flex">
+<section id="director" class="level2 g-col1 pi" style="margin-right: 2%; margin-left: 2%">
+<h2 data-anchor-id="director">Director</h2>
 <div id="listing-pi" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-6">
-<div class="g-col-1" data-index="0" data-categories="Reinforcement Learning,Data Science" data-listing-file-modified-sort="1726793946047" data-listing-reading-time-sort="1">
-<a href="./posts/teaching/Yuhao2/TiSP.html" class="quarto-grid-link">
+<div class="list grid quarto-listing-cols-1">
+<div class="g-col-1" data-index="0" data-categories="Reinforcement Learning,Data Science" data-listing-file-modified-sort="1726864218799" data-listing-reading-time-sort="1">
+<a href="./posts/people/pi/XuechunziBai/profile_page.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
-<img src="./posts/teaching/Yuhao2/_.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./posts/people/pi/XuechunziBai/profile_picture.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -241,47 +298,19 @@ No matching items
 </div>
 </div>
 </section>
-<section id="members" class="level2">
-<h2 data-anchor-id="members">Members</h2>
-<div id="listing-members" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-8">
-<div class="g-col-1" data-index="0" data-categories="Reinforcement learning" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1726521511320" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
-<a href="./posts/teaching/Alpha/Alpha.html" class="quarto-grid-link">
+<section id="ph.d.-students" class="level2 g-col-2 phd" style="margin-right: 2%; margin-left: 1%;">
+<h2 data-anchor-id="ph.d.-students">Ph.D.&nbsp;Students</h2>
+<div id="listing-phd" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="Reinforcement learning" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1726864190863" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<a href="./posts/people/phd/Alpha/profile_page.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
-<img src="./posts/teaching/Alpha/_.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./posts/people/phd/Alpha/profile_picture.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Alpha
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Growth Mindset,Stereotype,Reinforcement learning" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1726521511282" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
-<a href="./posts/teaching/TiSP/Yuhao Zhu.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img src="./posts/teaching/TiSP/Yuhao Zhu.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Yuhao Zhu
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Reinforcement Learning,Data Science" data-listing-file-modified-sort="1726793946047" data-listing-reading-time-sort="1">
-<a href="./posts/teaching/Yuhao2/TiSP.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img src="./posts/teaching/Yuhao2/_.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Yuhao2
 </h5>
 </div>
 </div>
@@ -292,9 +321,141 @@ Yuhao2
 No matching items
 </div>
 </div>
-<div class="grid">
-<div class="g-col-4">
-<details class="custom-details">
+</section>
+<section id="master-students" class="level2 g-col-3 master" style="margin-right: 2%; margin-left: 1%;">
+<h2 data-anchor-id="master-students">Master Students</h2>
+<div id="listing-master" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Reinforcement learning" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1726864257748" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<a href="./posts/people/master/Alpha/profile_page.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img src="./posts/people/master/Alpha/profile_pic.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Alpha
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Reinforcement learning" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1726864154332" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<a href="./posts/people/master/BEta/profile_page.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img src="./posts/people/master/BEta/profile_picture.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Alpha
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Reinforcement learning" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1726864204572" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<a href="./posts/people/master/Mike Zhu/profile_page.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img src="./posts/people/master/Mike Zhu/profile_picture.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Alpha
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="Reinforcement learning" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1726864196909" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<a href="./posts/people/master/Yuhao Zhu/profile_page.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img src="./posts/people/master/Yuhao Zhu/profile_picture.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Alpha
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="Growth Mindset,Stereotype,Reinforcement learning" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1726864200825" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<a href="./posts/people/master/Rezek Zhu/profile_page.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img src="./posts/people/master/Rezek Zhu/profile_picture.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Yuhao Zhu
+</h5>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="undergraduate-students" class="level2 g-col-3 undergrad" style="margin-right: 2%; margin-left: 1%;">
+<h2 data-anchor-id="undergraduate-students">Undergraduate Students</h2>
+<div id="listing-undergrad" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Reinforcement learning" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1726864232604" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<a href="./posts/people/undergrad/Alpha/profile_page.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img src="./posts/people/undergrad/Alpha/profile_picture.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Alpha
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Reinforcement learning" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1726864248885" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<a href="./posts/people/undergrad/Mike Zhu/profile_page.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img src="./posts/people/undergrad/Mike Zhu/profile_picture.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Alpha
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Reinforcement learning" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1726864256469" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<a href="./posts/people/undergrad/Yuhao Zhu/profile_page.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img src="./posts/people/undergrad/Yuhao Zhu/profile_picture.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Alpha
+</h5>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+</div>
+<details class="custom-details" style="margin-bottom: 0px">
 <summary>
 Collaborators
 </summary>
@@ -304,8 +465,6 @@ Collaborators
 <li><a href="https://cocosci.princeton.edu/tom/tom.php">Tom Griffiths</a></li>
 </ul>
 </details>
-</div>
-<div class="g-col-6">
 <details class="custom-details">
 <summary>
 Alumni
@@ -316,14 +475,10 @@ Alumni
 <li><a href="posts/teaching/Yuhao3/Yuhao3.qmd">Alumni3 (Currently at MIT)</a></li>
 </ul>
 </details>
-</div>
-</div>
-<p><br></p>
 <hr>
-</section>
-</section>
-<section id="research" class="level1">
-<h1>Research</h1>
+<h1 id="Research">
+Research
+</h1>
 <div id="listing-research" class="quarto-listing quarto-listing-container-default">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
@@ -353,11 +508,11 @@ Alumni
 <div class="list quarto-listing-default">
 <div class="quarto-post image-right" data-index="0" data-categories="social stereotypes,rational analysis,exploration,Reinforcement learning" data-listing-file-modified-sort="1726858106591" data-listing-reading-time-sort="1">
 <div class="thumbnail">
-<p><a href="./posts/publications/Globally/Globally.html"> <img src="./posts/publications/Globally/_.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/research/Globally/Globally.html"> <img src="./posts/research/Globally/_.jpg" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
-<a href="./posts/publications/Globally/Globally.html">
-<h3 class="no-anchor listing-title" data-anchor-id="research">
+<a href="./posts/research/Globally/Globally.html">
+<h3 class="no-anchor listing-title">
 Globally Inaccurate Stereotypes Can Result From Locally Adaptive Exploration
 </h3>
 <div class="listing-subtitle">
@@ -377,10 +532,10 @@ exploration
 Reinforcement learning
 </div>
 </div>
-<a href="./posts/publications/Globally/Globally.html">
-</a><div class="listing-description"><a href="./posts/publications/Globally/Globally.html">
-</a><div class="reference-container"><a href="./posts/publications/Globally/Globally.html">
-</a><div class="info"><a href="./posts/publications/Globally/Globally.html">
+<a href="./posts/research/Globally/Globally.html">
+</a><div class="listing-description"><a href="./posts/research/Globally/Globally.html">
+</a><div class="reference-container"><a href="./posts/research/Globally/Globally.html">
+</a><div class="info"><a href="./posts/research/Globally/Globally.html">
 </a><a>Bai, X., Fiske, S. T., &amp; Griffiths, T. L. (2022)</a> <a href="https://doi.org/10.1177/09567976211045929" class="link"><em>Psychological Science</em></a>
 </div>
 <div class="materials">
@@ -390,15 +545,15 @@ Reinforcement learning
 </div>
 </div>
 <div class="metadata">
-<a href="./posts/publications/Globally/Globally.html"> </a>
+<a href="./posts/research/Globally/Globally.html"> </a>
 </div>
 </div>
 <div class="quarto-post image-right" data-index="1" data-categories="social stereotypes,rational analysis,exploration,reinforcement learning" data-listing-file-modified-sort="1725937463968" data-listing-reading-time-sort="1">
 <div class="thumbnail">
-<p><a href="./posts/publications/ImplicitLLM/LLM.html"> <img src="./posts/publications/ImplicitLLM/_.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/research/ImplicitLLM/LLM.html"> <img src="./posts/research/ImplicitLLM/_.jpg" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
-<a href="./posts/publications/ImplicitLLM/LLM.html">
+<a href="./posts/research/ImplicitLLM/LLM.html">
 <h3 class="no-anchor listing-title">
 Globally Inaccurate Stereotypes Can Result From Locally Adaptive Exploration
 </h3>
@@ -419,23 +574,23 @@ exploration
 reinforcement learning
 </div>
 </div>
-<a href="./posts/publications/ImplicitLLM/LLM.html">
-</a><div class="listing-description"><a href="./posts/publications/ImplicitLLM/LLM.html">
-</a><div class="reference-line"><a href="./posts/publications/ImplicitLLM/LLM.html">
+<a href="./posts/research/ImplicitLLM/LLM.html">
+</a><div class="listing-description"><a href="./posts/research/ImplicitLLM/LLM.html">
+</a><div class="reference-line"><a href="./posts/research/ImplicitLLM/LLM.html">
 <span class="reference-text">Bai, X., Fiske, S. T., &amp; Griffiths, T. L. (2022). <em>Psychological Science.</em></span> <span class="links"> </span></a><a href="https://osf.io/preprints/psyarxiv/mbuhv">[slides]</a> <a href="https://osf.io/preprints/psyarxiv/mbuhv">[code]</a> <a href="https://osf.io/preprints/psyarxiv/mbuhv">[talk]</a> 
 </div>
 </div>
 </div>
 <div class="metadata">
-<a href="./posts/publications/ImplicitLLM/LLM.html"> </a>
+<a href="./posts/research/ImplicitLLM/LLM.html"> </a>
 </div>
 </div>
 <div class="quarto-post image-right" data-index="2" data-categories="social stereotypes,rational analysis,exploration,contextual bandit" data-listing-file-modified-sort="1726840428667" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="./posts/publications/Multidimensional/Multidimensional.html"> <img src="./posts/publications/Multidimensional/_.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/research/Multidimensional/Multidimensional.html"> <img src="./posts/research/Multidimensional/_.jpg" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
-<a href="./posts/publications/Multidimensional/Multidimensional.html">
+<a href="./posts/research/Multidimensional/Multidimensional.html">
 <h3 class="no-anchor listing-title">
 Multidimensional Stereotypes Emerge Spontaneously When Exploration
 </h3>
@@ -456,15 +611,15 @@ exploration
 contextual bandit
 </div>
 </div>
-<a href="./posts/publications/Multidimensional/Multidimensional.html">
-</a><div class="listing-description"><a href="./posts/publications/Multidimensional/Multidimensional.html">
-</a><div class="reference-line"><a href="./posts/publications/Multidimensional/Multidimensional.html">
+<a href="./posts/research/Multidimensional/Multidimensional.html">
+</a><div class="listing-description"><a href="./posts/research/Multidimensional/Multidimensional.html">
+</a><div class="reference-line"><a href="./posts/research/Multidimensional/Multidimensional.html">
 <span class="reference-text"> </span></a><a href="https://github.com/baixuechunzi/StereotypeBandit/blob/master/presentation/BaiFiskeGriffiths2021(July%204).pdf" class="reference-text">[slides]</a> 
 </div>
 </div>
 </div>
 <div class="metadata">
-<a href="./posts/publications/Multidimensional/Multidimensional.html">
+<a href="./posts/research/Multidimensional/Multidimensional.html">
 <div class="listing-author">
 Xuechunzi Bai, Thomas L. Griffiths, Susan T. Fiske
 </div>
@@ -476,6 +631,7 @@ Xuechunzi Bai, Thomas L. Griffiths, Susan T. Fiske
 No matching items
 </div>
 </div>
+<hr>
 
 
 </section>
