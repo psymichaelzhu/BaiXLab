@@ -56,78 +56,116 @@ format:
     - css/index.css
 ---
 
+<h1 id="Welcome">
 
-<h1 id="Welcome">Welcome to the BaiX Lab</h1>
+Welcome to the BaiX Lab
+
+</h1>
 
 Our research studies the origin and evolution of mental representations of human groups. In particular, we take a dynamic perspective by asking two essentially interlinked questions: First, how do individual minds adaptively but selectively construct the social world? Second, how does the constructed social world mold individual minds?
-
 
 *Dr.Bai will be reviewing materials for postdoc researcher, graduate student, and research assistant positions for the 2024-25 cycle, see details in this [doc](https://docs.google.com/document/d/1JW5j8dAAIbFh9dqOvugFkJ2GBon9CYhEoASSvwzZndk/edit?usp=sharing)*
 
 ------------------------------------------------------------------------
 
+<h1 id="People">
 
-<h1 id="People">People</h1>
-::: {.grid style="display: flex" class="people-container"}
+People
 
+</h1>
+
+::: {.grid .people-container style="display: flex"}
 <div>
-<h2 class="people_title">Director</h2>
+
+<h2 class="people_title">
+
+Director
+
+</h2>
+
 ::: {#pi}
 :::
+
 </div>
 
 <div>
-<h2 class="people_title">PhD Students</h2>
+
+<h2 class="people_title">
+
+PhD Students
+
+</h2>
+
 ::: {#phd}
 :::
+
 </div>
 
 <div>
-<h2 class="people_title">Master Students</h2>
+
+<h2 class="people_title">
+
+Master Students
+
+</h2>
+
 ::: {#master}
 :::
+
 </div>
 
 <div>
-<h2 class="people_title">Undergraduate Students</h2>
+
+<h2 class="people_title">
+
+Undergraduate Students
+
+</h2>
+
 ::: {#undergrad}
 :::
-</div>
 
+</div>
 :::
 
-
-
-
-
 <details class="custom-details" style="margin-bottom: 0px">
+
 <summary>Collaborators</summary>
+
 -   [Alexander Todorov](https://tlab.uchicago.edu/)
 -   [Susan Fiske](https://www.fiskelab.org/)
 -   [Tom Griffiths](https://cocosci.princeton.edu/tom/tom.php)
+
 </details>
 
-
 <details class="custom-details">
+
 <summary>Alumni</summary>
+
 -   [Alumni1 (Currently at Yale)](posts/teaching/Yuhao1/Yuhao1.qmd)
 -   [Alumni2 (Currently at MIT)](posts/teaching/Yuhao2/Yuhao2.qmd)
 -   [Alumni3 (Currently at MIT)](posts/teaching/Yuhao3/Yuhao3.qmd)
+
 </details>
-
-
 
 ------------------------------------------------------------------------
 
-<h1 id="Research">Research</h1>
+<h1 id="Research">
 
+Research
+
+</h1>
 
 ::: {#research}
 :::
 
-
 ------------------------------------------------------------------------
 
-<h1 id="Teaching">Teaching</h1>
+<h1 id="Teaching">
+
+Teaching
+
+</h1>
+
 ::: {#teaching}
 :::

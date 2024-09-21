@@ -1,19 +1,13 @@
-h1{
-  font-size: 1.2em !important;
-}
 
 
-.description{
-  font-size: 0.8em !important;
-}
-
-/*same line*/
+/*banner: same line*/
 .material {
   float: right; /* 保持右浮动 */
   position: relative; /* 相对定位 */
   top: -1.25rem; /* 向上移动 20 像素，具体值可根据需求调整 */
   margin-right: 0.5rem; /* 调整与右侧的间距 */
 }
+
 hr{
   width: 100%;
 }
@@ -24,26 +18,82 @@ hr{
   padding: 0.25rem 0.5rem;
 }
 
+h1{
+  font-size: 1.2em !important;
+}
+
+
+.description{
+  font-size: 0.8em !important;
+}
+
+
 p{
   font-size: 0.8em !important;
 }
 
 
 
-.summary-card {
-  position: fixed; /* 固定定位 */
-  background-color: #f8f8f8; /* 背景颜色 */
-  padding: 10px; /* 内边距 */
-  width: 23%;
-  height: 100%;
-  padding: 1rem;
-}
-
-
+/*image*/
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
   height: auto;
+  
+}
+.figure-caption{
+  text-align: center;
+}
+
+
+
+/* overall layout*/
+
+/* 根容器布局 */
+.page-container {
+  display: flex; /* 使用 flex 布局 */
+  max-width: 100%; /* 确保宽度最大化 */
+  align-items: flex-start; /* 顶部对齐 */
+  padding: 1rem; /* 增加内边距 */
+}
+
+/* Summary 卡片样式 */
+.summary-card {
+  width: 20rem; /* 固定宽度 */
+  background-color: #f8f8f8; /* 背景颜色 */
+  padding: 1rem; /* 内边距 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+  position: sticky; /* 使用 sticky 定位 */
+  top: 2rem; /* 距离顶部的距离 */
+  margin-right: 1rem; /* 与主内容区域的间距 */
+}
+
+/* 主内容区域样式 */
+.main-content {
+  flex-grow: 1; /* 占据剩余空间 */
+  padding: 1rem; /* 内边距 */
+  max-width: calc(100% - 22rem); /* 减去 summary-card 的宽度，防止溢出 */
+}
+
+/* 响应式布局 */
+@media (max-width: 767.98px) {
+  .page-container {
+    display: block; /* 小屏幕时使用块布局 */
+    padding: 0; /* 去掉内边距 */
+  }
+  
+  .summary-card,
+  .main-content {
+    width: 100%; /* 小屏幕时宽度占满 */
+    max-width: 100%; /* 确保不溢出 */
+    margin: 0; /* 去掉外边距 */
+    padding: 0.5rem; /* 调整内边距 */
+  }
+  
+  .summary-card {
+    position: relative; /* 小屏幕不使用 sticky */
+    top: 0; /* 恢复顶部间距 */
+  }
 }
