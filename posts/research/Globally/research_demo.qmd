@@ -38,7 +38,7 @@ Stereotypes of social groups have a canonical multidimensional structure, reflec
 # Simulation
 
 ```{=html}
- <iframe id="example1" src="https://psymichaelzhu.shinyapps.io/ParallelComparison/" style="border: none; width: 60rem; height: 40rem" frameborder="0"></iframe>
+ <iframe id="example1" src="https://psymichaelzhu.shinyapps.io/ParallelComparison/" style="border: none; width: 100%; height: 40rem" frameborder="0"></iframe>
 ```
 ![Distributions of groups](_.jpg){width="437"}
 
