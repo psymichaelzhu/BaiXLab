@@ -21,7 +21,7 @@ website:
           - text: Source Code
             href:  https://github.com/BaiXLab
           - text: Lab Wiki
-            href:  https://github.com/BaiXLab
+            href:  https://github.com/psymichaelzhu/BaiXLab/wiki/Random-forest
   sidebar: false
 
 format:
