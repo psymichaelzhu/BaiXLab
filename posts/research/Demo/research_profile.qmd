@@ -1,0 +1,43 @@
+---
+title: "Demo"
+description: "<div class='reference-container'>
+                <div class='info'>
+                  <a>Author (year)</a> 
+                </div>
+                <div class='materials'>
+                <a href='https://www.google.com/' class='link material'>[pdf]</a>
+                <a href='https://www.google.com/' class='link material'>[slides]</a>
+                <a href='https://www.google.com/' class='link material'>[data&code]</a>
+                </div>
+              </div>"
+author: []
+date: 2019-01-01
+categories: ["social cognition"] 
+image: "cover.jpg" 
+title-block-banner: false 
+format: 
+  html: 
+    page-layout: full 
+    css:
+      - ../../../css/research-page.css
+---
+
+------------------------------------------------------------------------
+
+::: page-container
+::: summary-card
+<div>
+
+Abstract
+
+</p>
+
+</div>
+:::
+
+::: main-content
+# Summary
+
+Summary
+:::
+:::

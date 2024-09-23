@@ -15,9 +15,13 @@ website:
         text: Research 
       - href: "#Teaching"
         text: Teaching
+    tools:
       - icon: github
-        href: https://github.com/psymichaelzhu/MichaelZ
-        aria-label: GitHub
+        menu:
+          - text: Source Code
+            href:  https://github.com/BaiXLab
+          - text: Lab Wiki
+            href:  https://github.com/BaiXLab
   sidebar: false
 
 format:

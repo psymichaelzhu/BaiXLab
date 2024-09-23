@@ -102,6 +102,20 @@ h5,.h5{
 
 
 
+.people-container{
+  width: 100% !important;
+  justify-content: space-between;
+}
+
+
+.people-block {
+  margin-right: 2%;
+}
+
+.people-title {
+  white-space: nowrap;
+}
+
 
 /* 覆盖所有可能的媒体查询 */
 @media (max-width: 767.98px) {
@@ -264,10 +278,5 @@ h5,.h5{
 .listing-no-matching{
   display: none !important;
 }
-
-
-
-
-
 
 

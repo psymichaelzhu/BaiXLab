@@ -6,7 +6,7 @@ listing:
   - id: pi
     contents: posts/people/pi/*/profile_page.qmd
     type: grid
-    grid-columns: 1
+    grid-columns: 2
     grid-item-border: false
     fields: [image, title]
   - id: phd
@@ -20,16 +20,18 @@ listing:
     type: grid
     grid-item-border: false
     fields: [image, title]
+    grid-columns: 3
   - id: undergrad
     contents: posts/people/undergrad/*/profile_page.qmd
     type: grid
     grid-item-border: false
     fields: [image, title]
+    grid-columns: 3
   - id: research
     contents: posts/research/*/*.qmd  
     sort: "date desc"  
     categories: unnumbered
-    filter-ui: [author, date, categories,description]  
+    filter-ui: true
     fields: [date, author,title,image, categories,description]  
     image-align: right  
     image-placeholder: "/path/to/default-image.jpg" 
@@ -75,9 +77,9 @@ People
 </h1>
 
 ::: {.grid .people-container style="display: flex"}
-<div>
+<div class="people-block">
 
-<h2 class="people_title">
+<h2 class="people-title">
 
 Director
 
@@ -88,9 +90,9 @@ Director
 
 </div>
 
-<div>
+<div class="people-block">
 
-<h2 class="people_title">
+<h2 class="people-title">
 
 PhD Students
 
@@ -101,9 +103,9 @@ PhD Students
 
 </div>
 
-<div>
+<div class="people-block">
 
-<h2 class="people_title">
+<h2 class="people-title">
 
 Master Students
 
@@ -114,9 +116,9 @@ Master Students
 
 </div>
 
-<div>
+<div class="people-block">
 
-<h2 class="people_title">
+<h2 class="people-title">
 
 Undergraduate Students
 

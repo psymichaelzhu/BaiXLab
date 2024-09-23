@@ -1,0 +1,56 @@
+---
+title: "Globally Inaccurate Stereotypes Can Result From Locally Adaptive Exploration"
+description: "<div class='reference-container'>
+                <div class='info'>
+                  <a>Bai, X., Fiske, S. T., & Griffiths, T. L. (2022)</a> 
+                  <a href='https://doi.org/10.1177/09567976211045929' class='link'><em>Psychological Science</em></a>
+                </div>
+                <div class='materials'>
+                  <a href='https://github.com/baixuechunzi/StereotypeBandit/blob/master/presentation/BaiFiskeGriffiths2021(July%204).pdf' class='link material'>[slides]</a>
+                  <a href='https://github.com/baixuechunzi/StereotypeBandit' class='link material'>[data & code]</a>
+                  <a href='https://osf.io/preprints/psyarxiv/mbuhv' class='link material'>[talk]</a>
+                  <a href='file.pdf' class='link material' class='link material'>[pdf]</a>
+                </div>
+              </div>"
+author: ["Xuechunzi Bai", "Fiske Susan","Thomas L. Griffiths"]
+categories: ["stereotype", "rational analysis","explore-exploit"] 
+image: "cover.jpg" 
+date: 2022-04-01
+title-block-banner: false 
+format: 
+  html: 
+    page-layout: full 
+    css:
+      - ../../../css/research-page.css
+---
+
+------------------------------------------------------------------------
+
+::: page-container
+::: summary-card
+<div>
+
+Inaccurate stereotypes—perceived differences among groups that do not actually differ—are prevalent and consequential. Past research explains stereotypes as emerging from a range of factors, including motivational biases, cognitive limitations, and information deficits. Considering the minimal forces required to produce inaccurate assumptions about group differences, we found that locally adaptive exploration is sufficient: An initial arbitrary interaction, if rewarding enough, may discourage people from investigating alternatives that would be equal or better. Historical accidents can snowball into globally inaccurate generalizations, and inaccurate stereotypes can emerge in the absence of real group differences. Using multiarmed-bandit models, we found that the mere act of choosing among groups with the goal of maximizing the long-term benefit of interactions is enough to produce inaccurate assessments of different groups. This phenomenon was reproduced in two large online experiments with English-speaking adults (N = 2,404), which demonstrated a minimal process that suffices to produce biased impressions.
+
+</p>
+
+</div>
+:::
+
+::: main-content
+```{=html}
+ <iframe id="example1" src="https://psymichaelzhu.github.io/Contextual-Bandit/" style="border: none; width: 100%; height: 40rem" frameborder="0"></iframe>
+```
+
+
+# Model demonstration
+
+![thompson sampling](model_video.m4v){fig-align="center" width="80%"}
+
+![Distributions of groups](cover.jpg){width="437"}
+
+# Summary
+
+Drawing on theoretical analysis, simulations, and empirical data, we propose that inaccurate stereotypes can result from locally adaptive exploration. Rather than rebut prior explanations, we provide a complementary perspective, a process that is general and deep, inde- pendent of group motives, cognitive limits, or informa- tion constraints. Perhaps one origin of stereotypes is much simpler than has been thought; even minimal process assumptions can recreate it. However, this sim- plicity is also troubling: If stereotypes can result from each person pursuing their own self-interest, we may need to work harder to create environments in which problematic stereotypes do not develop.
+:::
+:::

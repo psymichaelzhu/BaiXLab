@@ -1,5 +1,44 @@
 ---
 title: "Xuechunzi Bai"
-categories: [Reinforcement Learning, Data Science]
+subtitle: "Neubauer Family Assistant Professor<br>Department of Psychology, University of Chicago"
+description: "<div class='reference-container'>
+                <div class='info'>
+                  <a href='https://www.xuechunzibai.com/_files/ugd/508ff5_59d9cf9470884211821842a0675001ee.pdf' class='link'>[CV]</a>
+                  <a href='https://www.xuechunzibai.com' class='link'>[Website]</a>
+                </div>
+              </div>"
 image: profile_picture.jpg
+categories: ["stereotype","rational analysis","social cognition", "language model","explore-exploit"]
+about:
+  template: trestles
+  links:
+    - icon: twitter
+      href: https://x.com/baixuechunzi
+    - icon: github
+      href: https://github.com/baixuechunzi
+    - icon: google scholar
+      href: https://scholar.google.com/citations?hl=en&user=7Fp5YxQAAAAJ
+listing:
+  id: research
+  contents: ../../../research/*/*.qmd  
+  include:
+    author: "{Xuechunzi Bai}*"
+  type: table
+  sort-ui: false
+  filter-ui: false
+  sort: "date desc"  
+  fields: [title,description]  
+  page-size: 4
+format:
+  html:
+    page-layout: full
+    css: 
+    - ../../../../css/people-page.css
 ---
+
+Bai's Ph.D. work, advised by Drs.[ Susan Fiske](https://www.fiskelab.org/) and [Tom Griffiths](https://cocosci.princeton.edu/index.php), explores psychological **origins of social stereotypes**; how individual-level exploratory behaviors lead to societal-level stratification. For more information on her current and future research, refer to her [research](https://www.xuechunzibai.com/_files/ugd/508ff5_a9761fde2381468eb0ca22020e841240.pdf) statement or [this](https://journals.sagepub.com/doi/abs/10.1177/09567976211045929) paper. Details about her mentorship can be found in the [teaching](https://www.xuechunzibai.com/_files/ugd/508ff5_a4d8c1f8bbfa46b6b3eb235a3f06a085.pdf) statement.
+
+# Research
+
+::: {#research}
+:::

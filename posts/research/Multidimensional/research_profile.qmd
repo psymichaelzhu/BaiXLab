@@ -1,0 +1,52 @@
+---
+title: "Multidimensional Stereotypes Emerge Spontaneously When Exploration"
+description: "<div class='reference-container'>
+                <div class='info'>
+                  <a>Bai, X., Griffiths, T. L., & Fiske, S. T. (under review)</a> 
+                </div>
+                <div class='materials'>
+                <a href='https://osf.io/preprints/psyarxiv/mbuhv' class='link material'>[preprint]</a>
+                <a href='https://www.xuechunzibai.com/_files/ugd/508ff5_440087316cf94a3b92b713edc40c157b.pdf' class='link material'>[slides]</a>
+                <a href='https://drive.google.com/file/d/1UcYzko75rxW869JJo6GsUSJ_OHC65hcq/view?usp=sharing' class='link material'>[model]</a>
+                </div>
+              </div>"
+author: ["Xuechunzi Bai","Thomas L. Griffiths", "Susan T. Fiske"]
+date: 2024-03-24
+categories: ["stereotype", "explore-exploit", "rational analysis"] 
+image: "cover.jpg" 
+title-block-banner: false 
+format: 
+  html: 
+    page-layout: full 
+    css:
+      - ../../../css/research-page.css
+---
+
+------------------------------------------------------------------------
+
+::: page-container
+::: summary-card
+<div>
+
+Stereotypes of social groups have a canonical multidimensional structure, reflecting the extent to which groups are considered competent and trustworthy. Traditional explanations for stereotypes – group motives, cognitive biases, minority/majority environments, or real-group differences – do not specify a broadly applicable mechanism that explains why stereotypes vary along multiple dimensions. We show that multidimensional stratification and the associated stereotypes can result from a simple mechanism: When individuals make self-interested decisions based on past experiences in an environment where exploring new options carries an implicit cost, they are more likely to separate groups. We formalize this theory with the contextual multi-armed bandit problem, use the model to generate testable predictions, and evaluate those predictions against human behavior. Our results show that even well-intentioned and attentive individuals living in diverse environments can inadvertently impede diversity and form incorrect beliefs. A further theoretically motivated experiment shows intervening on the cost of exploration can mitigate stereotypes.
+
+</p>
+
+</div>
+:::
+
+::: main-content
+```{=html}
+ <iframe id="example1" src="https://psymichaelzhu.github.io/Contextual-Bandit/" style="border: none; width: 100%; height: 40rem" frameborder="0"></iframe>
+```
+
+
+# Model demonstration
+
+![thompson sampling](model_video.m4v){fig-align="center" width="80%"}
+
+# Summary
+
+Stereotypes are shared cultural beliefs, and segregation is a collective endeavor. Future work should study how idiosyncratic and biased individual experiences become entrenched, not mitigated, within collective systems. Our approach extracts the minimal conditions under which stereotypes can emerge, but it needs real-world corroboration. Future work can use historical, immigration, or organizational datasets to examine adaptive exploration in everyday choices. Costly exploration should be added to the list of psychological mechanisms that can lead to stereotypes, creating an opportunity for future research that integrates these different mechanisms.
+:::
+:::

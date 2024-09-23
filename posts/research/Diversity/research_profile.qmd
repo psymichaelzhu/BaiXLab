@@ -1,0 +1,44 @@
+---
+title: "As diversity increases, people paradoxically perceive social groups as more similar"
+description: "<div class='reference-container'>
+                <div class='info'>
+                  <a>Bai, X., Ramos, M.R., & Fiske, S. T. (2020)</a> 
+                  <a href='https://www.pnas.org/doi/full/10.1073/pnas.2000333117' class='link'><em>PNAS</em></a>
+                </div>
+                <div class='materials'>
+                <a href='https://www.xuechunzibai.com/_files/ugd/508ff5_cfca7e84bacb408a977cf6505232ec51.pdf' class='link material'>[pdf]</a>
+                <a href='https://www.xuechunzibai.com/_files/ugd/508ff5_a98ae04923344f19a9dad74cb306eb7f.pdf' class='link material'>[slides]</a>
+                <a href='https://github.com/baixuechunzi/Social-Diversity-Stereotype-Content-Similarity' class='link material'>[data&code]</a>
+                </div>
+              </div>"
+author: ["Xuechunzi Bai"," Miguel R. Ramosc", "Susan T. Fiske"]
+date: 2020-04-13
+categories: ["stereotype", "social cognition"] 
+image: "cover.jpg" 
+title-block-banner: false 
+format: 
+  html: 
+    page-layout: full 
+    css:
+      - ../../../css/research-page.css
+---
+
+------------------------------------------------------------------------
+
+::: page-container
+::: summary-card
+<div>
+
+With globalization and immigration, societal contexts differ in sheer variety of resident social groups. Social diversity challenges individuals to think in new ways about new kinds of people and where their groups all stand, relative to each other. However, psychological science does not yet specify how human minds represent social diversity, in homogeneous or heterogenous contexts. Mental maps of the array of society’s groups should differ when individuals inhabit more and less diverse ecologies. Nonetheless, predictions disagree on how they should differ. Confirmation bias suggests more diversity means more stereotype dispersion: With increased exposure, perceivers’ mental maps might differentiate more among groups, so their stereotypes would spread out (disperse). In contrast, individuation suggests more diversity means less stereotype dispersion, as perceivers experience within-group variety and betweengroup overlap. Worldwide, nationwide, individual, and longitudinal datasets (n = 12,011) revealed a diversity paradox: More diversity consistently meant less stereotype dispersion. Both contextual and perceived ethnic diversity correlate with decreased stereotype dispersion. Countries and US states with higher levels of ethnic diversity (e.g., South Africa and Hawaii, versus South Korea and Vermont), online individuals who perceive more ethnic diversity, and students who moved to more ethnically diverse colleges mentally represent ethnic groups as more similar to each other, on warmth and competence stereotypes. Homogeneity shows more-differentiated stereotypes; ironically, those with the least exposure have the most-distinct stereotypes. Diversity means less-differentiated stereotypes, as in the melting pot metaphor. Diversity and reduced dispersion also correlate positively with subjective wellbeing.
+
+</p>
+
+</div>
+:::
+
+::: main-content
+# Summary
+
+Globalization and immigration expose people to increased diversity, challenging them to think in new ways about new people. Yet, scientists know little about how changing demography affects human mental representations of social groups, relative to each other. How do mental maps of stereotypes differ, with exposure to diversity? At national, state, and individual levels, more diversity is associated with less stereotype dispersion. Paradoxically, people produce more-differentiated stereotypes in ethnically homogeneous contexts but more similar, overlapping stereotypes in diverse contexts. Increased diversity and decreased stereotype dispersion correlate with subjective wellbeing. Perhaps human minds adapt to social diversity, by changing their symbolic maps of the array of social groups, perceiving overlaps, and preparing for positive future intergroup relations. People can adjust to diversity
+:::
+:::

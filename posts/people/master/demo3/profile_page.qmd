@@ -1,0 +1,44 @@
+---
+title: "Member"
+subtitle: "Affiliation"
+description: "<div class='reference-container'>
+                <div class='info'>
+                  <a href='https://www.google.com/' class='link'>[CV]</a> 
+                  <a href='https://www.google.com/' class='link'>[Website]</a>
+                </div>
+              </div>"
+image: profile_picture.jpg
+categories: ["stereotype","explore-exploit"]
+about:
+  template: trestles
+  links:
+    - icon: twitter
+      href: https://www.google.com/
+    - icon: github
+      href: https://www.google.com/
+    - icon: google scholar
+      href: https://www.google.com/
+listing:
+  id: research
+  contents: ../../../research/*/*.qmd  
+  include:
+    author: "{Member}*" 
+  type: table
+  sort-ui: false
+  filter-ui: false
+  sort: "date desc"  
+  fields: [title,description]  
+  page-size: 4
+format:
+  html:
+    page-layout: full
+    css: 
+    - ../../../../css/people-page.css
+---
+
+This member don't have a profile yet. Please check back later.
+
+# Research
+
+::: {#research}
+:::
