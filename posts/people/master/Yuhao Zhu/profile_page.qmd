@@ -16,6 +16,8 @@ about:
       href: https://twitter.com
     - icon: github
       href: https://github.com/psymichaelzhu
+    - icon: envelope
+      href: "mailto:mikezhu@uchicago.edu"  
 listing:
   id: research
   contents: ../../../research/*/*.qmd  

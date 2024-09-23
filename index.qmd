@@ -77,8 +77,7 @@ People
 </h1>
 
 ::: {.grid .people-container style="display: flex"}
-<div class="people-block">
-
+::: people-block
 <h2 class="people-title">
 
 Director
@@ -87,11 +86,9 @@ Director
 
 ::: {#pi}
 :::
+:::
 
-</div>
-
-<div class="people-block">
-
+::: people-block
 <h2 class="people-title">
 
 PhD Students
@@ -100,11 +97,9 @@ PhD Students
 
 ::: {#phd}
 :::
+:::
 
-</div>
-
-<div class="people-block">
-
+::: people-block
 <h2 class="people-title">
 
 Master Students
@@ -113,11 +108,9 @@ Master Students
 
 ::: {#master}
 :::
+:::
 
-</div>
-
-<div class="people-block">
-
+::: people-block
 <h2 class="people-title">
 
 Undergraduate Students
@@ -126,8 +119,7 @@ Undergraduate Students
 
 ::: {#undergrad}
 :::
-
-</div>
+:::
 :::
 
 <details class="custom-details" style="margin-bottom: 0px">

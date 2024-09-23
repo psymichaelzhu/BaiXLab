@@ -18,6 +18,8 @@ about:
       href: https://github.com/baixuechunzi
     - icon: google scholar
       href: https://scholar.google.com/citations?hl=en&user=7Fp5YxQAAAAJ
+    - icon: envelope
+      href: "mailto:baix@uchicago.edu"  
 listing:
   id: research
   contents: ../../../research/*/*.qmd  
